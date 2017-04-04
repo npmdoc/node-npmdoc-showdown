@@ -1,690 +1,690 @@
 <svg height="10990" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="10990" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-04 19:23:14 +0000   737802 byte  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-04 19:23:14 +0000    25375 byte  CHANGELOG.md</tspan>
-<tspan x="10" y="58">  2.  2017-04-04 19:23:14 +0000     2348 byte  CONTRIBUTING.md</tspan>
-<tspan x="10" y="74">  3.  2017-04-04 19:23:14 +0000     1864 byte  CREDITS.md</tspan>
-<tspan x="10" y="90">  4.  2017-04-04 19:23:14 +0000     5015 byte  Gruntfile.js</tspan>
-<tspan x="10" y="106">  5.  2017-04-04 19:23:14 +0000    16086 byte  README.md</tspan>
-<tspan x="10" y="122">  6.  2017-04-04 19:23:14 +0000       47 byte  bin/showdown.js</tspan>
-<tspan x="10" y="138">  7.  2017-04-04 19:23:14 +0000      812 byte  bower.json</tspan>
-<tspan x="10" y="154">  8.  2017-04-04 19:23:14 +0000    83619 byte  dist/showdown.js</tspan>
-<tspan x="10" y="170">  9.  2017-04-04 19:23:14 +0000   243211 byte  dist/showdown.js.map</tspan>
-<tspan x="10" y="186"> 10.  2017-04-04 19:23:14 +0000    34953 byte  dist/showdown.min.js</tspan>
-<tspan x="10" y="202"> 11.  2017-04-04 19:23:14 +0000    37811 byte  dist/showdown.min.js.map</tspan>
-<tspan x="10" y="218"> 12.  2017-04-04 19:23:14 +0000     1613 byte  license.txt</tspan>
-<tspan x="10" y="234"> 13.  2017-04-04 19:23:14 +0000     3754 byte  package.json</tspan>
-<tspan x="10" y="250"> 14.  2017-04-04 19:23:14 +0000    17072 byte  performance.json</tspan>
-<tspan x="10" y="266"> 15.  2017-04-04 19:23:14 +0000     6590 byte  performance.log.md</tspan>
-<tspan x="10" y="282"> 16.  2017-04-04 19:23:14 +0000     5659 byte  performance.log.old.md</tspan>
-<tspan x="10" y="298"> 17.  2017-04-04 19:23:14 +0000    14507 byte  performance.old.json</tspan>
-<tspan x="10" y="314"> 18.  2017-04-04 19:23:14 +0000      938 byte  src/cli/cli.js</tspan>
-<tspan x="10" y="330"> 19.  2017-04-04 19:23:14 +0000     5710 byte  src/cli/makehtml.cmd.js</tspan>
-<tspan x="10" y="346"> 20.  2017-04-04 19:23:14 +0000      802 byte  src/cli/messenger.js</tspan>
-<tspan x="10" y="362"> 21.  2017-04-04 19:23:14 +0000    11090 byte  src/converter.js</tspan>
-<tspan x="10" y="378"> 22.  2017-04-04 19:23:14 +0000     8936 byte  src/helpers.js</tspan>
-<tspan x="10" y="394"> 23.  2017-04-04 19:23:14 +0000      334 byte  src/loader.js</tspan>
-<tspan x="10" y="410"> 24.  2017-04-04 19:23:14 +0000     4029 byte  src/options.js</tspan>
-<tspan x="10" y="426"> 25.  2017-04-04 19:23:14 +0000     9476 byte  src/showdown.js</tspan>
-<tspan x="10" y="442"> 26.  2017-04-04 19:23:14 +0000     3095 byte  src/subParsers/anchors.js</tspan>
-<tspan x="10" y="458"> 27.  2017-04-04 19:23:14 +0000     2107 byte  src/subParsers/autoLinks.js</tspan>
-<tspan x="10" y="474"> 28.  2017-04-04 19:23:14 +0000     1299 byte  src/subParsers/blockGamut.js</tspan>
-<tspan x="10" y="490"> 29.  2017-04-04 19:23:14 +0000     1329 byte  src/subParsers/blockQuotes.js</tspan>
-<tspan x="10" y="506"> 30.  2017-04-04 19:23:14 +0000     1278 byte  src/subParsers/codeBlocks.js</tspan>
-<tspan x="10" y="522"> 31.  2017-04-04 19:23:14 +0000     1418 byte  src/subParsers/codeSpans.js</tspan>
-<tspan x="10" y="538"> 32.  2017-04-04 19:23:14 +0000      951 byte  src/subParsers/detab.js</tspan>
-<tspan x="10" y="554"> 33.  2017-04-04 19:23:14 +0000      752 byte  src/subParsers/encodeAmpsAndAngles.js</tspan>
-<tspan x="10" y="570"> 34.  2017-04-04 19:23:14 +0000      913 byte  src/subParsers/encodeBackslashEscapes.js</tspan>
-<tspan x="10" y="586"> 35.  2017-04-04 19:23:14 +0000      814 byte  src/subParsers/encodeCode.js</tspan>
-<tspan x="10" y="602"> 36.  2017-04-04 19:23:14 +0000      909 byte  src/subParsers/escapeSpecialCharsWithinTagAttribu\</tspan>
+<tspan x="10" y="26">  0.  2017-04-04 19:24:35 +0000   737802 byte  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-04 19:24:35 +0000    25375 byte  CHANGELOG.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-04 19:24:35 +0000     2348 byte  CONTRIBUTING.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-04 19:24:35 +0000     1864 byte  CREDITS.md</tspan>
+<tspan x="10" y="90">  4.  2017-04-04 19:24:35 +0000     5015 byte  Gruntfile.js</tspan>
+<tspan x="10" y="106">  5.  2017-04-04 19:24:35 +0000    16086 byte  README.md</tspan>
+<tspan x="10" y="122">  6.  2017-04-04 19:24:35 +0000       47 byte  bin/showdown.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-04 19:24:35 +0000      812 byte  bower.json</tspan>
+<tspan x="10" y="154">  8.  2017-04-04 19:24:35 +0000    83619 byte  dist/showdown.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-04 19:24:35 +0000   243211 byte  dist/showdown.js.map</tspan>
+<tspan x="10" y="186"> 10.  2017-04-04 19:24:35 +0000    34953 byte  dist/showdown.min.js</tspan>
+<tspan x="10" y="202"> 11.  2017-04-04 19:24:35 +0000    37811 byte  dist/showdown.min.js.map</tspan>
+<tspan x="10" y="218"> 12.  2017-04-04 19:24:35 +0000     1613 byte  license.txt</tspan>
+<tspan x="10" y="234"> 13.  2017-04-04 19:24:35 +0000     3754 byte  package.json</tspan>
+<tspan x="10" y="250"> 14.  2017-04-04 19:24:35 +0000    17072 byte  performance.json</tspan>
+<tspan x="10" y="266"> 15.  2017-04-04 19:24:35 +0000     6590 byte  performance.log.md</tspan>
+<tspan x="10" y="282"> 16.  2017-04-04 19:24:35 +0000     5659 byte  performance.log.old.md</tspan>
+<tspan x="10" y="298"> 17.  2017-04-04 19:24:35 +0000    14507 byte  performance.old.json</tspan>
+<tspan x="10" y="314"> 18.  2017-04-04 19:24:35 +0000      938 byte  src/cli/cli.js</tspan>
+<tspan x="10" y="330"> 19.  2017-04-04 19:24:35 +0000     5710 byte  src/cli/makehtml.cmd.js</tspan>
+<tspan x="10" y="346"> 20.  2017-04-04 19:24:35 +0000      802 byte  src/cli/messenger.js</tspan>
+<tspan x="10" y="362"> 21.  2017-04-04 19:24:35 +0000    11090 byte  src/converter.js</tspan>
+<tspan x="10" y="378"> 22.  2017-04-04 19:24:35 +0000     8936 byte  src/helpers.js</tspan>
+<tspan x="10" y="394"> 23.  2017-04-04 19:24:35 +0000      334 byte  src/loader.js</tspan>
+<tspan x="10" y="410"> 24.  2017-04-04 19:24:35 +0000     4029 byte  src/options.js</tspan>
+<tspan x="10" y="426"> 25.  2017-04-04 19:24:35 +0000     9476 byte  src/showdown.js</tspan>
+<tspan x="10" y="442"> 26.  2017-04-04 19:24:35 +0000     3095 byte  src/subParsers/anchors.js</tspan>
+<tspan x="10" y="458"> 27.  2017-04-04 19:24:35 +0000     2107 byte  src/subParsers/autoLinks.js</tspan>
+<tspan x="10" y="474"> 28.  2017-04-04 19:24:35 +0000     1299 byte  src/subParsers/blockGamut.js</tspan>
+<tspan x="10" y="490"> 29.  2017-04-04 19:24:35 +0000     1329 byte  src/subParsers/blockQuotes.js</tspan>
+<tspan x="10" y="506"> 30.  2017-04-04 19:24:35 +0000     1278 byte  src/subParsers/codeBlocks.js</tspan>
+<tspan x="10" y="522"> 31.  2017-04-04 19:24:35 +0000     1418 byte  src/subParsers/codeSpans.js</tspan>
+<tspan x="10" y="538"> 32.  2017-04-04 19:24:35 +0000      951 byte  src/subParsers/detab.js</tspan>
+<tspan x="10" y="554"> 33.  2017-04-04 19:24:35 +0000      752 byte  src/subParsers/encodeAmpsAndAngles.js</tspan>
+<tspan x="10" y="570"> 34.  2017-04-04 19:24:35 +0000      913 byte  src/subParsers/encodeBackslashEscapes.js</tspan>
+<tspan x="10" y="586"> 35.  2017-04-04 19:24:35 +0000      814 byte  src/subParsers/encodeCode.js</tspan>
+<tspan x="10" y="602"> 36.  2017-04-04 19:24:35 +0000      909 byte  src/subParsers/escapeSpecialCharsWithinTagAttribu\</tspan>
 <tspan x="10" y="618">tes.js</tspan>
-<tspan x="10" y="634"> 37.  2017-04-04 19:23:14 +0000     1690 byte  src/subParsers/githubCodeBlocks.js</tspan>
-<tspan x="10" y="650"> 38.  2017-04-04 19:23:14 +0000      378 byte  src/subParsers/hashBlock.js</tspan>
-<tspan x="10" y="666"> 39.  2017-04-04 19:23:14 +0000      708 byte  src/subParsers/hashCodeTags.js</tspan>
-<tspan x="10" y="682"> 40.  2017-04-04 19:23:14 +0000      542 byte  src/subParsers/hashElement.js</tspan>
-<tspan x="10" y="698"> 41.  2017-04-04 19:23:14 +0000     2085 byte  src/subParsers/hashHTMLBlocks.js</tspan>
-<tspan x="10" y="714"> 42.  2017-04-04 19:23:14 +0000     1836 byte  src/subParsers/hashHTMLSpans.js</tspan>
-<tspan x="10" y="730"> 43.  2017-04-04 19:23:14 +0000      831 byte  src/subParsers/hashPreCodeTags.js</tspan>
-<tspan x="10" y="746"> 44.  2017-04-04 19:23:14 +0000     3353 byte  src/subParsers/headers.js</tspan>
-<tspan x="10" y="762"> 45.  2017-04-04 19:23:14 +0000      589 byte  src/subParsers/horizontalRule.js</tspan>
-<tspan x="10" y="778"> 46.  2017-04-04 19:23:14 +0000     2729 byte  src/subParsers/images.js</tspan>
-<tspan x="10" y="794"> 47.  2017-04-04 19:23:14 +0000     1856 byte  src/subParsers/italicsAndBold.js</tspan>
-<tspan x="10" y="810"> 48.  2017-04-04 19:23:14 +0000     7322 byte  src/subParsers/lists.js</tspan>
-<tspan x="10" y="826"> 49.  2017-04-04 19:23:14 +0000      560 byte  src/subParsers/outdent.js</tspan>
-<tspan x="10" y="842"> 50.  2017-04-04 19:23:14 +0000     2297 byte  src/subParsers/paragraphs.js</tspan>
-<tspan x="10" y="858"> 51.  2017-04-04 19:23:14 +0000      460 byte  src/subParsers/runExtension.js</tspan>
-<tspan x="10" y="874"> 52.  2017-04-04 19:23:14 +0000     1693 byte  src/subParsers/spanGamut.js</tspan>
-<tspan x="10" y="890"> 53.  2017-04-04 19:23:14 +0000      392 byte  src/subParsers/strikethrough.js</tspan>
-<tspan x="10" y="906"> 54.  2017-04-04 19:23:14 +0000     1394 byte  src/subParsers/stripLinkDefinitions.js</tspan>
-<tspan x="10" y="922"> 55.  2017-04-04 19:23:14 +0000     3477 byte  src/subParsers/tables.js</tspan>
-<tspan x="10" y="938"> 56.  2017-04-04 19:23:14 +0000      529 byte  src/subParsers/unescapeSpecialChars.js</tspan>
-<tspan x="10" y="954"> 57.  2017-04-04 19:23:14 +0000     2436 byte  test/bootstrap.js</tspan>
-<tspan x="10" y="970"> 58.  2017-04-04 19:23:14 +0000      417 byte  test/cases/anchors-by-reference.html</tspan>
-<tspan x="10" y="986"> 59.  2017-04-04 19:23:14 +0000      394 byte  test/cases/anchors-by-reference.md</tspan>
-<tspan x="10" y="1002"> 60.  2017-04-04 19:23:14 +0000       61 byte  test/cases/automatic-anchors.html</tspan>
-<tspan x="10" y="1018"> 61.  2017-04-04 19:23:14 +0000       23 byte  test/cases/automatic-anchors.md</tspan>
-<tspan x="10" y="1034"> 62.  2017-04-04 19:23:14 +0000      199 byte  test/cases/blockquote-followed-by-code.html</tspan>
-<tspan x="10" y="1050"> 63.  2017-04-04 19:23:14 +0000      106 byte  test/cases/blockquote-followed-by-code.md</tspan>
-<tspan x="10" y="1066"> 64.  2017-04-04 19:23:14 +0000      163 byte  test/cases/blockquote-inside-code.html</tspan>
-<tspan x="10" y="1082"> 65.  2017-04-04 19:23:14 +0000      107 byte  test/cases/blockquote-inside-code.md</tspan>
-<tspan x="10" y="1098"> 66.  2017-04-04 19:23:14 +0000      296 byte  test/cases/blockquote-nested-markdown.html</tspan>
-<tspan x="10" y="1114"> 67.  2017-04-04 19:23:14 +0000      189 byte  test/cases/blockquote-nested-markdown.md</tspan>
-<tspan x="10" y="1130"> 68.  2017-04-04 19:23:14 +0000      107 byte  test/cases/blockquote.html</tspan>
-<tspan x="10" y="1146"> 69.  2017-04-04 19:23:14 +0000       77 byte  test/cases/blockquote.md</tspan>
-<tspan x="10" y="1162"> 70.  2017-04-04 19:23:14 +0000       80 byte  test/cases/code-block-html-escape.html</tspan>
-<tspan x="10" y="1178"> 71.  2017-04-04 19:23:14 +0000       42 byte  test/cases/code-block-html-escape.md</tspan>
-<tspan x="10" y="1194"> 72.  2017-04-04 19:23:14 +0000      131 byte  test/cases/code-block-with-special-chars.html</tspan>
-<tspan x="10" y="1210"> 73.  2017-04-04 19:23:14 +0000      130 byte  test/cases/code-block-with-special-chars.md</tspan>
-<tspan x="10" y="1226"> 74.  2017-04-04 19:23:14 +0000       82 byte  test/cases/code-block.html</tspan>
-<tspan x="10" y="1242"> 75.  2017-04-04 19:23:14 +0000       56 byte  test/cases/code-block.md</tspan>
-<tspan x="10" y="1258"> 76.  2017-04-04 19:23:14 +0000      206 byte  test/cases/double-emphasis.html</tspan>
-<tspan x="10" y="1274"> 77.  2017-04-04 19:23:14 +0000      101 byte  test/cases/double-emphasis.md</tspan>
-<tspan x="10" y="1290"> 78.  2017-04-04 19:23:14 +0000       58 byte  test/cases/doubline-list.html</tspan>
-<tspan x="10" y="1306"> 79.  2017-04-04 19:23:14 +0000       21 byte  test/cases/doubline-list.md</tspan>
-<tspan x="10" y="1322"> 80.  2017-04-04 19:23:14 +0000       38 byte  test/cases/emphasis-inside-inline-code.html</tspan>
-<tspan x="10" y="1338"> 81.  2017-04-04 19:23:14 +0000       20 byte  test/cases/emphasis-inside-inline-code.md</tspan>
-<tspan x="10" y="1354"> 82.  2017-04-04 19:23:14 +0000     1780 byte  test/cases/emphasis.html</tspan>
-<tspan x="10" y="1370"> 83.  2017-04-04 19:23:14 +0000     1345 byte  test/cases/emphasis.md</tspan>
-<tspan x="10" y="1386"> 84.  2017-04-04 19:23:14 +0000      127 byte  test/cases/encodeHTMLCodeTags.html</tspan>
-<tspan x="10" y="1402"> 85.  2017-04-04 19:23:14 +0000       97 byte  test/cases/encodeHTMLCodeTags.md</tspan>
-<tspan x="10" y="1418"> 86.  2017-04-04 19:23:14 +0000       49 byte  test/cases/escaped-number-period.html</tspan>
-<tspan x="10" y="1434"> 87.  2017-04-04 19:23:14 +0000       43 byte  test/cases/escaped-number-period.md</tspan>
-<tspan x="10" y="1450"> 88.  2017-04-04 19:23:14 +0000      171 byte  test/cases/escaping.html</tspan>
-<tspan x="10" y="1466"> 89.  2017-04-04 19:23:14 +0000       90 byte  test/cases/escaping.md</tspan>
-<tspan x="10" y="1482"> 90.  2017-04-04 19:23:14 +0000       85 byte  test/cases/github-style-at-start.html</tspan>
-<tspan x="10" y="1498"> 91.  2017-04-04 19:23:14 +0000       62 byte  test/cases/github-style-at-start.md</tspan>
-<tspan x="10" y="1514"> 92.  2017-04-04 19:23:14 +0000      269 byte  test/cases/github-style-codeblock-inside-quote.ht\</tspan>
+<tspan x="10" y="634"> 37.  2017-04-04 19:24:35 +0000     1690 byte  src/subParsers/githubCodeBlocks.js</tspan>
+<tspan x="10" y="650"> 38.  2017-04-04 19:24:35 +0000      378 byte  src/subParsers/hashBlock.js</tspan>
+<tspan x="10" y="666"> 39.  2017-04-04 19:24:35 +0000      708 byte  src/subParsers/hashCodeTags.js</tspan>
+<tspan x="10" y="682"> 40.  2017-04-04 19:24:35 +0000      542 byte  src/subParsers/hashElement.js</tspan>
+<tspan x="10" y="698"> 41.  2017-04-04 19:24:35 +0000     2085 byte  src/subParsers/hashHTMLBlocks.js</tspan>
+<tspan x="10" y="714"> 42.  2017-04-04 19:24:35 +0000     1836 byte  src/subParsers/hashHTMLSpans.js</tspan>
+<tspan x="10" y="730"> 43.  2017-04-04 19:24:35 +0000      831 byte  src/subParsers/hashPreCodeTags.js</tspan>
+<tspan x="10" y="746"> 44.  2017-04-04 19:24:35 +0000     3353 byte  src/subParsers/headers.js</tspan>
+<tspan x="10" y="762"> 45.  2017-04-04 19:24:35 +0000      589 byte  src/subParsers/horizontalRule.js</tspan>
+<tspan x="10" y="778"> 46.  2017-04-04 19:24:35 +0000     2729 byte  src/subParsers/images.js</tspan>
+<tspan x="10" y="794"> 47.  2017-04-04 19:24:35 +0000     1856 byte  src/subParsers/italicsAndBold.js</tspan>
+<tspan x="10" y="810"> 48.  2017-04-04 19:24:35 +0000     7322 byte  src/subParsers/lists.js</tspan>
+<tspan x="10" y="826"> 49.  2017-04-04 19:24:35 +0000      560 byte  src/subParsers/outdent.js</tspan>
+<tspan x="10" y="842"> 50.  2017-04-04 19:24:35 +0000     2297 byte  src/subParsers/paragraphs.js</tspan>
+<tspan x="10" y="858"> 51.  2017-04-04 19:24:35 +0000      460 byte  src/subParsers/runExtension.js</tspan>
+<tspan x="10" y="874"> 52.  2017-04-04 19:24:35 +0000     1693 byte  src/subParsers/spanGamut.js</tspan>
+<tspan x="10" y="890"> 53.  2017-04-04 19:24:35 +0000      392 byte  src/subParsers/strikethrough.js</tspan>
+<tspan x="10" y="906"> 54.  2017-04-04 19:24:35 +0000     1394 byte  src/subParsers/stripLinkDefinitions.js</tspan>
+<tspan x="10" y="922"> 55.  2017-04-04 19:24:35 +0000     3477 byte  src/subParsers/tables.js</tspan>
+<tspan x="10" y="938"> 56.  2017-04-04 19:24:35 +0000      529 byte  src/subParsers/unescapeSpecialChars.js</tspan>
+<tspan x="10" y="954"> 57.  2017-04-04 19:24:35 +0000     2436 byte  test/bootstrap.js</tspan>
+<tspan x="10" y="970"> 58.  2017-04-04 19:24:35 +0000      417 byte  test/cases/anchors-by-reference.html</tspan>
+<tspan x="10" y="986"> 59.  2017-04-04 19:24:35 +0000      394 byte  test/cases/anchors-by-reference.md</tspan>
+<tspan x="10" y="1002"> 60.  2017-04-04 19:24:35 +0000       61 byte  test/cases/automatic-anchors.html</tspan>
+<tspan x="10" y="1018"> 61.  2017-04-04 19:24:35 +0000       23 byte  test/cases/automatic-anchors.md</tspan>
+<tspan x="10" y="1034"> 62.  2017-04-04 19:24:35 +0000      199 byte  test/cases/blockquote-followed-by-code.html</tspan>
+<tspan x="10" y="1050"> 63.  2017-04-04 19:24:35 +0000      106 byte  test/cases/blockquote-followed-by-code.md</tspan>
+<tspan x="10" y="1066"> 64.  2017-04-04 19:24:35 +0000      163 byte  test/cases/blockquote-inside-code.html</tspan>
+<tspan x="10" y="1082"> 65.  2017-04-04 19:24:35 +0000      107 byte  test/cases/blockquote-inside-code.md</tspan>
+<tspan x="10" y="1098"> 66.  2017-04-04 19:24:35 +0000      296 byte  test/cases/blockquote-nested-markdown.html</tspan>
+<tspan x="10" y="1114"> 67.  2017-04-04 19:24:35 +0000      189 byte  test/cases/blockquote-nested-markdown.md</tspan>
+<tspan x="10" y="1130"> 68.  2017-04-04 19:24:35 +0000      107 byte  test/cases/blockquote.html</tspan>
+<tspan x="10" y="1146"> 69.  2017-04-04 19:24:35 +0000       77 byte  test/cases/blockquote.md</tspan>
+<tspan x="10" y="1162"> 70.  2017-04-04 19:24:35 +0000       80 byte  test/cases/code-block-html-escape.html</tspan>
+<tspan x="10" y="1178"> 71.  2017-04-04 19:24:35 +0000       42 byte  test/cases/code-block-html-escape.md</tspan>
+<tspan x="10" y="1194"> 72.  2017-04-04 19:24:35 +0000      131 byte  test/cases/code-block-with-special-chars.html</tspan>
+<tspan x="10" y="1210"> 73.  2017-04-04 19:24:35 +0000      130 byte  test/cases/code-block-with-special-chars.md</tspan>
+<tspan x="10" y="1226"> 74.  2017-04-04 19:24:35 +0000       82 byte  test/cases/code-block.html</tspan>
+<tspan x="10" y="1242"> 75.  2017-04-04 19:24:35 +0000       56 byte  test/cases/code-block.md</tspan>
+<tspan x="10" y="1258"> 76.  2017-04-04 19:24:35 +0000      206 byte  test/cases/double-emphasis.html</tspan>
+<tspan x="10" y="1274"> 77.  2017-04-04 19:24:35 +0000      101 byte  test/cases/double-emphasis.md</tspan>
+<tspan x="10" y="1290"> 78.  2017-04-04 19:24:35 +0000       58 byte  test/cases/doubline-list.html</tspan>
+<tspan x="10" y="1306"> 79.  2017-04-04 19:24:35 +0000       21 byte  test/cases/doubline-list.md</tspan>
+<tspan x="10" y="1322"> 80.  2017-04-04 19:24:35 +0000       38 byte  test/cases/emphasis-inside-inline-code.html</tspan>
+<tspan x="10" y="1338"> 81.  2017-04-04 19:24:35 +0000       20 byte  test/cases/emphasis-inside-inline-code.md</tspan>
+<tspan x="10" y="1354"> 82.  2017-04-04 19:24:35 +0000     1780 byte  test/cases/emphasis.html</tspan>
+<tspan x="10" y="1370"> 83.  2017-04-04 19:24:35 +0000     1345 byte  test/cases/emphasis.md</tspan>
+<tspan x="10" y="1386"> 84.  2017-04-04 19:24:35 +0000      127 byte  test/cases/encodeHTMLCodeTags.html</tspan>
+<tspan x="10" y="1402"> 85.  2017-04-04 19:24:35 +0000       97 byte  test/cases/encodeHTMLCodeTags.md</tspan>
+<tspan x="10" y="1418"> 86.  2017-04-04 19:24:35 +0000       49 byte  test/cases/escaped-number-period.html</tspan>
+<tspan x="10" y="1434"> 87.  2017-04-04 19:24:35 +0000       43 byte  test/cases/escaped-number-period.md</tspan>
+<tspan x="10" y="1450"> 88.  2017-04-04 19:24:35 +0000      171 byte  test/cases/escaping.html</tspan>
+<tspan x="10" y="1466"> 89.  2017-04-04 19:24:35 +0000       90 byte  test/cases/escaping.md</tspan>
+<tspan x="10" y="1482"> 90.  2017-04-04 19:24:35 +0000       85 byte  test/cases/github-style-at-start.html</tspan>
+<tspan x="10" y="1498"> 91.  2017-04-04 19:24:35 +0000       62 byte  test/cases/github-style-at-start.md</tspan>
+<tspan x="10" y="1514"> 92.  2017-04-04 19:24:35 +0000      269 byte  test/cases/github-style-codeblock-inside-quote.ht\</tspan>
 <tspan x="10" y="1530">ml</tspan>
-<tspan x="10" y="1546"> 93.  2017-04-04 19:23:14 +0000      163 byte  test/cases/github-style-codeblock-inside-quote.md</tspan>
-<tspan x="10" y="1562"> 94.  2017-04-04 19:23:14 +0000      207 byte  test/cases/github-style-codeblock.html</tspan>
-<tspan x="10" y="1578"> 95.  2017-04-04 19:23:14 +0000      128 byte  test/cases/github-style-codeblock.md</tspan>
-<tspan x="10" y="1594"> 96.  2017-04-04 19:23:14 +0000       78 byte  test/cases/github-style-linebreaks.html</tspan>
-<tspan x="10" y="1610"> 97.  2017-04-04 19:23:14 +0000       59 byte  test/cases/github-style-linebreaks.md</tspan>
-<tspan x="10" y="1626"> 98.  2017-04-04 19:23:14 +0000       39 byte  test/cases/h1-with-double-hash.html</tspan>
-<tspan x="10" y="1642"> 99.  2017-04-04 19:23:14 +0000       18 byte  test/cases/h1-with-double-hash.md</tspan>
-<tspan x="10" y="1658">100.  2017-04-04 19:23:14 +0000       39 byte  test/cases/h1-with-equals.html</tspan>
-<tspan x="10" y="1674">101.  2017-04-04 19:23:14 +0000       28 byte  test/cases/h1-with-equals.md</tspan>
-<tspan x="10" y="1690">102.  2017-04-04 19:23:14 +0000       39 byte  test/cases/h1-with-single-hash.html</tspan>
-<tspan x="10" y="1706">103.  2017-04-04 19:23:14 +0000       16 byte  test/cases/h1-with-single-hash.md</tspan>
-<tspan x="10" y="1722">104.  2017-04-04 19:23:14 +0000       39 byte  test/cases/h2-with-dashes.html</tspan>
-<tspan x="10" y="1738">105.  2017-04-04 19:23:14 +0000       28 byte  test/cases/h2-with-dashes.md</tspan>
-<tspan x="10" y="1754">106.  2017-04-04 19:23:14 +0000       39 byte  test/cases/h2-with-double-hash.html</tspan>
-<tspan x="10" y="1770">107.  2017-04-04 19:23:14 +0000       20 byte  test/cases/h2-with-double-hash.md</tspan>
-<tspan x="10" y="1786">108.  2017-04-04 19:23:14 +0000       39 byte  test/cases/h2-with-single-hash.html</tspan>
-<tspan x="10" y="1802">109.  2017-04-04 19:23:14 +0000       17 byte  test/cases/h2-with-single-hash.md</tspan>
-<tspan x="10" y="1818">110.  2017-04-04 19:23:14 +0000       39 byte  test/cases/h3-with-double-hash.html</tspan>
-<tspan x="10" y="1834">111.  2017-04-04 19:23:14 +0000       22 byte  test/cases/h3-with-double-hash.md</tspan>
-<tspan x="10" y="1850">112.  2017-04-04 19:23:14 +0000       39 byte  test/cases/h3-with-single-hash.html</tspan>
-<tspan x="10" y="1866">113.  2017-04-04 19:23:14 +0000       18 byte  test/cases/h3-with-single-hash.md</tspan>
-<tspan x="10" y="1882">114.  2017-04-04 19:23:14 +0000       39 byte  test/cases/h4-with-single-hash.html</tspan>
-<tspan x="10" y="1898">115.  2017-04-04 19:23:14 +0000       19 byte  test/cases/h4-with-single-hash.md</tspan>
-<tspan x="10" y="1914">116.  2017-04-04 19:23:14 +0000       39 byte  test/cases/h5-with-single-hash.html</tspan>
-<tspan x="10" y="1930">117.  2017-04-04 19:23:14 +0000       20 byte  test/cases/h5-with-single-hash.md</tspan>
-<tspan x="10" y="1946">118.  2017-04-04 19:23:14 +0000       39 byte  test/cases/h6-with-single-hash.html</tspan>
-<tspan x="10" y="1962">119.  2017-04-04 19:23:14 +0000       21 byte  test/cases/h6-with-single-hash.md</tspan>
-<tspan x="10" y="1978">120.  2017-04-04 19:23:14 +0000       35 byte  test/cases/horizontal-rules.html</tspan>
-<tspan x="10" y="1994">121.  2017-04-04 19:23:14 +0000       67 byte  test/cases/horizontal-rules.md</tspan>
-<tspan x="10" y="2010">122.  2017-04-04 19:23:14 +0000      207 byte  test/cases/html-comments.html</tspan>
-<tspan x="10" y="2026">123.  2017-04-04 19:23:14 +0000      171 byte  test/cases/html-comments.md</tspan>
-<tspan x="10" y="2042">124.  2017-04-04 19:23:14 +0000      199 byte  test/cases/html-inside-listed-code.html</tspan>
-<tspan x="10" y="2058">125.  2017-04-04 19:23:14 +0000      124 byte  test/cases/html-inside-listed-code.md</tspan>
-<tspan x="10" y="2074">126.  2017-04-04 19:23:14 +0000     1278 byte  test/cases/html5-strutural-tags.html</tspan>
-<tspan x="10" y="2090">127.  2017-04-04 19:23:14 +0000     1358 byte  test/cases/html5-strutural-tags.md</tspan>
-<tspan x="10" y="2106">128.  2017-04-04 19:23:14 +0000      211 byte  test/cases/images.html</tspan>
-<tspan x="10" y="2122">129.  2017-04-04 19:23:14 +0000      146 byte  test/cases/images.md</tspan>
-<tspan x="10" y="2138">130.  2017-04-04 19:23:14 +0000      126 byte  test/cases/implicit-anchors.html</tspan>
-<tspan x="10" y="2154">131.  2017-04-04 19:23:14 +0000      134 byte  test/cases/implicit-anchors.md</tspan>
-<tspan x="10" y="2170">132.  2017-04-04 19:23:14 +0000      162 byte  test/cases/inline-anchors.html</tspan>
-<tspan x="10" y="2186">133.  2017-04-04 19:23:14 +0000      122 byte  test/cases/inline-anchors.md</tspan>
-<tspan x="10" y="2202">134.  2017-04-04 19:23:14 +0000      409 byte  test/cases/inline-code.html</tspan>
-<tspan x="10" y="2218">135.  2017-04-04 19:23:14 +0000      292 byte  test/cases/inline-code.md</tspan>
-<tspan x="10" y="2234">136.  2017-04-04 19:23:14 +0000       58 byte  test/cases/inline-escaped-chars.html</tspan>
-<tspan x="10" y="2250">137.  2017-04-04 19:23:14 +0000       53 byte  test/cases/inline-escaped-chars.md</tspan>
-<tspan x="10" y="2266">138.  2017-04-04 19:23:14 +0000       73 byte  test/cases/inline-style-tag.html</tspan>
-<tspan x="10" y="2282">139.  2017-04-04 19:23:14 +0000       70 byte  test/cases/inline-style-tag.md</tspan>
-<tspan x="10" y="2298">140.  2017-04-04 19:23:14 +0000      107 byte  test/cases/lazy-blockquote.html</tspan>
-<tspan x="10" y="2314">141.  2017-04-04 19:23:14 +0000       72 byte  test/cases/lazy-blockquote.md</tspan>
-<tspan x="10" y="2330">142.  2017-04-04 19:23:14 +0000       59 byte  test/cases/line-starts-with-html.html</tspan>
-<tspan x="10" y="2346">143.  2017-04-04 19:23:14 +0000       46 byte  test/cases/line-starts-with-html.md</tspan>
-<tspan x="10" y="2362">144.  2017-04-04 19:23:14 +0000      237 byte  test/cases/list-followed-by-blockquote.html</tspan>
-<tspan x="10" y="2378">145.  2017-04-04 19:23:14 +0000      118 byte  test/cases/list-followed-by-blockquote.md</tspan>
-<tspan x="10" y="2394">146.  2017-04-04 19:23:14 +0000      241 byte  test/cases/list-followed-by-ghcode.html</tspan>
-<tspan x="10" y="2410">147.  2017-04-04 19:23:14 +0000      137 byte  test/cases/list-followed-by-ghcode.md</tspan>
-<tspan x="10" y="2426">148.  2017-04-04 19:23:14 +0000      157 byte  test/cases/list-with-blockquote.html</tspan>
-<tspan x="10" y="2442">149.  2017-04-04 19:23:14 +0000       89 byte  test/cases/list-with-blockquote.md</tspan>
-<tspan x="10" y="2458">150.  2017-04-04 19:23:14 +0000      108 byte  test/cases/list-with-code.html</tspan>
-<tspan x="10" y="2474">151.  2017-04-04 19:23:14 +0000       59 byte  test/cases/list-with-code.md</tspan>
-<tspan x="10" y="2490">152.  2017-04-04 19:23:14 +0000      261 byte  test/cases/literal-html-tags.html</tspan>
-<tspan x="10" y="2506">153.  2017-04-04 19:23:14 +0000      226 byte  test/cases/literal-html-tags.md</tspan>
-<tspan x="10" y="2522">154.  2017-04-04 19:23:14 +0000      140 byte  test/cases/multi-paragraph-list.html</tspan>
-<tspan x="10" y="2538">155.  2017-04-04 19:23:14 +0000       99 byte  test/cases/multi-paragraph-list.md</tspan>
-<tspan x="10" y="2554">156.  2017-04-04 19:23:14 +0000      105 byte  test/cases/multiline-unordered-list.html</tspan>
-<tspan x="10" y="2570">157.  2017-04-04 19:23:14 +0000       76 byte  test/cases/multiline-unordered-list.md</tspan>
-<tspan x="10" y="2586">158.  2017-04-04 19:23:14 +0000      162 byte  test/cases/nested-blockquote.html</tspan>
-<tspan x="10" y="2602">159.  2017-04-04 19:23:14 +0000       98 byte  test/cases/nested-blockquote.md</tspan>
-<tspan x="10" y="2618">160.  2017-04-04 19:23:14 +0000      113 byte  test/cases/nested-gh-codeblocks.html</tspan>
-<tspan x="10" y="2634">161.  2017-04-04 19:23:14 +0000       96 byte  test/cases/nested-gh-codeblocks.md</tspan>
-<tspan x="10" y="2650">162.  2017-04-04 19:23:14 +0000        0 byte  test/cases/obfuscated-emails.html</tspan>
-<tspan x="10" y="2666">163.  2017-04-04 19:23:14 +0000        0 byte  test/cases/obfuscated-emails.md</tspan>
-<tspan x="10" y="2682">164.  2017-04-04 19:23:14 +0000       59 byte  test/cases/ordered-list-same-number.html</tspan>
-<tspan x="10" y="2698">165.  2017-04-04 19:23:14 +0000       31 byte  test/cases/ordered-list-same-number.md</tspan>
-<tspan x="10" y="2714">166.  2017-04-04 19:23:14 +0000       59 byte  test/cases/ordered-list-wrong-numbers.html</tspan>
-<tspan x="10" y="2730">167.  2017-04-04 19:23:14 +0000       31 byte  test/cases/ordered-list-wrong-numbers.md</tspan>
-<tspan x="10" y="2746">168.  2017-04-04 19:23:14 +0000       59 byte  test/cases/ordered-list.html</tspan>
-<tspan x="10" y="2762">169.  2017-04-04 19:23:14 +0000       31 byte  test/cases/ordered-list.md</tspan>
-<tspan x="10" y="2778">170.  2017-04-04 19:23:14 +0000      230 byte  test/cases/paragraphed-list-with-sublists.html</tspan>
-<tspan x="10" y="2794">171.  2017-04-04 19:23:14 +0000      102 byte  test/cases/paragraphed-list-with-sublists.md</tspan>
-<tspan x="10" y="2810">172.  2017-04-04 19:23:14 +0000      184 byte  test/cases/pre-code-tags-inside-code-block.html</tspan>
-<tspan x="10" y="2826">173.  2017-04-04 19:23:14 +0000      125 byte  test/cases/pre-code-tags-inside-code-block.md</tspan>
-<tspan x="10" y="2842">174.  2017-04-04 19:23:14 +0000      170 byte  test/cases/pre-code-tags.html</tspan>
-<tspan x="10" y="2858">175.  2017-04-04 19:23:14 +0000      154 byte  test/cases/pre-code-tags.md</tspan>
-<tspan x="10" y="2874">176.  2017-04-04 19:23:14 +0000       60 byte  test/cases/relative-anchors.html</tspan>
-<tspan x="10" y="2890">177.  2017-04-04 19:23:14 +0000       43 byte  test/cases/relative-anchors.md</tspan>
-<tspan x="10" y="2906">178.  2017-04-04 19:23:14 +0000       89 byte  test/cases/repeated-headers.html</tspan>
-<tspan x="10" y="2922">179.  2017-04-04 19:23:14 +0000       38 byte  test/cases/repeated-headers.md</tspan>
-<tspan x="10" y="2938">180.  2017-04-04 19:23:14 +0000       21 byte  test/cases/simple-paragraph.html</tspan>
-<tspan x="10" y="2954">181.  2017-04-04 19:23:14 +0000       15 byte  test/cases/simple-paragraph.md</tspan>
-<tspan x="10" y="2970">182.  2017-04-04 19:23:14 +0000        0 byte  test/cases/strip-references.html</tspan>
-<tspan x="10" y="2986">183.  2017-04-04 19:23:14 +0000      183 byte  test/cases/strip-references.md</tspan>
-<tspan x="10" y="3002">184.  2017-04-04 19:23:14 +0000      114 byte  test/cases/strong.html</tspan>
-<tspan x="10" y="3018">185.  2017-04-04 19:23:14 +0000       57 byte  test/cases/strong.md</tspan>
-<tspan x="10" y="3034">186.  2017-04-04 19:23:14 +0000       59 byte  test/cases/unordered-list-asterisk.html</tspan>
-<tspan x="10" y="3050">187.  2017-04-04 19:23:14 +0000       25 byte  test/cases/unordered-list-asterisk.md</tspan>
-<tspan x="10" y="3066">188.  2017-04-04 19:23:14 +0000       59 byte  test/cases/unordered-list-minus.html</tspan>
-<tspan x="10" y="3082">189.  2017-04-04 19:23:14 +0000       25 byte  test/cases/unordered-list-minus.md</tspan>
-<tspan x="10" y="3098">190.  2017-04-04 19:23:14 +0000       59 byte  test/cases/unordered-list-plus.html</tspan>
-<tspan x="10" y="3114">191.  2017-04-04 19:23:14 +0000       25 byte  test/cases/unordered-list-plus.md</tspan>
-<tspan x="10" y="3130">192.  2017-04-04 19:23:14 +0000      123 byte  test/cases/url-with-parenthesis.html</tspan>
-<tspan x="10" y="3146">193.  2017-04-04 19:23:14 +0000      105 byte  test/cases/url-with-parenthesis.md</tspan>
-<tspan x="10" y="3162">194.  2017-04-04 19:23:14 +0000       90 byte  test/cli/basic.html</tspan>
-<tspan x="10" y="3178">195.  2017-04-04 19:23:14 +0000       41 byte  test/cli/basic.md</tspan>
-<tspan x="10" y="3194">196.  2017-04-04 19:23:14 +0000      165 byte  test/features/#143.support-image-dimensions.html</tspan>
-<tspan x="10" y="3210">197.  2017-04-04 19:23:14 +0000       96 byte  test/features/#143.support-image-dimensions.md</tspan>
-<tspan x="10" y="3226">198.  2017-04-04 19:23:14 +0000      321 byte  test/features/#164.1.simple-autolink.html</tspan>
-<tspan x="10" y="3242">199.  2017-04-04 19:23:14 +0000      159 byte  test/features/#164.1.simple-autolink.md</tspan>
-<tspan x="10" y="3258">200.  2017-04-04 19:23:14 +0000      425 byte  test/features/#164.2.disallow-underscore-emphasis\</tspan>
+<tspan x="10" y="1546"> 93.  2017-04-04 19:24:35 +0000      163 byte  test/cases/github-style-codeblock-inside-quote.md</tspan>
+<tspan x="10" y="1562"> 94.  2017-04-04 19:24:35 +0000      207 byte  test/cases/github-style-codeblock.html</tspan>
+<tspan x="10" y="1578"> 95.  2017-04-04 19:24:35 +0000      128 byte  test/cases/github-style-codeblock.md</tspan>
+<tspan x="10" y="1594"> 96.  2017-04-04 19:24:35 +0000       78 byte  test/cases/github-style-linebreaks.html</tspan>
+<tspan x="10" y="1610"> 97.  2017-04-04 19:24:35 +0000       59 byte  test/cases/github-style-linebreaks.md</tspan>
+<tspan x="10" y="1626"> 98.  2017-04-04 19:24:35 +0000       39 byte  test/cases/h1-with-double-hash.html</tspan>
+<tspan x="10" y="1642"> 99.  2017-04-04 19:24:35 +0000       18 byte  test/cases/h1-with-double-hash.md</tspan>
+<tspan x="10" y="1658">100.  2017-04-04 19:24:35 +0000       39 byte  test/cases/h1-with-equals.html</tspan>
+<tspan x="10" y="1674">101.  2017-04-04 19:24:35 +0000       28 byte  test/cases/h1-with-equals.md</tspan>
+<tspan x="10" y="1690">102.  2017-04-04 19:24:35 +0000       39 byte  test/cases/h1-with-single-hash.html</tspan>
+<tspan x="10" y="1706">103.  2017-04-04 19:24:35 +0000       16 byte  test/cases/h1-with-single-hash.md</tspan>
+<tspan x="10" y="1722">104.  2017-04-04 19:24:35 +0000       39 byte  test/cases/h2-with-dashes.html</tspan>
+<tspan x="10" y="1738">105.  2017-04-04 19:24:35 +0000       28 byte  test/cases/h2-with-dashes.md</tspan>
+<tspan x="10" y="1754">106.  2017-04-04 19:24:35 +0000       39 byte  test/cases/h2-with-double-hash.html</tspan>
+<tspan x="10" y="1770">107.  2017-04-04 19:24:35 +0000       20 byte  test/cases/h2-with-double-hash.md</tspan>
+<tspan x="10" y="1786">108.  2017-04-04 19:24:35 +0000       39 byte  test/cases/h2-with-single-hash.html</tspan>
+<tspan x="10" y="1802">109.  2017-04-04 19:24:35 +0000       17 byte  test/cases/h2-with-single-hash.md</tspan>
+<tspan x="10" y="1818">110.  2017-04-04 19:24:35 +0000       39 byte  test/cases/h3-with-double-hash.html</tspan>
+<tspan x="10" y="1834">111.  2017-04-04 19:24:35 +0000       22 byte  test/cases/h3-with-double-hash.md</tspan>
+<tspan x="10" y="1850">112.  2017-04-04 19:24:35 +0000       39 byte  test/cases/h3-with-single-hash.html</tspan>
+<tspan x="10" y="1866">113.  2017-04-04 19:24:35 +0000       18 byte  test/cases/h3-with-single-hash.md</tspan>
+<tspan x="10" y="1882">114.  2017-04-04 19:24:35 +0000       39 byte  test/cases/h4-with-single-hash.html</tspan>
+<tspan x="10" y="1898">115.  2017-04-04 19:24:35 +0000       19 byte  test/cases/h4-with-single-hash.md</tspan>
+<tspan x="10" y="1914">116.  2017-04-04 19:24:35 +0000       39 byte  test/cases/h5-with-single-hash.html</tspan>
+<tspan x="10" y="1930">117.  2017-04-04 19:24:35 +0000       20 byte  test/cases/h5-with-single-hash.md</tspan>
+<tspan x="10" y="1946">118.  2017-04-04 19:24:35 +0000       39 byte  test/cases/h6-with-single-hash.html</tspan>
+<tspan x="10" y="1962">119.  2017-04-04 19:24:35 +0000       21 byte  test/cases/h6-with-single-hash.md</tspan>
+<tspan x="10" y="1978">120.  2017-04-04 19:24:35 +0000       35 byte  test/cases/horizontal-rules.html</tspan>
+<tspan x="10" y="1994">121.  2017-04-04 19:24:35 +0000       67 byte  test/cases/horizontal-rules.md</tspan>
+<tspan x="10" y="2010">122.  2017-04-04 19:24:35 +0000      207 byte  test/cases/html-comments.html</tspan>
+<tspan x="10" y="2026">123.  2017-04-04 19:24:35 +0000      171 byte  test/cases/html-comments.md</tspan>
+<tspan x="10" y="2042">124.  2017-04-04 19:24:35 +0000      199 byte  test/cases/html-inside-listed-code.html</tspan>
+<tspan x="10" y="2058">125.  2017-04-04 19:24:35 +0000      124 byte  test/cases/html-inside-listed-code.md</tspan>
+<tspan x="10" y="2074">126.  2017-04-04 19:24:35 +0000     1278 byte  test/cases/html5-strutural-tags.html</tspan>
+<tspan x="10" y="2090">127.  2017-04-04 19:24:35 +0000     1358 byte  test/cases/html5-strutural-tags.md</tspan>
+<tspan x="10" y="2106">128.  2017-04-04 19:24:35 +0000      211 byte  test/cases/images.html</tspan>
+<tspan x="10" y="2122">129.  2017-04-04 19:24:35 +0000      146 byte  test/cases/images.md</tspan>
+<tspan x="10" y="2138">130.  2017-04-04 19:24:35 +0000      126 byte  test/cases/implicit-anchors.html</tspan>
+<tspan x="10" y="2154">131.  2017-04-04 19:24:35 +0000      134 byte  test/cases/implicit-anchors.md</tspan>
+<tspan x="10" y="2170">132.  2017-04-04 19:24:35 +0000      162 byte  test/cases/inline-anchors.html</tspan>
+<tspan x="10" y="2186">133.  2017-04-04 19:24:35 +0000      122 byte  test/cases/inline-anchors.md</tspan>
+<tspan x="10" y="2202">134.  2017-04-04 19:24:35 +0000      409 byte  test/cases/inline-code.html</tspan>
+<tspan x="10" y="2218">135.  2017-04-04 19:24:35 +0000      292 byte  test/cases/inline-code.md</tspan>
+<tspan x="10" y="2234">136.  2017-04-04 19:24:35 +0000       58 byte  test/cases/inline-escaped-chars.html</tspan>
+<tspan x="10" y="2250">137.  2017-04-04 19:24:35 +0000       53 byte  test/cases/inline-escaped-chars.md</tspan>
+<tspan x="10" y="2266">138.  2017-04-04 19:24:35 +0000       73 byte  test/cases/inline-style-tag.html</tspan>
+<tspan x="10" y="2282">139.  2017-04-04 19:24:35 +0000       70 byte  test/cases/inline-style-tag.md</tspan>
+<tspan x="10" y="2298">140.  2017-04-04 19:24:35 +0000      107 byte  test/cases/lazy-blockquote.html</tspan>
+<tspan x="10" y="2314">141.  2017-04-04 19:24:35 +0000       72 byte  test/cases/lazy-blockquote.md</tspan>
+<tspan x="10" y="2330">142.  2017-04-04 19:24:35 +0000       59 byte  test/cases/line-starts-with-html.html</tspan>
+<tspan x="10" y="2346">143.  2017-04-04 19:24:35 +0000       46 byte  test/cases/line-starts-with-html.md</tspan>
+<tspan x="10" y="2362">144.  2017-04-04 19:24:35 +0000      237 byte  test/cases/list-followed-by-blockquote.html</tspan>
+<tspan x="10" y="2378">145.  2017-04-04 19:24:35 +0000      118 byte  test/cases/list-followed-by-blockquote.md</tspan>
+<tspan x="10" y="2394">146.  2017-04-04 19:24:35 +0000      241 byte  test/cases/list-followed-by-ghcode.html</tspan>
+<tspan x="10" y="2410">147.  2017-04-04 19:24:35 +0000      137 byte  test/cases/list-followed-by-ghcode.md</tspan>
+<tspan x="10" y="2426">148.  2017-04-04 19:24:35 +0000      157 byte  test/cases/list-with-blockquote.html</tspan>
+<tspan x="10" y="2442">149.  2017-04-04 19:24:35 +0000       89 byte  test/cases/list-with-blockquote.md</tspan>
+<tspan x="10" y="2458">150.  2017-04-04 19:24:35 +0000      108 byte  test/cases/list-with-code.html</tspan>
+<tspan x="10" y="2474">151.  2017-04-04 19:24:35 +0000       59 byte  test/cases/list-with-code.md</tspan>
+<tspan x="10" y="2490">152.  2017-04-04 19:24:35 +0000      261 byte  test/cases/literal-html-tags.html</tspan>
+<tspan x="10" y="2506">153.  2017-04-04 19:24:35 +0000      226 byte  test/cases/literal-html-tags.md</tspan>
+<tspan x="10" y="2522">154.  2017-04-04 19:24:35 +0000      140 byte  test/cases/multi-paragraph-list.html</tspan>
+<tspan x="10" y="2538">155.  2017-04-04 19:24:35 +0000       99 byte  test/cases/multi-paragraph-list.md</tspan>
+<tspan x="10" y="2554">156.  2017-04-04 19:24:35 +0000      105 byte  test/cases/multiline-unordered-list.html</tspan>
+<tspan x="10" y="2570">157.  2017-04-04 19:24:35 +0000       76 byte  test/cases/multiline-unordered-list.md</tspan>
+<tspan x="10" y="2586">158.  2017-04-04 19:24:35 +0000      162 byte  test/cases/nested-blockquote.html</tspan>
+<tspan x="10" y="2602">159.  2017-04-04 19:24:35 +0000       98 byte  test/cases/nested-blockquote.md</tspan>
+<tspan x="10" y="2618">160.  2017-04-04 19:24:35 +0000      113 byte  test/cases/nested-gh-codeblocks.html</tspan>
+<tspan x="10" y="2634">161.  2017-04-04 19:24:35 +0000       96 byte  test/cases/nested-gh-codeblocks.md</tspan>
+<tspan x="10" y="2650">162.  2017-04-04 19:24:35 +0000        0 byte  test/cases/obfuscated-emails.html</tspan>
+<tspan x="10" y="2666">163.  2017-04-04 19:24:35 +0000        0 byte  test/cases/obfuscated-emails.md</tspan>
+<tspan x="10" y="2682">164.  2017-04-04 19:24:35 +0000       59 byte  test/cases/ordered-list-same-number.html</tspan>
+<tspan x="10" y="2698">165.  2017-04-04 19:24:35 +0000       31 byte  test/cases/ordered-list-same-number.md</tspan>
+<tspan x="10" y="2714">166.  2017-04-04 19:24:35 +0000       59 byte  test/cases/ordered-list-wrong-numbers.html</tspan>
+<tspan x="10" y="2730">167.  2017-04-04 19:24:35 +0000       31 byte  test/cases/ordered-list-wrong-numbers.md</tspan>
+<tspan x="10" y="2746">168.  2017-04-04 19:24:35 +0000       59 byte  test/cases/ordered-list.html</tspan>
+<tspan x="10" y="2762">169.  2017-04-04 19:24:35 +0000       31 byte  test/cases/ordered-list.md</tspan>
+<tspan x="10" y="2778">170.  2017-04-04 19:24:35 +0000      230 byte  test/cases/paragraphed-list-with-sublists.html</tspan>
+<tspan x="10" y="2794">171.  2017-04-04 19:24:35 +0000      102 byte  test/cases/paragraphed-list-with-sublists.md</tspan>
+<tspan x="10" y="2810">172.  2017-04-04 19:24:35 +0000      184 byte  test/cases/pre-code-tags-inside-code-block.html</tspan>
+<tspan x="10" y="2826">173.  2017-04-04 19:24:35 +0000      125 byte  test/cases/pre-code-tags-inside-code-block.md</tspan>
+<tspan x="10" y="2842">174.  2017-04-04 19:24:35 +0000      170 byte  test/cases/pre-code-tags.html</tspan>
+<tspan x="10" y="2858">175.  2017-04-04 19:24:35 +0000      154 byte  test/cases/pre-code-tags.md</tspan>
+<tspan x="10" y="2874">176.  2017-04-04 19:24:35 +0000       60 byte  test/cases/relative-anchors.html</tspan>
+<tspan x="10" y="2890">177.  2017-04-04 19:24:35 +0000       43 byte  test/cases/relative-anchors.md</tspan>
+<tspan x="10" y="2906">178.  2017-04-04 19:24:35 +0000       89 byte  test/cases/repeated-headers.html</tspan>
+<tspan x="10" y="2922">179.  2017-04-04 19:24:35 +0000       38 byte  test/cases/repeated-headers.md</tspan>
+<tspan x="10" y="2938">180.  2017-04-04 19:24:35 +0000       21 byte  test/cases/simple-paragraph.html</tspan>
+<tspan x="10" y="2954">181.  2017-04-04 19:24:35 +0000       15 byte  test/cases/simple-paragraph.md</tspan>
+<tspan x="10" y="2970">182.  2017-04-04 19:24:35 +0000        0 byte  test/cases/strip-references.html</tspan>
+<tspan x="10" y="2986">183.  2017-04-04 19:24:35 +0000      183 byte  test/cases/strip-references.md</tspan>
+<tspan x="10" y="3002">184.  2017-04-04 19:24:35 +0000      114 byte  test/cases/strong.html</tspan>
+<tspan x="10" y="3018">185.  2017-04-04 19:24:35 +0000       57 byte  test/cases/strong.md</tspan>
+<tspan x="10" y="3034">186.  2017-04-04 19:24:35 +0000       59 byte  test/cases/unordered-list-asterisk.html</tspan>
+<tspan x="10" y="3050">187.  2017-04-04 19:24:35 +0000       25 byte  test/cases/unordered-list-asterisk.md</tspan>
+<tspan x="10" y="3066">188.  2017-04-04 19:24:35 +0000       59 byte  test/cases/unordered-list-minus.html</tspan>
+<tspan x="10" y="3082">189.  2017-04-04 19:24:35 +0000       25 byte  test/cases/unordered-list-minus.md</tspan>
+<tspan x="10" y="3098">190.  2017-04-04 19:24:35 +0000       59 byte  test/cases/unordered-list-plus.html</tspan>
+<tspan x="10" y="3114">191.  2017-04-04 19:24:35 +0000       25 byte  test/cases/unordered-list-plus.md</tspan>
+<tspan x="10" y="3130">192.  2017-04-04 19:24:35 +0000      123 byte  test/cases/url-with-parenthesis.html</tspan>
+<tspan x="10" y="3146">193.  2017-04-04 19:24:35 +0000      105 byte  test/cases/url-with-parenthesis.md</tspan>
+<tspan x="10" y="3162">194.  2017-04-04 19:24:35 +0000       90 byte  test/cli/basic.html</tspan>
+<tspan x="10" y="3178">195.  2017-04-04 19:24:35 +0000       41 byte  test/cli/basic.md</tspan>
+<tspan x="10" y="3194">196.  2017-04-04 19:24:35 +0000      165 byte  test/features/#143.support-image-dimensions.html</tspan>
+<tspan x="10" y="3210">197.  2017-04-04 19:24:35 +0000       96 byte  test/features/#143.support-image-dimensions.md</tspan>
+<tspan x="10" y="3226">198.  2017-04-04 19:24:35 +0000      321 byte  test/features/#164.1.simple-autolink.html</tspan>
+<tspan x="10" y="3242">199.  2017-04-04 19:24:35 +0000      159 byte  test/features/#164.1.simple-autolink.md</tspan>
+<tspan x="10" y="3258">200.  2017-04-04 19:24:35 +0000      425 byte  test/features/#164.2.disallow-underscore-emphasis\</tspan>
 <tspan x="10" y="3274">-mid-word.html</tspan>
-<tspan x="10" y="3290">201.  2017-04-04 19:23:14 +0000      329 byte  test/features/#164.2.disallow-underscore-emphasis\</tspan>
+<tspan x="10" y="3290">201.  2017-04-04 19:24:35 +0000      329 byte  test/features/#164.2.disallow-underscore-emphasis\</tspan>
 <tspan x="10" y="3306">-mid-word.md</tspan>
-<tspan x="10" y="3322">202.  2017-04-04 19:23:14 +0000      231 byte  test/features/#164.3.strikethrough.html</tspan>
-<tspan x="10" y="3338">203.  2017-04-04 19:23:14 +0000      172 byte  test/features/#164.3.strikethrough.md</tspan>
-<tspan x="10" y="3354">204.  2017-04-04 19:23:14 +0000      602 byte  test/features/#164.4.tasklists.html</tspan>
-<tspan x="10" y="3370">205.  2017-04-04 19:23:14 +0000       70 byte  test/features/#164.4.tasklists.md</tspan>
-<tspan x="10" y="3386">206.  2017-04-04 19:23:14 +0000      186 byte  test/features/#178.markdown-inside-html-does-not-\</tspan>
+<tspan x="10" y="3322">202.  2017-04-04 19:24:35 +0000      231 byte  test/features/#164.3.strikethrough.html</tspan>
+<tspan x="10" y="3338">203.  2017-04-04 19:24:35 +0000      172 byte  test/features/#164.3.strikethrough.md</tspan>
+<tspan x="10" y="3354">204.  2017-04-04 19:24:35 +0000      602 byte  test/features/#164.4.tasklists.html</tspan>
+<tspan x="10" y="3370">205.  2017-04-04 19:24:35 +0000       70 byte  test/features/#164.4.tasklists.md</tspan>
+<tspan x="10" y="3386">206.  2017-04-04 19:24:35 +0000      186 byte  test/features/#178.markdown-inside-html-does-not-\</tspan>
 <tspan x="10" y="3402">parse.html</tspan>
-<tspan x="10" y="3418">207.  2017-04-04 19:23:14 +0000      135 byte  test/features/#178.markdown-inside-html-does-not-\</tspan>
+<tspan x="10" y="3418">207.  2017-04-04 19:24:35 +0000      135 byte  test/features/#178.markdown-inside-html-does-not-\</tspan>
 <tspan x="10" y="3434">parse.md</tspan>
-<tspan x="10" y="3450">208.  2017-04-04 19:23:14 +0000       88 byte  test/features/#198.literalMidWordUnderscores-chan\</tspan>
+<tspan x="10" y="3450">208.  2017-04-04 19:24:35 +0000       88 byte  test/features/#198.literalMidWordUnderscores-chan\</tspan>
 <tspan x="10" y="3466">ges-behavior-of-asterisk.html</tspan>
-<tspan x="10" y="3482">209.  2017-04-04 19:23:14 +0000       63 byte  test/features/#198.literalMidWordUnderscores-chan\</tspan>
+<tspan x="10" y="3482">209.  2017-04-04 19:24:35 +0000       63 byte  test/features/#198.literalMidWordUnderscores-chan\</tspan>
 <tspan x="10" y="3498">ges-behavior-of-asterisk.md</tspan>
-<tspan x="10" y="3514">210.  2017-04-04 19:23:14 +0000      312 byte  test/features/#204.certain-links-with-at-and-dot-\</tspan>
+<tspan x="10" y="3514">210.  2017-04-04 19:24:35 +0000      312 byte  test/features/#204.certain-links-with-at-and-dot-\</tspan>
 <tspan x="10" y="3530">break-url.html</tspan>
-<tspan x="10" y="3546">211.  2017-04-04 19:23:14 +0000      117 byte  test/features/#204.certain-links-with-at-and-dot-\</tspan>
+<tspan x="10" y="3546">211.  2017-04-04 19:24:35 +0000      117 byte  test/features/#204.certain-links-with-at-and-dot-\</tspan>
 <tspan x="10" y="3562">break-url.md</tspan>
-<tspan x="10" y="3578">212.  2017-04-04 19:23:14 +0000       35 byte  test/features/#206.treat-single-line-breaks-as-br\</tspan>
+<tspan x="10" y="3578">212.  2017-04-04 19:24:35 +0000       35 byte  test/features/#206.treat-single-line-breaks-as-br\</tspan>
 <tspan x="10" y="3594">.html</tspan>
-<tspan x="10" y="3610">213.  2017-04-04 19:23:14 +0000       22 byte  test/features/#206.treat-single-line-breaks-as-br\</tspan>
+<tspan x="10" y="3610">213.  2017-04-04 19:24:35 +0000       22 byte  test/features/#206.treat-single-line-breaks-as-br\</tspan>
 <tspan x="10" y="3626">.md</tspan>
-<tspan x="10" y="3642">214.  2017-04-04 19:23:14 +0000      167 byte  test/features/#214.escaped-markdown-chars-break-s\</tspan>
+<tspan x="10" y="3642">214.  2017-04-04 19:24:35 +0000      167 byte  test/features/#214.escaped-markdown-chars-break-s\</tspan>
 <tspan x="10" y="3658">trikethrough.html</tspan>
-<tspan x="10" y="3674">215.  2017-04-04 19:23:14 +0000      105 byte  test/features/#214.escaped-markdown-chars-break-s\</tspan>
+<tspan x="10" y="3674">215.  2017-04-04 19:24:35 +0000      105 byte  test/features/#214.escaped-markdown-chars-break-s\</tspan>
 <tspan x="10" y="3690">trikethrough.md</tspan>
-<tspan x="10" y="3706">216.  2017-04-04 19:23:14 +0000      135 byte  test/features/#259.es6-template-strings-indentati\</tspan>
+<tspan x="10" y="3706">216.  2017-04-04 19:24:35 +0000      135 byte  test/features/#259.es6-template-strings-indentati\</tspan>
 <tspan x="10" y="3722">on-issues.html</tspan>
-<tspan x="10" y="3738">217.  2017-04-04 19:23:14 +0000      107 byte  test/features/#259.es6-template-strings-indentati\</tspan>
+<tspan x="10" y="3738">217.  2017-04-04 19:24:35 +0000      107 byte  test/features/#259.es6-template-strings-indentati\</tspan>
 <tspan x="10" y="3754">on-issues.md</tspan>
-<tspan x="10" y="3770">218.  2017-04-04 19:23:14 +0000      152 byte  test/features/#284.simplifiedAutoLink-does-not-ma\</tspan>
+<tspan x="10" y="3770">218.  2017-04-04 19:24:35 +0000      152 byte  test/features/#284.simplifiedAutoLink-does-not-ma\</tspan>
 <tspan x="10" y="3786">tch-GFM-style.html</tspan>
-<tspan x="10" y="3802">219.  2017-04-04 19:23:14 +0000       69 byte  test/features/#284.simplifiedAutoLink-does-not-ma\</tspan>
+<tspan x="10" y="3802">219.  2017-04-04 19:24:35 +0000       69 byte  test/features/#284.simplifiedAutoLink-does-not-ma\</tspan>
 <tspan x="10" y="3818">tch-GFM-style.md</tspan>
-<tspan x="10" y="3834">220.  2017-04-04 19:23:14 +0000      840 byte  test/features/#316.new-simpleLineBreaks-option-br\</tspan>
+<tspan x="10" y="3834">220.  2017-04-04 19:24:35 +0000      840 byte  test/features/#316.new-simpleLineBreaks-option-br\</tspan>
 <tspan x="10" y="3850">eaks-lists.html</tspan>
-<tspan x="10" y="3866">221.  2017-04-04 19:23:14 +0000      469 byte  test/features/#316.new-simpleLineBreaks-option-br\</tspan>
+<tspan x="10" y="3866">221.  2017-04-04 19:24:35 +0000      469 byte  test/features/#316.new-simpleLineBreaks-option-br\</tspan>
 <tspan x="10" y="3882">eaks-lists.md</tspan>
-<tspan x="10" y="3898">222.  2017-04-04 19:23:14 +0000       45 byte  test/features/#318.simpleLineBreaks-does-not-work\</tspan>
+<tspan x="10" y="3898">222.  2017-04-04 19:24:35 +0000       45 byte  test/features/#318.simpleLineBreaks-does-not-work\</tspan>
 <tspan x="10" y="3914">-with-chinese-characters.html</tspan>
-<tspan x="10" y="3930">223.  2017-04-04 19:23:14 +0000       20 byte  test/features/#318.simpleLineBreaks-does-not-work\</tspan>
+<tspan x="10" y="3930">223.  2017-04-04 19:24:35 +0000       20 byte  test/features/#318.simpleLineBreaks-does-not-work\</tspan>
 <tspan x="10" y="3946">-with-chinese-characters.md</tspan>
-<tspan x="10" y="3962">224.  2017-04-04 19:23:14 +0000      211 byte  test/features/#320.github-compatible-generated-he\</tspan>
+<tspan x="10" y="3962">224.  2017-04-04 19:24:35 +0000      211 byte  test/features/#320.github-compatible-generated-he\</tspan>
 <tspan x="10" y="3978">ader-id.html</tspan>
-<tspan x="10" y="3994">225.  2017-04-04 19:23:14 +0000      104 byte  test/features/#320.github-compatible-generated-he\</tspan>
+<tspan x="10" y="3994">225.  2017-04-04 19:24:35 +0000      104 byte  test/features/#320.github-compatible-generated-he\</tspan>
 <tspan x="10" y="4010">ader-id.md</tspan>
-<tspan x="10" y="4026">226.  2017-04-04 19:23:14 +0000       68 byte  test/features/#323.simpleLineBreaks-breaks-with-s\</tspan>
+<tspan x="10" y="4026">226.  2017-04-04 19:24:35 +0000       68 byte  test/features/#323.simpleLineBreaks-breaks-with-s\</tspan>
 <tspan x="10" y="4042">trong.html</tspan>
-<tspan x="10" y="4058">227.  2017-04-04 19:23:14 +0000       29 byte  test/features/#323.simpleLineBreaks-breaks-with-s\</tspan>
+<tspan x="10" y="4058">227.  2017-04-04 19:24:35 +0000       29 byte  test/features/#323.simpleLineBreaks-breaks-with-s\</tspan>
 <tspan x="10" y="4074">trong.md</tspan>
-<tspan x="10" y="4090">228.  2017-04-04 19:23:14 +0000       85 byte  test/features/#330.simplifiedAutoLink-drops-chara\</tspan>
+<tspan x="10" y="4090">228.  2017-04-04 19:24:35 +0000       85 byte  test/features/#330.simplifiedAutoLink-drops-chara\</tspan>
 <tspan x="10" y="4106">cter-before-and-after-linked-mail.html</tspan>
-<tspan x="10" y="4122">229.  2017-04-04 19:23:14 +0000       40 byte  test/features/#330.simplifiedAutoLink-drops-chara\</tspan>
+<tspan x="10" y="4122">229.  2017-04-04 19:24:35 +0000       40 byte  test/features/#330.simplifiedAutoLink-drops-chara\</tspan>
 <tspan x="10" y="4138">cter-before-and-after-linked-mail.md</tspan>
-<tspan x="10" y="4154">230.  2017-04-04 19:23:14 +0000       39 byte  test/features/#331.allow-escaping-of-tilde.html</tspan>
-<tspan x="10" y="4170">231.  2017-04-04 19:23:14 +0000       20 byte  test/features/#331.allow-escaping-of-tilde.md</tspan>
-<tspan x="10" y="4186">232.  2017-04-04 19:23:14 +0000      118 byte  test/features/#69.header-level-start.html</tspan>
-<tspan x="10" y="4202">233.  2017-04-04 19:23:14 +0000       39 byte  test/features/#69.header-level-start.md</tspan>
-<tspan x="10" y="4218">234.  2017-04-04 19:23:14 +0000      116 byte  test/features/autolink-and-disallow-underscores.h\</tspan>
+<tspan x="10" y="4154">230.  2017-04-04 19:24:35 +0000       39 byte  test/features/#331.allow-escaping-of-tilde.html</tspan>
+<tspan x="10" y="4170">231.  2017-04-04 19:24:35 +0000       20 byte  test/features/#331.allow-escaping-of-tilde.md</tspan>
+<tspan x="10" y="4186">232.  2017-04-04 19:24:35 +0000      118 byte  test/features/#69.header-level-start.html</tspan>
+<tspan x="10" y="4202">233.  2017-04-04 19:24:35 +0000       39 byte  test/features/#69.header-level-start.md</tspan>
+<tspan x="10" y="4218">234.  2017-04-04 19:24:35 +0000      116 byte  test/features/autolink-and-disallow-underscores.h\</tspan>
 <tspan x="10" y="4234">tml</tspan>
-<tspan x="10" y="4250">235.  2017-04-04 19:23:14 +0000       48 byte  test/features/autolink-and-disallow-underscores.m\</tspan>
+<tspan x="10" y="4250">235.  2017-04-04 19:24:35 +0000       48 byte  test/features/autolink-and-disallow-underscores.m\</tspan>
 <tspan x="10" y="4266">d</tspan>
-<tspan x="10" y="4282">236.  2017-04-04 19:23:14 +0000       99 byte  test/features/disable-email-encoding.html</tspan>
-<tspan x="10" y="4298">237.  2017-04-04 19:23:14 +0000       54 byte  test/features/disable-email-encoding.md</tspan>
-<tspan x="10" y="4314">238.  2017-04-04 19:23:14 +0000      133 byte  test/features/disable-gh-codeblocks.html</tspan>
-<tspan x="10" y="4330">239.  2017-04-04 19:23:14 +0000      109 byte  test/features/disable-gh-codeblocks.md</tspan>
-<tspan x="10" y="4346">240.  2017-04-04 19:23:14 +0000      119 byte  test/features/disableForced4SpacesIndentedSublist\</tspan>
+<tspan x="10" y="4282">236.  2017-04-04 19:24:35 +0000       99 byte  test/features/disable-email-encoding.html</tspan>
+<tspan x="10" y="4298">237.  2017-04-04 19:24:35 +0000       54 byte  test/features/disable-email-encoding.md</tspan>
+<tspan x="10" y="4314">238.  2017-04-04 19:24:35 +0000      133 byte  test/features/disable-gh-codeblocks.html</tspan>
+<tspan x="10" y="4330">239.  2017-04-04 19:24:35 +0000      109 byte  test/features/disable-gh-codeblocks.md</tspan>
+<tspan x="10" y="4346">240.  2017-04-04 19:24:35 +0000      119 byte  test/features/disableForced4SpacesIndentedSublist\</tspan>
 <tspan x="10" y="4362">s.html</tspan>
-<tspan x="10" y="4378">241.  2017-04-04 19:23:14 +0000       39 byte  test/features/disableForced4SpacesIndentedSublist\</tspan>
+<tspan x="10" y="4378">241.  2017-04-04 19:24:35 +0000       39 byte  test/features/disableForced4SpacesIndentedSublist\</tspan>
 <tspan x="10" y="4394">s.md</tspan>
-<tspan x="10" y="4410">242.  2017-04-04 19:23:14 +0000      293 byte  test/features/excludeTrailingPunctuationFromURLs-\</tspan>
+<tspan x="10" y="4410">242.  2017-04-04 19:24:35 +0000      293 byte  test/features/excludeTrailingPunctuationFromURLs-\</tspan>
 <tspan x="10" y="4426">option.html</tspan>
-<tspan x="10" y="4442">243.  2017-04-04 19:23:14 +0000      124 byte  test/features/excludeTrailingPunctuationFromURLs-\</tspan>
+<tspan x="10" y="4442">243.  2017-04-04 19:24:35 +0000      124 byte  test/features/excludeTrailingPunctuationFromURLs-\</tspan>
 <tspan x="10" y="4458">option.md</tspan>
-<tspan x="10" y="4474">244.  2017-04-04 19:23:14 +0000      159 byte  test/features/ghMentions.html</tspan>
-<tspan x="10" y="4490">245.  2017-04-04 19:23:14 +0000      102 byte  test/features/ghMentions.md</tspan>
-<tspan x="10" y="4506">246.  2017-04-04 19:23:14 +0000       42 byte  test/features/prefixHeaderId-simple.html</tspan>
-<tspan x="10" y="4522">247.  2017-04-04 19:23:14 +0000       13 byte  test/features/prefixHeaderId-simple.md</tspan>
-<tspan x="10" y="4538">248.  2017-04-04 19:23:14 +0000       46 byte  test/features/prefixHeaderId-string-and-ghCompati\</tspan>
+<tspan x="10" y="4474">244.  2017-04-04 19:24:35 +0000      159 byte  test/features/ghMentions.html</tspan>
+<tspan x="10" y="4490">245.  2017-04-04 19:24:35 +0000      102 byte  test/features/ghMentions.md</tspan>
+<tspan x="10" y="4506">246.  2017-04-04 19:24:35 +0000       42 byte  test/features/prefixHeaderId-simple.html</tspan>
+<tspan x="10" y="4522">247.  2017-04-04 19:24:35 +0000       13 byte  test/features/prefixHeaderId-simple.md</tspan>
+<tspan x="10" y="4538">248.  2017-04-04 19:24:35 +0000       46 byte  test/features/prefixHeaderId-string-and-ghCompati\</tspan>
 <tspan x="10" y="4554">bleHeaderId.html</tspan>
-<tspan x="10" y="4570">249.  2017-04-04 19:23:14 +0000       13 byte  test/features/prefixHeaderId-string-and-ghCompati\</tspan>
+<tspan x="10" y="4570">249.  2017-04-04 19:24:35 +0000       13 byte  test/features/prefixHeaderId-string-and-ghCompati\</tspan>
 <tspan x="10" y="4586">bleHeaderId.md</tspan>
-<tspan x="10" y="4602">250.  2017-04-04 19:23:14 +0000       46 byte  test/features/prefixHeaderId-string-and-ghCompati\</tspan>
+<tspan x="10" y="4602">250.  2017-04-04 19:24:35 +0000       46 byte  test/features/prefixHeaderId-string-and-ghCompati\</tspan>
 <tspan x="10" y="4618">bleHeaderId2.html</tspan>
-<tspan x="10" y="4634">251.  2017-04-04 19:23:14 +0000       13 byte  test/features/prefixHeaderId-string-and-ghCompati\</tspan>
+<tspan x="10" y="4634">251.  2017-04-04 19:24:35 +0000       13 byte  test/features/prefixHeaderId-string-and-ghCompati\</tspan>
 <tspan x="10" y="4650">bleHeaderId2.md</tspan>
-<tspan x="10" y="4666">252.  2017-04-04 19:23:14 +0000       43 byte  test/features/prefixHeaderId-string.html</tspan>
-<tspan x="10" y="4682">253.  2017-04-04 19:23:14 +0000       13 byte  test/features/prefixHeaderId-string.md</tspan>
-<tspan x="10" y="4698">254.  2017-04-04 19:23:14 +0000       43 byte  test/features/requireSpaceBeforeHeadingText.html</tspan>
-<tspan x="10" y="4714">255.  2017-04-04 19:23:14 +0000       18 byte  test/features/requireSpaceBeforeHeadingText.md</tspan>
-<tspan x="10" y="4730">256.  2017-04-04 19:23:14 +0000       76 byte  test/features/simpleLineBreaks-handle-html-pre.ht\</tspan>
+<tspan x="10" y="4666">252.  2017-04-04 19:24:35 +0000       43 byte  test/features/prefixHeaderId-string.html</tspan>
+<tspan x="10" y="4682">253.  2017-04-04 19:24:35 +0000       13 byte  test/features/prefixHeaderId-string.md</tspan>
+<tspan x="10" y="4698">254.  2017-04-04 19:24:35 +0000       43 byte  test/features/requireSpaceBeforeHeadingText.html</tspan>
+<tspan x="10" y="4714">255.  2017-04-04 19:24:35 +0000       18 byte  test/features/requireSpaceBeforeHeadingText.md</tspan>
+<tspan x="10" y="4730">256.  2017-04-04 19:24:35 +0000       76 byte  test/features/simpleLineBreaks-handle-html-pre.ht\</tspan>
 <tspan x="10" y="4746">ml</tspan>
-<tspan x="10" y="4762">257.  2017-04-04 19:23:14 +0000       69 byte  test/features/simpleLineBreaks-handle-html-pre.md</tspan>
-<tspan x="10" y="4778">258.  2017-04-04 19:23:14 +0000      243 byte  test/features/simpleLineBreaks2.html</tspan>
-<tspan x="10" y="4794">259.  2017-04-04 19:23:14 +0000      128 byte  test/features/simpleLineBreaks2.md</tspan>
-<tspan x="10" y="4810">260.  2017-04-04 19:23:14 +0000      251 byte  test/features/tables/#179.parse-md-in-table-ths.h\</tspan>
+<tspan x="10" y="4762">257.  2017-04-04 19:24:35 +0000       69 byte  test/features/simpleLineBreaks-handle-html-pre.md</tspan>
+<tspan x="10" y="4778">258.  2017-04-04 19:24:35 +0000      243 byte  test/features/simpleLineBreaks2.html</tspan>
+<tspan x="10" y="4794">259.  2017-04-04 19:24:35 +0000      128 byte  test/features/simpleLineBreaks2.md</tspan>
+<tspan x="10" y="4810">260.  2017-04-04 19:24:35 +0000      251 byte  test/features/tables/#179.parse-md-in-table-ths.h\</tspan>
 <tspan x="10" y="4826">tml</tspan>
-<tspan x="10" y="4842">261.  2017-04-04 19:23:14 +0000       90 byte  test/features/tables/#179.parse-md-in-table-ths.m\</tspan>
+<tspan x="10" y="4842">261.  2017-04-04 19:24:35 +0000       90 byte  test/features/tables/#179.parse-md-in-table-ths.m\</tspan>
 <tspan x="10" y="4858">d</tspan>
-<tspan x="10" y="4874">262.  2017-04-04 19:23:14 +0000      199 byte  test/features/tables/#256.table-header-separators\</tspan>
+<tspan x="10" y="4874">262.  2017-04-04 19:24:35 +0000      199 byte  test/features/tables/#256.table-header-separators\</tspan>
 <tspan x="10" y="4890">-should-not-require-3-dashes.html</tspan>
-<tspan x="10" y="4906">263.  2017-04-04 19:23:14 +0000       39 byte  test/features/tables/#256.table-header-separators\</tspan>
+<tspan x="10" y="4906">263.  2017-04-04 19:24:35 +0000       39 byte  test/features/tables/#256.table-header-separators\</tspan>
 <tspan x="10" y="4922">-should-not-require-3-dashes.md</tspan>
-<tspan x="10" y="4938">264.  2017-04-04 19:23:14 +0000      435 byte  test/features/tables/basic-alignment.html</tspan>
-<tspan x="10" y="4954">265.  2017-04-04 19:23:14 +0000      136 byte  test/features/tables/basic-alignment.md</tspan>
-<tspan x="10" y="4970">266.  2017-04-04 19:23:14 +0000      390 byte  test/features/tables/basic-with-header-ids.html</tspan>
-<tspan x="10" y="4986">267.  2017-04-04 19:23:14 +0000      136 byte  test/features/tables/basic-with-header-ids.md</tspan>
-<tspan x="10" y="5002">268.  2017-04-04 19:23:14 +0000      353 byte  test/features/tables/basic.html</tspan>
-<tspan x="10" y="5018">269.  2017-04-04 19:23:14 +0000      136 byte  test/features/tables/basic.md</tspan>
-<tspan x="10" y="5034">270.  2017-04-04 19:23:14 +0000      433 byte  test/features/tables/gh-style-tables.html</tspan>
-<tspan x="10" y="5050">271.  2017-04-04 19:23:14 +0000      139 byte  test/features/tables/gh-style-tables.md</tspan>
-<tspan x="10" y="5066">272.  2017-04-04 19:23:14 +0000     1515 byte  test/features/tables/large-table-with-allignments\</tspan>
+<tspan x="10" y="4938">264.  2017-04-04 19:24:35 +0000      435 byte  test/features/tables/basic-alignment.html</tspan>
+<tspan x="10" y="4954">265.  2017-04-04 19:24:35 +0000      136 byte  test/features/tables/basic-alignment.md</tspan>
+<tspan x="10" y="4970">266.  2017-04-04 19:24:35 +0000      390 byte  test/features/tables/basic-with-header-ids.html</tspan>
+<tspan x="10" y="4986">267.  2017-04-04 19:24:35 +0000      136 byte  test/features/tables/basic-with-header-ids.md</tspan>
+<tspan x="10" y="5002">268.  2017-04-04 19:24:35 +0000      353 byte  test/features/tables/basic.html</tspan>
+<tspan x="10" y="5018">269.  2017-04-04 19:24:35 +0000      136 byte  test/features/tables/basic.md</tspan>
+<tspan x="10" y="5034">270.  2017-04-04 19:24:35 +0000      433 byte  test/features/tables/gh-style-tables.html</tspan>
+<tspan x="10" y="5050">271.  2017-04-04 19:24:35 +0000      139 byte  test/features/tables/gh-style-tables.md</tspan>
+<tspan x="10" y="5066">272.  2017-04-04 19:24:35 +0000     1515 byte  test/features/tables/large-table-with-allignments\</tspan>
 <tspan x="10" y="5082">.html</tspan>
-<tspan x="10" y="5098">273.  2017-04-04 19:23:14 +0000      462 byte  test/features/tables/large-table-with-allignments\</tspan>
+<tspan x="10" y="5098">273.  2017-04-04 19:24:35 +0000      462 byte  test/features/tables/large-table-with-allignments\</tspan>
 <tspan x="10" y="5114">.md</tspan>
-<tspan x="10" y="5130">274.  2017-04-04 19:23:14 +0000     1047 byte  test/features/tables/large.html</tspan>
-<tspan x="10" y="5146">275.  2017-04-04 19:23:14 +0000      462 byte  test/features/tables/large.md</tspan>
-<tspan x="10" y="5162">276.  2017-04-04 19:23:14 +0000      753 byte  test/features/tables/mixed-alignment.html</tspan>
-<tspan x="10" y="5178">277.  2017-04-04 19:23:14 +0000      285 byte  test/features/tables/mixed-alignment.md</tspan>
-<tspan x="10" y="5194">278.  2017-04-04 19:23:14 +0000      684 byte  test/features/tables/multiple-tables.html</tspan>
-<tspan x="10" y="5210">279.  2017-04-04 19:23:14 +0000      286 byte  test/features/tables/multiple-tables.md</tspan>
-<tspan x="10" y="5226">280.  2017-04-04 19:23:14 +0000      252 byte  test/features/tables/table-inside-codeblock.html</tspan>
-<tspan x="10" y="5242">281.  2017-04-04 19:23:14 +0000      242 byte  test/features/tables/table-inside-codeblock.md</tspan>
-<tspan x="10" y="5258">282.  2017-04-04 19:23:14 +0000      543 byte  test/features/tables/table-without-leading-pipe.h\</tspan>
+<tspan x="10" y="5130">274.  2017-04-04 19:24:35 +0000     1047 byte  test/features/tables/large.html</tspan>
+<tspan x="10" y="5146">275.  2017-04-04 19:24:35 +0000      462 byte  test/features/tables/large.md</tspan>
+<tspan x="10" y="5162">276.  2017-04-04 19:24:35 +0000      753 byte  test/features/tables/mixed-alignment.html</tspan>
+<tspan x="10" y="5178">277.  2017-04-04 19:24:35 +0000      285 byte  test/features/tables/mixed-alignment.md</tspan>
+<tspan x="10" y="5194">278.  2017-04-04 19:24:35 +0000      684 byte  test/features/tables/multiple-tables.html</tspan>
+<tspan x="10" y="5210">279.  2017-04-04 19:24:35 +0000      286 byte  test/features/tables/multiple-tables.md</tspan>
+<tspan x="10" y="5226">280.  2017-04-04 19:24:35 +0000      252 byte  test/features/tables/table-inside-codeblock.html</tspan>
+<tspan x="10" y="5242">281.  2017-04-04 19:24:35 +0000      242 byte  test/features/tables/table-inside-codeblock.md</tspan>
+<tspan x="10" y="5258">282.  2017-04-04 19:24:35 +0000      543 byte  test/features/tables/table-without-leading-pipe.h\</tspan>
 <tspan x="10" y="5274">tml</tspan>
-<tspan x="10" y="5290">283.  2017-04-04 19:23:14 +0000      268 byte  test/features/tables/table-without-leading-pipe.m\</tspan>
+<tspan x="10" y="5290">283.  2017-04-04 19:24:35 +0000      268 byte  test/features/tables/table-without-leading-pipe.m\</tspan>
 <tspan x="10" y="5306">d</tspan>
-<tspan x="10" y="5322">284.  2017-04-04 19:23:14 +0000      353 byte  test/features/tables/with-equals.html</tspan>
-<tspan x="10" y="5338">285.  2017-04-04 19:23:14 +0000      136 byte  test/features/tables/with-equals.md</tspan>
-<tspan x="10" y="5354">286.  2017-04-04 19:23:14 +0000      567 byte  test/features/tables/with-span-elements.html</tspan>
-<tspan x="10" y="5370">287.  2017-04-04 19:23:14 +0000      252 byte  test/features/tables/with-span-elements.md</tspan>
-<tspan x="10" y="5386">288.  2017-04-04 19:23:14 +0000     1076 byte  test/features/tables/with-surroundings.html</tspan>
-<tspan x="10" y="5402">289.  2017-04-04 19:23:14 +0000      847 byte  test/features/tables/with-surroundings.md</tspan>
-<tspan x="10" y="5418">290.  2017-04-04 19:23:14 +0000      163 byte  test/features/tables/without-body.html</tspan>
-<tspan x="10" y="5434">291.  2017-04-04 19:23:14 +0000       68 byte  test/features/tables/without-body.md</tspan>
-<tspan x="10" y="5450">292.  2017-04-04 19:23:14 +0000       41 byte  test/features/tables/without-header-delimiter.htm\</tspan>
+<tspan x="10" y="5322">284.  2017-04-04 19:24:35 +0000      353 byte  test/features/tables/with-equals.html</tspan>
+<tspan x="10" y="5338">285.  2017-04-04 19:24:35 +0000      136 byte  test/features/tables/with-equals.md</tspan>
+<tspan x="10" y="5354">286.  2017-04-04 19:24:35 +0000      567 byte  test/features/tables/with-span-elements.html</tspan>
+<tspan x="10" y="5370">287.  2017-04-04 19:24:35 +0000      252 byte  test/features/tables/with-span-elements.md</tspan>
+<tspan x="10" y="5386">288.  2017-04-04 19:24:35 +0000     1076 byte  test/features/tables/with-surroundings.html</tspan>
+<tspan x="10" y="5402">289.  2017-04-04 19:24:35 +0000      847 byte  test/features/tables/with-surroundings.md</tspan>
+<tspan x="10" y="5418">290.  2017-04-04 19:24:35 +0000      163 byte  test/features/tables/without-body.html</tspan>
+<tspan x="10" y="5434">291.  2017-04-04 19:24:35 +0000       68 byte  test/features/tables/without-body.md</tspan>
+<tspan x="10" y="5450">292.  2017-04-04 19:24:35 +0000       41 byte  test/features/tables/without-header-delimiter.htm\</tspan>
 <tspan x="10" y="5466">l</tspan>
-<tspan x="10" y="5482">293.  2017-04-04 19:23:14 +0000       34 byte  test/features/tables/without-header-delimiter.md</tspan>
-<tspan x="10" y="5498">294.  2017-04-04 19:23:14 +0000     1101 byte  test/ghost/markdown-magic.html</tspan>
-<tspan x="10" y="5514">295.  2017-04-04 19:23:14 +0000      887 byte  test/ghost/markdown-magic.md</tspan>
-<tspan x="10" y="5530">296.  2017-04-04 19:23:14 +0000     3047 byte  test/ghost/underscore.html</tspan>
-<tspan x="10" y="5546">297.  2017-04-04 19:23:14 +0000     2302 byte  test/ghost/underscore.md</tspan>
-<tspan x="10" y="5562">298.  2017-04-04 19:23:14 +0000      268 byte  test/issues/#107.inner-underscore-parse-to-block.\</tspan>
+<tspan x="10" y="5482">293.  2017-04-04 19:24:35 +0000       34 byte  test/features/tables/without-header-delimiter.md</tspan>
+<tspan x="10" y="5498">294.  2017-04-04 19:24:35 +0000     1101 byte  test/ghost/markdown-magic.html</tspan>
+<tspan x="10" y="5514">295.  2017-04-04 19:24:35 +0000      887 byte  test/ghost/markdown-magic.md</tspan>
+<tspan x="10" y="5530">296.  2017-04-04 19:24:35 +0000     3047 byte  test/ghost/underscore.html</tspan>
+<tspan x="10" y="5546">297.  2017-04-04 19:24:35 +0000     2302 byte  test/ghost/underscore.md</tspan>
+<tspan x="10" y="5562">298.  2017-04-04 19:24:35 +0000      268 byte  test/issues/#107.inner-underscore-parse-to-block.\</tspan>
 <tspan x="10" y="5578">html</tspan>
-<tspan x="10" y="5594">299.  2017-04-04 19:23:14 +0000      226 byte  test/issues/#107.inner-underscore-parse-to-block.\</tspan>
+<tspan x="10" y="5594">299.  2017-04-04 19:24:35 +0000      226 byte  test/issues/#107.inner-underscore-parse-to-block.\</tspan>
 <tspan x="10" y="5610">md</tspan>
-<tspan x="10" y="5626">300.  2017-04-04 19:23:14 +0000      153 byte  test/issues/#142.odd-behaviour-for-multiple-conse\</tspan>
+<tspan x="10" y="5626">300.  2017-04-04 19:24:35 +0000      153 byte  test/issues/#142.odd-behaviour-for-multiple-conse\</tspan>
 <tspan x="10" y="5642">cutive-lists.html</tspan>
-<tspan x="10" y="5658">301.  2017-04-04 19:23:14 +0000       58 byte  test/issues/#142.odd-behaviour-for-multiple-conse\</tspan>
+<tspan x="10" y="5658">301.  2017-04-04 19:24:35 +0000       58 byte  test/issues/#142.odd-behaviour-for-multiple-conse\</tspan>
 <tspan x="10" y="5674">cutive-lists.md</tspan>
-<tspan x="10" y="5690">302.  2017-04-04 19:23:14 +0000       17 byte  test/issues/#150.hyphens-are-getting-removed.html</tspan>
-<tspan x="10" y="5706">303.  2017-04-04 19:23:14 +0000       11 byte  test/issues/#150.hyphens-are-getting-removed.md</tspan>
-<tspan x="10" y="5722">304.  2017-04-04 19:23:14 +0000      242 byte  test/issues/#183.gh-code-blocks-within-lists-do-n\</tspan>
+<tspan x="10" y="5690">302.  2017-04-04 19:24:35 +0000       17 byte  test/issues/#150.hyphens-are-getting-removed.html</tspan>
+<tspan x="10" y="5706">303.  2017-04-04 19:24:35 +0000       11 byte  test/issues/#150.hyphens-are-getting-removed.md</tspan>
+<tspan x="10" y="5722">304.  2017-04-04 19:24:35 +0000      242 byte  test/issues/#183.gh-code-blocks-within-lists-do-n\</tspan>
 <tspan x="10" y="5738">ot-render-properly.html</tspan>
-<tspan x="10" y="5754">305.  2017-04-04 19:23:14 +0000      168 byte  test/issues/#183.gh-code-blocks-within-lists-do-n\</tspan>
+<tspan x="10" y="5754">305.  2017-04-04 19:24:35 +0000      168 byte  test/issues/#183.gh-code-blocks-within-lists-do-n\</tspan>
 <tspan x="10" y="5770">ot-render-properly.md</tspan>
-<tspan x="10" y="5786">306.  2017-04-04 19:23:14 +0000      111 byte  test/issues/#191.blockquote-followed-by-an-headin\</tspan>
+<tspan x="10" y="5786">306.  2017-04-04 19:24:35 +0000      111 byte  test/issues/#191.blockquote-followed-by-an-headin\</tspan>
 <tspan x="10" y="5802">g.html</tspan>
-<tspan x="10" y="5818">307.  2017-04-04 19:23:14 +0000       40 byte  test/issues/#191.blockquote-followed-by-an-headin\</tspan>
+<tspan x="10" y="5818">307.  2017-04-04 19:24:35 +0000       40 byte  test/issues/#191.blockquote-followed-by-an-headin\</tspan>
 <tspan x="10" y="5834">g.md</tspan>
-<tspan x="10" y="5850">308.  2017-04-04 19:23:14 +0000      355 byte  test/issues/#196.entity-in-code-block-in-nested-l\</tspan>
+<tspan x="10" y="5850">308.  2017-04-04 19:24:35 +0000      355 byte  test/issues/#196.entity-in-code-block-in-nested-l\</tspan>
 <tspan x="10" y="5866">ist.html</tspan>
-<tspan x="10" y="5882">309.  2017-04-04 19:23:14 +0000      124 byte  test/issues/#196.entity-in-code-block-in-nested-l\</tspan>
+<tspan x="10" y="5882">309.  2017-04-04 19:24:35 +0000      124 byte  test/issues/#196.entity-in-code-block-in-nested-l\</tspan>
 <tspan x="10" y="5898">ist.md</tspan>
-<tspan x="10" y="5914">310.  2017-04-04 19:23:14 +0000       83 byte  test/issues/#220.html-breaks-markdown-parsing.htm\</tspan>
+<tspan x="10" y="5914">310.  2017-04-04 19:24:35 +0000       83 byte  test/issues/#220.html-breaks-markdown-parsing.htm\</tspan>
 <tspan x="10" y="5930">l</tspan>
-<tspan x="10" y="5946">311.  2017-04-04 19:23:14 +0000       56 byte  test/issues/#220.html-breaks-markdown-parsing.md</tspan>
-<tspan x="10" y="5962">312.  2017-04-04 19:23:14 +0000      367 byte  test/issues/#229.2.code-being-parsed-inside-HTML-\</tspan>
+<tspan x="10" y="5946">311.  2017-04-04 19:24:35 +0000       56 byte  test/issues/#220.html-breaks-markdown-parsing.md</tspan>
+<tspan x="10" y="5962">312.  2017-04-04 19:24:35 +0000      367 byte  test/issues/#229.2.code-being-parsed-inside-HTML-\</tspan>
 <tspan x="10" y="5978">code-tags.html</tspan>
-<tspan x="10" y="5994">313.  2017-04-04 19:23:14 +0000      356 byte  test/issues/#229.2.code-being-parsed-inside-HTML-\</tspan>
+<tspan x="10" y="5994">313.  2017-04-04 19:24:35 +0000      356 byte  test/issues/#229.2.code-being-parsed-inside-HTML-\</tspan>
 <tspan x="10" y="6010">code-tags.md</tspan>
-<tspan x="10" y="6026">314.  2017-04-04 19:23:14 +0000      276 byte  test/issues/#229.code-being-parsed-inside-HTML-co\</tspan>
+<tspan x="10" y="6026">314.  2017-04-04 19:24:35 +0000      276 byte  test/issues/#229.code-being-parsed-inside-HTML-co\</tspan>
 <tspan x="10" y="6042">de-tags.html</tspan>
-<tspan x="10" y="6058">315.  2017-04-04 19:23:14 +0000      264 byte  test/issues/#229.code-being-parsed-inside-HTML-co\</tspan>
+<tspan x="10" y="6058">315.  2017-04-04 19:24:35 +0000      264 byte  test/issues/#229.code-being-parsed-inside-HTML-co\</tspan>
 <tspan x="10" y="6074">de-tags.md</tspan>
-<tspan x="10" y="6090">316.  2017-04-04 19:23:14 +0000      169 byte  test/issues/#230.paragraphs-are-ignored-between-c\</tspan>
+<tspan x="10" y="6090">316.  2017-04-04 19:24:35 +0000      169 byte  test/issues/#230.paragraphs-are-ignored-between-c\</tspan>
 <tspan x="10" y="6106">ode-tags.html</tspan>
-<tspan x="10" y="6122">317.  2017-04-04 19:23:14 +0000      164 byte  test/issues/#230.paragraphs-are-ignored-between-c\</tspan>
+<tspan x="10" y="6122">317.  2017-04-04 19:24:35 +0000      164 byte  test/issues/#230.paragraphs-are-ignored-between-c\</tspan>
 <tspan x="10" y="6138">ode-tags.md</tspan>
-<tspan x="10" y="6154">318.  2017-04-04 19:23:14 +0000      168 byte  test/issues/#236.wrong-lt-parsing-when-attached-t\</tspan>
+<tspan x="10" y="6154">318.  2017-04-04 19:24:35 +0000      168 byte  test/issues/#236.wrong-lt-parsing-when-attached-t\</tspan>
 <tspan x="10" y="6170">o-word.html</tspan>
-<tspan x="10" y="6186">319.  2017-04-04 19:23:14 +0000      131 byte  test/issues/#236.wrong-lt-parsing-when-attached-t\</tspan>
+<tspan x="10" y="6186">319.  2017-04-04 19:24:35 +0000      131 byte  test/issues/#236.wrong-lt-parsing-when-attached-t\</tspan>
 <tspan x="10" y="6202">o-word.md</tspan>
-<tspan x="10" y="6218">320.  2017-04-04 19:23:14 +0000     1069 byte  test/issues/#261.mix-images-with-links.html</tspan>
-<tspan x="10" y="6234">321.  2017-04-04 19:23:14 +0000      603 byte  test/issues/#261.mix-images-with-links.md</tspan>
-<tspan x="10" y="6250">322.  2017-04-04 19:23:14 +0000      459 byte  test/issues/#261.reference-style-image-after-inli\</tspan>
+<tspan x="10" y="6218">320.  2017-04-04 19:24:35 +0000     1069 byte  test/issues/#261.mix-images-with-links.html</tspan>
+<tspan x="10" y="6234">321.  2017-04-04 19:24:35 +0000      603 byte  test/issues/#261.mix-images-with-links.md</tspan>
+<tspan x="10" y="6250">322.  2017-04-04 19:24:35 +0000      459 byte  test/issues/#261.reference-style-image-after-inli\</tspan>
 <tspan x="10" y="6266">ne-style-image-does-not-work-correctely.html</tspan>
-<tspan x="10" y="6282">323.  2017-04-04 19:23:14 +0000      322 byte  test/issues/#261.reference-style-image-after-inli\</tspan>
+<tspan x="10" y="6282">323.  2017-04-04 19:24:35 +0000      322 byte  test/issues/#261.reference-style-image-after-inli\</tspan>
 <tspan x="10" y="6298">ne-style-image-does-not-work-correctely.md</tspan>
-<tspan x="10" y="6314">324.  2017-04-04 19:23:14 +0000      435 byte  test/issues/#261.reference-style-link-after-inlin\</tspan>
+<tspan x="10" y="6314">324.  2017-04-04 19:24:35 +0000      435 byte  test/issues/#261.reference-style-link-after-inlin\</tspan>
 <tspan x="10" y="6330">e-style-link-does-not-work-correctely.html</tspan>
-<tspan x="10" y="6346">325.  2017-04-04 19:23:14 +0000      318 byte  test/issues/#261.reference-style-link-after-inlin\</tspan>
+<tspan x="10" y="6346">325.  2017-04-04 19:24:35 +0000      318 byte  test/issues/#261.reference-style-link-after-inlin\</tspan>
 <tspan x="10" y="6362">e-style-link-does-not-work-correctely.md</tspan>
-<tspan x="10" y="6378">326.  2017-04-04 19:23:14 +0000      505 byte  test/issues/#288.code-blocks-containing-xml-comme\</tspan>
+<tspan x="10" y="6378">326.  2017-04-04 19:24:35 +0000      505 byte  test/issues/#288.code-blocks-containing-xml-comme\</tspan>
 <tspan x="10" y="6394">nts-are-not-converted-correctly-when-nested-in-list-items.html</tspan>
-<tspan x="10" y="6410">327.  2017-04-04 19:23:14 +0000      347 byte  test/issues/#288.code-blocks-containing-xml-comme\</tspan>
+<tspan x="10" y="6410">327.  2017-04-04 19:24:35 +0000      347 byte  test/issues/#288.code-blocks-containing-xml-comme\</tspan>
 <tspan x="10" y="6426">nts-are-not-converted-correctly-when-nested-in-list-items.md</tspan>
-<tspan x="10" y="6442">328.  2017-04-04 19:23:14 +0000      552 byte  test/issues/#299.nested-ordered-unordered-list-in\</tspan>
+<tspan x="10" y="6442">328.  2017-04-04 19:24:35 +0000      552 byte  test/issues/#299.nested-ordered-unordered-list-in\</tspan>
 <tspan x="10" y="6458">consistent-behavior-2.html</tspan>
-<tspan x="10" y="6474">329.  2017-04-04 19:23:14 +0000      202 byte  test/issues/#299.nested-ordered-unordered-list-in\</tspan>
+<tspan x="10" y="6474">329.  2017-04-04 19:24:35 +0000      202 byte  test/issues/#299.nested-ordered-unordered-list-in\</tspan>
 <tspan x="10" y="6490">consistent-behavior-2.md</tspan>
-<tspan x="10" y="6506">330.  2017-04-04 19:23:14 +0000      169 byte  test/issues/#299.nested-ordered-unordered-list-in\</tspan>
+<tspan x="10" y="6506">330.  2017-04-04 19:24:35 +0000      169 byte  test/issues/#299.nested-ordered-unordered-list-in\</tspan>
 <tspan x="10" y="6522">consistent-behavior-3.html</tspan>
-<tspan x="10" y="6538">331.  2017-04-04 19:23:14 +0000       85 byte  test/issues/#299.nested-ordered-unordered-list-in\</tspan>
+<tspan x="10" y="6538">331.  2017-04-04 19:24:35 +0000       85 byte  test/issues/#299.nested-ordered-unordered-list-in\</tspan>
 <tspan x="10" y="6554">consistent-behavior-3.md</tspan>
-<tspan x="10" y="6570">332.  2017-04-04 19:23:14 +0000      513 byte  test/issues/#299.nested-ordered-unordered-list-in\</tspan>
+<tspan x="10" y="6570">332.  2017-04-04 19:24:35 +0000      513 byte  test/issues/#299.nested-ordered-unordered-list-in\</tspan>
 <tspan x="10" y="6586">consistent-behavior.html</tspan>
-<tspan x="10" y="6602">333.  2017-04-04 19:23:14 +0000      186 byte  test/issues/#299.nested-ordered-unordered-list-in\</tspan>
+<tspan x="10" y="6602">333.  2017-04-04 19:24:35 +0000      186 byte  test/issues/#299.nested-ordered-unordered-list-in\</tspan>
 <tspan x="10" y="6618">consistent-behavior.md</tspan>
-<tspan x="10" y="6634">334.  2017-04-04 19:23:14 +0000      151 byte  test/issues/#312.spaced-dashes-followed-by-char.h\</tspan>
+<tspan x="10" y="6634">334.  2017-04-04 19:24:35 +0000      151 byte  test/issues/#312.spaced-dashes-followed-by-char.h\</tspan>
 <tspan x="10" y="6650">tml</tspan>
-<tspan x="10" y="6666">335.  2017-04-04 19:23:14 +0000       66 byte  test/issues/#312.spaced-dashes-followed-by-char.m\</tspan>
+<tspan x="10" y="6666">335.  2017-04-04 19:24:35 +0000       66 byte  test/issues/#312.spaced-dashes-followed-by-char.m\</tspan>
 <tspan x="10" y="6682">d</tspan>
-<tspan x="10" y="6698">336.  2017-04-04 19:23:14 +0000      130 byte  test/issues/#312.spaced-dashes-followed-by-char2.\</tspan>
+<tspan x="10" y="6698">336.  2017-04-04 19:24:35 +0000      130 byte  test/issues/#312.spaced-dashes-followed-by-char2.\</tspan>
 <tspan x="10" y="6714">html</tspan>
-<tspan x="10" y="6730">337.  2017-04-04 19:23:14 +0000       57 byte  test/issues/#312.spaced-dashes-followed-by-char2.\</tspan>
+<tspan x="10" y="6730">337.  2017-04-04 19:24:35 +0000       57 byte  test/issues/#312.spaced-dashes-followed-by-char2.\</tspan>
 <tspan x="10" y="6746">md</tspan>
-<tspan x="10" y="6762">338.  2017-04-04 19:23:14 +0000       87 byte  test/issues/#312.spaced-dashes-followed-by-char3.\</tspan>
+<tspan x="10" y="6762">338.  2017-04-04 19:24:35 +0000       87 byte  test/issues/#312.spaced-dashes-followed-by-char3.\</tspan>
 <tspan x="10" y="6778">html</tspan>
-<tspan x="10" y="6794">339.  2017-04-04 19:23:14 +0000       38 byte  test/issues/#312.spaced-dashes-followed-by-char3.\</tspan>
+<tspan x="10" y="6794">339.  2017-04-04 19:24:35 +0000       38 byte  test/issues/#312.spaced-dashes-followed-by-char3.\</tspan>
 <tspan x="10" y="6810">md</tspan>
-<tspan x="10" y="6826">340.  2017-04-04 19:23:14 +0000       91 byte  test/issues/#312.spaced-dashes-followed-by-char4.\</tspan>
+<tspan x="10" y="6826">340.  2017-04-04 19:24:35 +0000       91 byte  test/issues/#312.spaced-dashes-followed-by-char4.\</tspan>
 <tspan x="10" y="6842">html</tspan>
-<tspan x="10" y="6858">341.  2017-04-04 19:23:14 +0000       73 byte  test/issues/#312.spaced-dashes-followed-by-char4.\</tspan>
+<tspan x="10" y="6858">341.  2017-04-04 19:24:35 +0000       73 byte  test/issues/#312.spaced-dashes-followed-by-char4.\</tspan>
 <tspan x="10" y="6874">md</tspan>
-<tspan x="10" y="6890">342.  2017-04-04 19:23:14 +0000       14 byte  test/issues/#317.spaces-before-hr.html</tspan>
-<tspan x="10" y="6906">343.  2017-04-04 19:23:14 +0000       17 byte  test/issues/#317.spaces-before-hr.md</tspan>
-<tspan x="10" y="6922">344.  2017-04-04 19:23:14 +0000      765 byte  test/issues/#332.inconsistent-behavior-of-emphasi\</tspan>
+<tspan x="10" y="6890">342.  2017-04-04 19:24:35 +0000       14 byte  test/issues/#317.spaces-before-hr.html</tspan>
+<tspan x="10" y="6906">343.  2017-04-04 19:24:35 +0000       17 byte  test/issues/#317.spaces-before-hr.md</tspan>
+<tspan x="10" y="6922">344.  2017-04-04 19:24:35 +0000      765 byte  test/issues/#332.inconsistent-behavior-of-emphasi\</tspan>
 <tspan x="10" y="6938">s-and-strong.html</tspan>
-<tspan x="10" y="6954">345.  2017-04-04 19:23:14 +0000      533 byte  test/issues/#332.inconsistent-behavior-of-emphasi\</tspan>
+<tspan x="10" y="6954">345.  2017-04-04 19:24:35 +0000      533 byte  test/issues/#332.inconsistent-behavior-of-emphasi\</tspan>
 <tspan x="10" y="6970">s-and-strong.md</tspan>
-<tspan x="10" y="6986">346.  2017-04-04 19:23:14 +0000      162 byte  test/issues/#83.parsed-text-links-with-underscore\</tspan>
+<tspan x="10" y="6986">346.  2017-04-04 19:24:35 +0000      162 byte  test/issues/#83.parsed-text-links-with-underscore\</tspan>
 <tspan x="10" y="7002">s.html</tspan>
-<tspan x="10" y="7018">347.  2017-04-04 19:23:14 +0000      136 byte  test/issues/#83.parsed-text-links-with-underscore\</tspan>
+<tspan x="10" y="7018">347.  2017-04-04 19:24:35 +0000      136 byte  test/issues/#83.parsed-text-links-with-underscore\</tspan>
 <tspan x="10" y="7034">s.md</tspan>
-<tspan x="10" y="7050">348.  2017-04-04 19:23:14 +0000      188 byte  test/issues/#96.underscores-in-links.html</tspan>
-<tspan x="10" y="7066">349.  2017-04-04 19:23:14 +0000      143 byte  test/issues/#96.underscores-in-links.md</tspan>
-<tspan x="10" y="7082">350.  2017-04-04 19:23:14 +0000       76 byte  test/issues/handle-html-pre.html</tspan>
-<tspan x="10" y="7098">351.  2017-04-04 19:23:14 +0000       69 byte  test/issues/handle-html-pre.md</tspan>
-<tspan x="10" y="7114">352.  2017-04-04 19:23:14 +0000      124 byte  test/karlcow/2-paragraphs-hard-return-spaces.html</tspan>
-<tspan x="10" y="7130">353.  2017-04-04 19:23:14 +0000      117 byte  test/karlcow/2-paragraphs-hard-return-spaces.md</tspan>
-<tspan x="10" y="7146">354.  2017-04-04 19:23:14 +0000      116 byte  test/karlcow/2-paragraphs-hard-return.html</tspan>
-<tspan x="10" y="7162">355.  2017-04-04 19:23:14 +0000      104 byte  test/karlcow/2-paragraphs-hard-return.md</tspan>
-<tspan x="10" y="7178">356.  2017-04-04 19:23:14 +0000       81 byte  test/karlcow/2-paragraphs-line-returns.html</tspan>
-<tspan x="10" y="7194">357.  2017-04-04 19:23:14 +0000       71 byte  test/karlcow/2-paragraphs-line-returns.md</tspan>
-<tspan x="10" y="7210">358.  2017-04-04 19:23:14 +0000      330 byte  test/karlcow/2-paragraphs-line-spaces.html</tspan>
-<tspan x="10" y="7226">359.  2017-04-04 19:23:14 +0000      323 byte  test/karlcow/2-paragraphs-line-spaces.md</tspan>
-<tspan x="10" y="7242">360.  2017-04-04 19:23:14 +0000      340 byte  test/karlcow/2-paragraphs-line-tab.html</tspan>
-<tspan x="10" y="7258">361.  2017-04-04 19:23:14 +0000      329 byte  test/karlcow/2-paragraphs-line-tab.md</tspan>
-<tspan x="10" y="7274">362.  2017-04-04 19:23:14 +0000      313 byte  test/karlcow/2-paragraphs-line.html</tspan>
-<tspan x="10" y="7290">363.  2017-04-04 19:23:14 +0000      301 byte  test/karlcow/2-paragraphs-line.md</tspan>
-<tspan x="10" y="7306">364.  2017-04-04 19:23:14 +0000      136 byte  test/karlcow/EOL-CR+LF.html</tspan>
-<tspan x="10" y="7322">365.  2017-04-04 19:23:14 +0000      119 byte  test/karlcow/EOL-CR+LF.md</tspan>
-<tspan x="10" y="7338">366.  2017-04-04 19:23:14 +0000      136 byte  test/karlcow/EOL-CR.html</tspan>
-<tspan x="10" y="7354">367.  2017-04-04 19:23:14 +0000      119 byte  test/karlcow/EOL-CR.md</tspan>
-<tspan x="10" y="7370">368.  2017-04-04 19:23:14 +0000      136 byte  test/karlcow/EOL-LF.html</tspan>
-<tspan x="10" y="7386">369.  2017-04-04 19:23:14 +0000      119 byte  test/karlcow/EOL-LF.md</tspan>
-<tspan x="10" y="7402">370.  2017-04-04 19:23:14 +0000       72 byte  test/karlcow/ampersand-text-flow.html</tspan>
-<tspan x="10" y="7418">371.  2017-04-04 19:23:14 +0000       62 byte  test/karlcow/ampersand-text-flow.md</tspan>
-<tspan x="10" y="7434">372.  2017-04-04 19:23:14 +0000      117 byte  test/karlcow/ampersand-uri.html</tspan>
-<tspan x="10" y="7450">373.  2017-04-04 19:23:14 +0000      100 byte  test/karlcow/ampersand-uri.md</tspan>
-<tspan x="10" y="7466">374.  2017-04-04 19:23:14 +0000       52 byte  test/karlcow/asterisk-near-text.html</tspan>
-<tspan x="10" y="7482">375.  2017-04-04 19:23:14 +0000       47 byte  test/karlcow/asterisk-near-text.md</tspan>
-<tspan x="10" y="7498">376.  2017-04-04 19:23:14 +0000       53 byte  test/karlcow/asterisk.html</tspan>
-<tspan x="10" y="7514">377.  2017-04-04 19:23:14 +0000       47 byte  test/karlcow/asterisk.md</tspan>
-<tspan x="10" y="7530">378.  2017-04-04 19:23:14 +0000      195 byte  test/karlcow/backslash-escape.html</tspan>
-<tspan x="10" y="7546">379.  2017-04-04 19:23:14 +0000      204 byte  test/karlcow/backslash-escape.md</tspan>
-<tspan x="10" y="7562">380.  2017-04-04 19:23:14 +0000       69 byte  test/karlcow/blockquote-added-markup.html</tspan>
-<tspan x="10" y="7578">381.  2017-04-04 19:23:14 +0000       35 byte  test/karlcow/blockquote-added-markup.md</tspan>
-<tspan x="10" y="7594">382.  2017-04-04 19:23:14 +0000      475 byte  test/karlcow/blockquote-line-2-paragraphs.html</tspan>
-<tspan x="10" y="7610">383.  2017-04-04 19:23:14 +0000      438 byte  test/karlcow/blockquote-line-2-paragraphs.md</tspan>
-<tspan x="10" y="7626">384.  2017-04-04 19:23:14 +0000      232 byte  test/karlcow/blockquote-line.html</tspan>
-<tspan x="10" y="7642">385.  2017-04-04 19:23:14 +0000      200 byte  test/karlcow/blockquote-line.md</tspan>
-<tspan x="10" y="7658">386.  2017-04-04 19:23:14 +0000       75 byte  test/karlcow/blockquote-multiline-1-space-begin.h\</tspan>
+<tspan x="10" y="7050">348.  2017-04-04 19:24:35 +0000      188 byte  test/issues/#96.underscores-in-links.html</tspan>
+<tspan x="10" y="7066">349.  2017-04-04 19:24:35 +0000      143 byte  test/issues/#96.underscores-in-links.md</tspan>
+<tspan x="10" y="7082">350.  2017-04-04 19:24:35 +0000       76 byte  test/issues/handle-html-pre.html</tspan>
+<tspan x="10" y="7098">351.  2017-04-04 19:24:35 +0000       69 byte  test/issues/handle-html-pre.md</tspan>
+<tspan x="10" y="7114">352.  2017-04-04 19:24:35 +0000      124 byte  test/karlcow/2-paragraphs-hard-return-spaces.html</tspan>
+<tspan x="10" y="7130">353.  2017-04-04 19:24:35 +0000      117 byte  test/karlcow/2-paragraphs-hard-return-spaces.md</tspan>
+<tspan x="10" y="7146">354.  2017-04-04 19:24:35 +0000      116 byte  test/karlcow/2-paragraphs-hard-return.html</tspan>
+<tspan x="10" y="7162">355.  2017-04-04 19:24:35 +0000      104 byte  test/karlcow/2-paragraphs-hard-return.md</tspan>
+<tspan x="10" y="7178">356.  2017-04-04 19:24:35 +0000       81 byte  test/karlcow/2-paragraphs-line-returns.html</tspan>
+<tspan x="10" y="7194">357.  2017-04-04 19:24:35 +0000       71 byte  test/karlcow/2-paragraphs-line-returns.md</tspan>
+<tspan x="10" y="7210">358.  2017-04-04 19:24:35 +0000      330 byte  test/karlcow/2-paragraphs-line-spaces.html</tspan>
+<tspan x="10" y="7226">359.  2017-04-04 19:24:35 +0000      323 byte  test/karlcow/2-paragraphs-line-spaces.md</tspan>
+<tspan x="10" y="7242">360.  2017-04-04 19:24:35 +0000      340 byte  test/karlcow/2-paragraphs-line-tab.html</tspan>
+<tspan x="10" y="7258">361.  2017-04-04 19:24:35 +0000      329 byte  test/karlcow/2-paragraphs-line-tab.md</tspan>
+<tspan x="10" y="7274">362.  2017-04-04 19:24:35 +0000      313 byte  test/karlcow/2-paragraphs-line.html</tspan>
+<tspan x="10" y="7290">363.  2017-04-04 19:24:35 +0000      301 byte  test/karlcow/2-paragraphs-line.md</tspan>
+<tspan x="10" y="7306">364.  2017-04-04 19:24:35 +0000      136 byte  test/karlcow/EOL-CR+LF.html</tspan>
+<tspan x="10" y="7322">365.  2017-04-04 19:24:35 +0000      119 byte  test/karlcow/EOL-CR+LF.md</tspan>
+<tspan x="10" y="7338">366.  2017-04-04 19:24:35 +0000      136 byte  test/karlcow/EOL-CR.html</tspan>
+<tspan x="10" y="7354">367.  2017-04-04 19:24:35 +0000      119 byte  test/karlcow/EOL-CR.md</tspan>
+<tspan x="10" y="7370">368.  2017-04-04 19:24:35 +0000      136 byte  test/karlcow/EOL-LF.html</tspan>
+<tspan x="10" y="7386">369.  2017-04-04 19:24:35 +0000      119 byte  test/karlcow/EOL-LF.md</tspan>
+<tspan x="10" y="7402">370.  2017-04-04 19:24:35 +0000       72 byte  test/karlcow/ampersand-text-flow.html</tspan>
+<tspan x="10" y="7418">371.  2017-04-04 19:24:35 +0000       62 byte  test/karlcow/ampersand-text-flow.md</tspan>
+<tspan x="10" y="7434">372.  2017-04-04 19:24:35 +0000      117 byte  test/karlcow/ampersand-uri.html</tspan>
+<tspan x="10" y="7450">373.  2017-04-04 19:24:35 +0000      100 byte  test/karlcow/ampersand-uri.md</tspan>
+<tspan x="10" y="7466">374.  2017-04-04 19:24:35 +0000       52 byte  test/karlcow/asterisk-near-text.html</tspan>
+<tspan x="10" y="7482">375.  2017-04-04 19:24:35 +0000       47 byte  test/karlcow/asterisk-near-text.md</tspan>
+<tspan x="10" y="7498">376.  2017-04-04 19:24:35 +0000       53 byte  test/karlcow/asterisk.html</tspan>
+<tspan x="10" y="7514">377.  2017-04-04 19:24:35 +0000       47 byte  test/karlcow/asterisk.md</tspan>
+<tspan x="10" y="7530">378.  2017-04-04 19:24:35 +0000      195 byte  test/karlcow/backslash-escape.html</tspan>
+<tspan x="10" y="7546">379.  2017-04-04 19:24:35 +0000      204 byte  test/karlcow/backslash-escape.md</tspan>
+<tspan x="10" y="7562">380.  2017-04-04 19:24:35 +0000       69 byte  test/karlcow/blockquote-added-markup.html</tspan>
+<tspan x="10" y="7578">381.  2017-04-04 19:24:35 +0000       35 byte  test/karlcow/blockquote-added-markup.md</tspan>
+<tspan x="10" y="7594">382.  2017-04-04 19:24:35 +0000      475 byte  test/karlcow/blockquote-line-2-paragraphs.html</tspan>
+<tspan x="10" y="7610">383.  2017-04-04 19:24:35 +0000      438 byte  test/karlcow/blockquote-line-2-paragraphs.md</tspan>
+<tspan x="10" y="7626">384.  2017-04-04 19:24:35 +0000      232 byte  test/karlcow/blockquote-line.html</tspan>
+<tspan x="10" y="7642">385.  2017-04-04 19:24:35 +0000      200 byte  test/karlcow/blockquote-line.md</tspan>
+<tspan x="10" y="7658">386.  2017-04-04 19:24:35 +0000       75 byte  test/karlcow/blockquote-multiline-1-space-begin.h\</tspan>
 <tspan x="10" y="7674">tml</tspan>
-<tspan x="10" y="7690">387.  2017-04-04 19:23:14 +0000       48 byte  test/karlcow/blockquote-multiline-1-space-begin.m\</tspan>
+<tspan x="10" y="7690">387.  2017-04-04 19:24:35 +0000       48 byte  test/karlcow/blockquote-multiline-1-space-begin.m\</tspan>
 <tspan x="10" y="7706">d</tspan>
-<tspan x="10" y="7722">388.  2017-04-04 19:23:14 +0000       78 byte  test/karlcow/blockquote-multiline-1-space-end.htm\</tspan>
+<tspan x="10" y="7722">388.  2017-04-04 19:24:35 +0000       78 byte  test/karlcow/blockquote-multiline-1-space-end.htm\</tspan>
 <tspan x="10" y="7738">l</tspan>
-<tspan x="10" y="7754">389.  2017-04-04 19:23:14 +0000       48 byte  test/karlcow/blockquote-multiline-1-space-end.md</tspan>
-<tspan x="10" y="7770">390.  2017-04-04 19:23:14 +0000      109 byte  test/karlcow/blockquote-multiline-2-paragraphs.ht\</tspan>
+<tspan x="10" y="7754">389.  2017-04-04 19:24:35 +0000       48 byte  test/karlcow/blockquote-multiline-1-space-end.md</tspan>
+<tspan x="10" y="7770">390.  2017-04-04 19:24:35 +0000      109 byte  test/karlcow/blockquote-multiline-2-paragraphs.ht\</tspan>
 <tspan x="10" y="7786">ml</tspan>
-<tspan x="10" y="7802">391.  2017-04-04 19:23:14 +0000       76 byte  test/karlcow/blockquote-multiline-2-paragraphs.md</tspan>
-<tspan x="10" y="7818">392.  2017-04-04 19:23:14 +0000       74 byte  test/karlcow/blockquote-multiline.html</tspan>
-<tspan x="10" y="7834">393.  2017-04-04 19:23:14 +0000       44 byte  test/karlcow/blockquote-multiline.md</tspan>
-<tspan x="10" y="7850">394.  2017-04-04 19:23:14 +0000      162 byte  test/karlcow/blockquote-nested-multiplereturn-lev\</tspan>
+<tspan x="10" y="7802">391.  2017-04-04 19:24:35 +0000       76 byte  test/karlcow/blockquote-multiline-2-paragraphs.md</tspan>
+<tspan x="10" y="7818">392.  2017-04-04 19:24:35 +0000       74 byte  test/karlcow/blockquote-multiline.html</tspan>
+<tspan x="10" y="7834">393.  2017-04-04 19:24:35 +0000       44 byte  test/karlcow/blockquote-multiline.md</tspan>
+<tspan x="10" y="7850">394.  2017-04-04 19:24:35 +0000      162 byte  test/karlcow/blockquote-nested-multiplereturn-lev\</tspan>
 <tspan x="10" y="7866">el1.html</tspan>
-<tspan x="10" y="7882">395.  2017-04-04 19:23:14 +0000      100 byte  test/karlcow/blockquote-nested-multiplereturn-lev\</tspan>
+<tspan x="10" y="7882">395.  2017-04-04 19:24:35 +0000      100 byte  test/karlcow/blockquote-nested-multiplereturn-lev\</tspan>
 <tspan x="10" y="7898">el1.md</tspan>
-<tspan x="10" y="7914">396.  2017-04-04 19:23:14 +0000      130 byte  test/karlcow/blockquote-nested-multiplereturn.htm\</tspan>
+<tspan x="10" y="7914">396.  2017-04-04 19:24:35 +0000      130 byte  test/karlcow/blockquote-nested-multiplereturn.htm\</tspan>
 <tspan x="10" y="7930">l</tspan>
-<tspan x="10" y="7946">397.  2017-04-04 19:23:14 +0000       71 byte  test/karlcow/blockquote-nested-multiplereturn.md</tspan>
-<tspan x="10" y="7962">398.  2017-04-04 19:23:14 +0000      155 byte  test/karlcow/blockquote-nested-return-level1.html</tspan>
-<tspan x="10" y="7978">399.  2017-04-04 19:23:14 +0000       96 byte  test/karlcow/blockquote-nested-return-level1.md</tspan>
-<tspan x="10" y="7994">400.  2017-04-04 19:23:14 +0000      130 byte  test/karlcow/blockquote-nested.html</tspan>
-<tspan x="10" y="8010">401.  2017-04-04 19:23:14 +0000       69 byte  test/karlcow/blockquote-nested.md</tspan>
-<tspan x="10" y="8026">402.  2017-04-04 19:23:14 +0000       59 byte  test/karlcow/code-1-tab.html</tspan>
-<tspan x="10" y="8042">403.  2017-04-04 19:23:14 +0000       37 byte  test/karlcow/code-1-tab.md</tspan>
-<tspan x="10" y="8058">404.  2017-04-04 19:23:14 +0000       60 byte  test/karlcow/code-4-spaces-escaping.html</tspan>
-<tspan x="10" y="8074">405.  2017-04-04 19:23:14 +0000       34 byte  test/karlcow/code-4-spaces-escaping.md</tspan>
-<tspan x="10" y="8090">406.  2017-04-04 19:23:14 +0000       59 byte  test/karlcow/code-4-spaces.html</tspan>
-<tspan x="10" y="8106">407.  2017-04-04 19:23:14 +0000       43 byte  test/karlcow/code-4-spaces.md</tspan>
-<tspan x="10" y="8122">408.  2017-04-04 19:23:14 +0000       25 byte  test/karlcow/em-middle-word.html</tspan>
-<tspan x="10" y="8138">409.  2017-04-04 19:23:14 +0000       12 byte  test/karlcow/em-middle-word.md</tspan>
-<tspan x="10" y="8154">410.  2017-04-04 19:23:14 +0000       32 byte  test/karlcow/em-star.html</tspan>
-<tspan x="10" y="8170">411.  2017-04-04 19:23:14 +0000       19 byte  test/karlcow/em-star.md</tspan>
-<tspan x="10" y="8186">412.  2017-04-04 19:23:14 +0000       34 byte  test/karlcow/em-underscore.html</tspan>
-<tspan x="10" y="8202">413.  2017-04-04 19:23:14 +0000       21 byte  test/karlcow/em-underscore.md</tspan>
-<tspan x="10" y="8218">414.  2017-04-04 19:23:14 +0000       65 byte  test/karlcow/entities-text-flow.html</tspan>
-<tspan x="10" y="8234">415.  2017-04-04 19:23:14 +0000       59 byte  test/karlcow/entities-text-flow.md</tspan>
-<tspan x="10" y="8250">416.  2017-04-04 19:23:14 +0000       22 byte  test/karlcow/header-level1-equal-underlined.html</tspan>
-<tspan x="10" y="8266">417.  2017-04-04 19:23:14 +0000       28 byte  test/karlcow/header-level1-equal-underlined.md</tspan>
-<tspan x="10" y="8282">418.  2017-04-04 19:23:14 +0000       22 byte  test/karlcow/header-level1-hash-sign-closed.html</tspan>
-<tspan x="10" y="8298">419.  2017-04-04 19:23:14 +0000       18 byte  test/karlcow/header-level1-hash-sign-closed.md</tspan>
-<tspan x="10" y="8314">420.  2017-04-04 19:23:14 +0000       22 byte  test/karlcow/header-level1-hash-sign-trailing-1-s\</tspan>
+<tspan x="10" y="7946">397.  2017-04-04 19:24:35 +0000       71 byte  test/karlcow/blockquote-nested-multiplereturn.md</tspan>
+<tspan x="10" y="7962">398.  2017-04-04 19:24:35 +0000      155 byte  test/karlcow/blockquote-nested-return-level1.html</tspan>
+<tspan x="10" y="7978">399.  2017-04-04 19:24:35 +0000       96 byte  test/karlcow/blockquote-nested-return-level1.md</tspan>
+<tspan x="10" y="7994">400.  2017-04-04 19:24:35 +0000      130 byte  test/karlcow/blockquote-nested.html</tspan>
+<tspan x="10" y="8010">401.  2017-04-04 19:24:35 +0000       69 byte  test/karlcow/blockquote-nested.md</tspan>
+<tspan x="10" y="8026">402.  2017-04-04 19:24:35 +0000       59 byte  test/karlcow/code-1-tab.html</tspan>
+<tspan x="10" y="8042">403.  2017-04-04 19:24:35 +0000       37 byte  test/karlcow/code-1-tab.md</tspan>
+<tspan x="10" y="8058">404.  2017-04-04 19:24:35 +0000       60 byte  test/karlcow/code-4-spaces-escaping.html</tspan>
+<tspan x="10" y="8074">405.  2017-04-04 19:24:35 +0000       34 byte  test/karlcow/code-4-spaces-escaping.md</tspan>
+<tspan x="10" y="8090">406.  2017-04-04 19:24:35 +0000       59 byte  test/karlcow/code-4-spaces.html</tspan>
+<tspan x="10" y="8106">407.  2017-04-04 19:24:35 +0000       43 byte  test/karlcow/code-4-spaces.md</tspan>
+<tspan x="10" y="8122">408.  2017-04-04 19:24:35 +0000       25 byte  test/karlcow/em-middle-word.html</tspan>
+<tspan x="10" y="8138">409.  2017-04-04 19:24:35 +0000       12 byte  test/karlcow/em-middle-word.md</tspan>
+<tspan x="10" y="8154">410.  2017-04-04 19:24:35 +0000       32 byte  test/karlcow/em-star.html</tspan>
+<tspan x="10" y="8170">411.  2017-04-04 19:24:35 +0000       19 byte  test/karlcow/em-star.md</tspan>
+<tspan x="10" y="8186">412.  2017-04-04 19:24:35 +0000       34 byte  test/karlcow/em-underscore.html</tspan>
+<tspan x="10" y="8202">413.  2017-04-04 19:24:35 +0000       21 byte  test/karlcow/em-underscore.md</tspan>
+<tspan x="10" y="8218">414.  2017-04-04 19:24:35 +0000       65 byte  test/karlcow/entities-text-flow.html</tspan>
+<tspan x="10" y="8234">415.  2017-04-04 19:24:35 +0000       59 byte  test/karlcow/entities-text-flow.md</tspan>
+<tspan x="10" y="8250">416.  2017-04-04 19:24:35 +0000       22 byte  test/karlcow/header-level1-equal-underlined.html</tspan>
+<tspan x="10" y="8266">417.  2017-04-04 19:24:35 +0000       28 byte  test/karlcow/header-level1-equal-underlined.md</tspan>
+<tspan x="10" y="8282">418.  2017-04-04 19:24:35 +0000       22 byte  test/karlcow/header-level1-hash-sign-closed.html</tspan>
+<tspan x="10" y="8298">419.  2017-04-04 19:24:35 +0000       18 byte  test/karlcow/header-level1-hash-sign-closed.md</tspan>
+<tspan x="10" y="8314">420.  2017-04-04 19:24:35 +0000       22 byte  test/karlcow/header-level1-hash-sign-trailing-1-s\</tspan>
 <tspan x="10" y="8330">pace.html</tspan>
-<tspan x="10" y="8346">421.  2017-04-04 19:23:14 +0000       18 byte  test/karlcow/header-level1-hash-sign-trailing-1-s\</tspan>
+<tspan x="10" y="8346">421.  2017-04-04 19:24:35 +0000       18 byte  test/karlcow/header-level1-hash-sign-trailing-1-s\</tspan>
 <tspan x="10" y="8362">pace.md</tspan>
-<tspan x="10" y="8378">422.  2017-04-04 19:23:14 +0000       71 byte  test/karlcow/header-level1-hash-sign-trailing-2-s\</tspan>
+<tspan x="10" y="8378">422.  2017-04-04 19:24:35 +0000       71 byte  test/karlcow/header-level1-hash-sign-trailing-2-s\</tspan>
 <tspan x="10" y="8394">paces.html</tspan>
-<tspan x="10" y="8410">423.  2017-04-04 19:23:14 +0000       60 byte  test/karlcow/header-level1-hash-sign-trailing-2-s\</tspan>
+<tspan x="10" y="8410">423.  2017-04-04 19:24:35 +0000       60 byte  test/karlcow/header-level1-hash-sign-trailing-2-s\</tspan>
 <tspan x="10" y="8426">paces.md</tspan>
-<tspan x="10" y="8442">424.  2017-04-04 19:23:14 +0000       22 byte  test/karlcow/header-level1-hash-sign.html</tspan>
-<tspan x="10" y="8458">425.  2017-04-04 19:23:14 +0000       16 byte  test/karlcow/header-level1-hash-sign.md</tspan>
-<tspan x="10" y="8474">426.  2017-04-04 19:23:14 +0000       22 byte  test/karlcow/header-level2-dash-underlined.html</tspan>
-<tspan x="10" y="8490">427.  2017-04-04 19:23:14 +0000       28 byte  test/karlcow/header-level2-dash-underlined.md</tspan>
-<tspan x="10" y="8506">428.  2017-04-04 19:23:14 +0000       22 byte  test/karlcow/header-level2-hash-sign-closed.html</tspan>
-<tspan x="10" y="8522">429.  2017-04-04 19:23:14 +0000       20 byte  test/karlcow/header-level2-hash-sign-closed.md</tspan>
-<tspan x="10" y="8538">430.  2017-04-04 19:23:14 +0000       22 byte  test/karlcow/header-level2-hash-sign.html</tspan>
-<tspan x="10" y="8554">431.  2017-04-04 19:23:14 +0000       17 byte  test/karlcow/header-level2-hash-sign.md</tspan>
-<tspan x="10" y="8570">432.  2017-04-04 19:23:14 +0000       22 byte  test/karlcow/header-level3-hash-sign-closed.html</tspan>
-<tspan x="10" y="8586">433.  2017-04-04 19:23:14 +0000       22 byte  test/karlcow/header-level3-hash-sign-closed.md</tspan>
-<tspan x="10" y="8602">434.  2017-04-04 19:23:14 +0000       22 byte  test/karlcow/header-level3-hash-sign.html</tspan>
-<tspan x="10" y="8618">435.  2017-04-04 19:23:14 +0000       18 byte  test/karlcow/header-level3-hash-sign.md</tspan>
-<tspan x="10" y="8634">436.  2017-04-04 19:23:14 +0000       22 byte  test/karlcow/header-level4-hash-sign-closed.html</tspan>
-<tspan x="10" y="8650">437.  2017-04-04 19:23:14 +0000       24 byte  test/karlcow/header-level4-hash-sign-closed.md</tspan>
-<tspan x="10" y="8666">438.  2017-04-04 19:23:14 +0000       22 byte  test/karlcow/header-level4-hash-sign.html</tspan>
-<tspan x="10" y="8682">439.  2017-04-04 19:23:14 +0000       19 byte  test/karlcow/header-level4-hash-sign.md</tspan>
-<tspan x="10" y="8698">440.  2017-04-04 19:23:14 +0000       22 byte  test/karlcow/header-level5-hash-sign-closed.html</tspan>
-<tspan x="10" y="8714">441.  2017-04-04 19:23:14 +0000       26 byte  test/karlcow/header-level5-hash-sign-closed.md</tspan>
-<tspan x="10" y="8730">442.  2017-04-04 19:23:14 +0000       22 byte  test/karlcow/header-level5-hash-sign.html</tspan>
-<tspan x="10" y="8746">443.  2017-04-04 19:23:14 +0000       20 byte  test/karlcow/header-level5-hash-sign.md</tspan>
-<tspan x="10" y="8762">444.  2017-04-04 19:23:14 +0000       22 byte  test/karlcow/header-level6-hash-sign-closed.html</tspan>
-<tspan x="10" y="8778">445.  2017-04-04 19:23:14 +0000       29 byte  test/karlcow/header-level6-hash-sign-closed.md</tspan>
-<tspan x="10" y="8794">446.  2017-04-04 19:23:14 +0000       22 byte  test/karlcow/header-level6-hash-sign.html</tspan>
-<tspan x="10" y="8810">447.  2017-04-04 19:23:14 +0000       21 byte  test/karlcow/header-level6-hash-sign.md</tspan>
-<tspan x="10" y="8826">448.  2017-04-04 19:23:14 +0000        6 byte  test/karlcow/horizontal-rule-3-dashes-spaces.html</tspan>
-<tspan x="10" y="8842">449.  2017-04-04 19:23:14 +0000        6 byte  test/karlcow/horizontal-rule-3-dashes-spaces.md</tspan>
-<tspan x="10" y="8858">450.  2017-04-04 19:23:14 +0000        6 byte  test/karlcow/horizontal-rule-3-dashes.html</tspan>
-<tspan x="10" y="8874">451.  2017-04-04 19:23:14 +0000        4 byte  test/karlcow/horizontal-rule-3-dashes.md</tspan>
-<tspan x="10" y="8890">452.  2017-04-04 19:23:14 +0000        6 byte  test/karlcow/horizontal-rule-3-stars.html</tspan>
-<tspan x="10" y="8906">453.  2017-04-04 19:23:14 +0000        4 byte  test/karlcow/horizontal-rule-3-stars.md</tspan>
-<tspan x="10" y="8922">454.  2017-04-04 19:23:14 +0000        6 byte  test/karlcow/horizontal-rule-3-underscores.html</tspan>
-<tspan x="10" y="8938">455.  2017-04-04 19:23:14 +0000        4 byte  test/karlcow/horizontal-rule-3-underscores.md</tspan>
-<tspan x="10" y="8954">456.  2017-04-04 19:23:14 +0000        6 byte  test/karlcow/horizontal-rule-7-dashes.html</tspan>
-<tspan x="10" y="8970">457.  2017-04-04 19:23:14 +0000        8 byte  test/karlcow/horizontal-rule-7-dashes.md</tspan>
-<tspan x="10" y="8986">458.  2017-04-04 19:23:14 +0000      110 byte  test/karlcow/img-idref-title.html</tspan>
-<tspan x="10" y="9002">459.  2017-04-04 19:23:14 +0000       92 byte  test/karlcow/img-idref-title.md</tspan>
-<tspan x="10" y="9018">460.  2017-04-04 19:23:14 +0000       83 byte  test/karlcow/img-idref.html</tspan>
-<tspan x="10" y="9034">461.  2017-04-04 19:23:14 +0000       71 byte  test/karlcow/img-idref.md</tspan>
-<tspan x="10" y="9050">462.  2017-04-04 19:23:14 +0000      115 byte  test/karlcow/img-title.html</tspan>
-<tspan x="10" y="9066">463.  2017-04-04 19:23:14 +0000       87 byte  test/karlcow/img-title.md</tspan>
-<tspan x="10" y="9082">464.  2017-04-04 19:23:14 +0000       83 byte  test/karlcow/img.html</tspan>
-<tspan x="10" y="9098">465.  2017-04-04 19:23:14 +0000       61 byte  test/karlcow/img.md</tspan>
-<tspan x="10" y="9114">466.  2017-04-04 19:23:14 +0000       65 byte  test/karlcow/inline-code-escaping-entities.html</tspan>
-<tspan x="10" y="9130">467.  2017-04-04 19:23:14 +0000       38 byte  test/karlcow/inline-code-escaping-entities.md</tspan>
-<tspan x="10" y="9146">468.  2017-04-04 19:23:14 +0000       49 byte  test/karlcow/inline-code-with-visible-backtick.ht\</tspan>
+<tspan x="10" y="8442">424.  2017-04-04 19:24:35 +0000       22 byte  test/karlcow/header-level1-hash-sign.html</tspan>
+<tspan x="10" y="8458">425.  2017-04-04 19:24:35 +0000       16 byte  test/karlcow/header-level1-hash-sign.md</tspan>
+<tspan x="10" y="8474">426.  2017-04-04 19:24:35 +0000       22 byte  test/karlcow/header-level2-dash-underlined.html</tspan>
+<tspan x="10" y="8490">427.  2017-04-04 19:24:35 +0000       28 byte  test/karlcow/header-level2-dash-underlined.md</tspan>
+<tspan x="10" y="8506">428.  2017-04-04 19:24:35 +0000       22 byte  test/karlcow/header-level2-hash-sign-closed.html</tspan>
+<tspan x="10" y="8522">429.  2017-04-04 19:24:35 +0000       20 byte  test/karlcow/header-level2-hash-sign-closed.md</tspan>
+<tspan x="10" y="8538">430.  2017-04-04 19:24:35 +0000       22 byte  test/karlcow/header-level2-hash-sign.html</tspan>
+<tspan x="10" y="8554">431.  2017-04-04 19:24:35 +0000       17 byte  test/karlcow/header-level2-hash-sign.md</tspan>
+<tspan x="10" y="8570">432.  2017-04-04 19:24:35 +0000       22 byte  test/karlcow/header-level3-hash-sign-closed.html</tspan>
+<tspan x="10" y="8586">433.  2017-04-04 19:24:35 +0000       22 byte  test/karlcow/header-level3-hash-sign-closed.md</tspan>
+<tspan x="10" y="8602">434.  2017-04-04 19:24:35 +0000       22 byte  test/karlcow/header-level3-hash-sign.html</tspan>
+<tspan x="10" y="8618">435.  2017-04-04 19:24:35 +0000       18 byte  test/karlcow/header-level3-hash-sign.md</tspan>
+<tspan x="10" y="8634">436.  2017-04-04 19:24:35 +0000       22 byte  test/karlcow/header-level4-hash-sign-closed.html</tspan>
+<tspan x="10" y="8650">437.  2017-04-04 19:24:35 +0000       24 byte  test/karlcow/header-level4-hash-sign-closed.md</tspan>
+<tspan x="10" y="8666">438.  2017-04-04 19:24:35 +0000       22 byte  test/karlcow/header-level4-hash-sign.html</tspan>
+<tspan x="10" y="8682">439.  2017-04-04 19:24:35 +0000       19 byte  test/karlcow/header-level4-hash-sign.md</tspan>
+<tspan x="10" y="8698">440.  2017-04-04 19:24:35 +0000       22 byte  test/karlcow/header-level5-hash-sign-closed.html</tspan>
+<tspan x="10" y="8714">441.  2017-04-04 19:24:35 +0000       26 byte  test/karlcow/header-level5-hash-sign-closed.md</tspan>
+<tspan x="10" y="8730">442.  2017-04-04 19:24:35 +0000       22 byte  test/karlcow/header-level5-hash-sign.html</tspan>
+<tspan x="10" y="8746">443.  2017-04-04 19:24:35 +0000       20 byte  test/karlcow/header-level5-hash-sign.md</tspan>
+<tspan x="10" y="8762">444.  2017-04-04 19:24:35 +0000       22 byte  test/karlcow/header-level6-hash-sign-closed.html</tspan>
+<tspan x="10" y="8778">445.  2017-04-04 19:24:35 +0000       29 byte  test/karlcow/header-level6-hash-sign-closed.md</tspan>
+<tspan x="10" y="8794">446.  2017-04-04 19:24:35 +0000       22 byte  test/karlcow/header-level6-hash-sign.html</tspan>
+<tspan x="10" y="8810">447.  2017-04-04 19:24:35 +0000       21 byte  test/karlcow/header-level6-hash-sign.md</tspan>
+<tspan x="10" y="8826">448.  2017-04-04 19:24:35 +0000        6 byte  test/karlcow/horizontal-rule-3-dashes-spaces.html</tspan>
+<tspan x="10" y="8842">449.  2017-04-04 19:24:35 +0000        6 byte  test/karlcow/horizontal-rule-3-dashes-spaces.md</tspan>
+<tspan x="10" y="8858">450.  2017-04-04 19:24:35 +0000        6 byte  test/karlcow/horizontal-rule-3-dashes.html</tspan>
+<tspan x="10" y="8874">451.  2017-04-04 19:24:35 +0000        4 byte  test/karlcow/horizontal-rule-3-dashes.md</tspan>
+<tspan x="10" y="8890">452.  2017-04-04 19:24:35 +0000        6 byte  test/karlcow/horizontal-rule-3-stars.html</tspan>
+<tspan x="10" y="8906">453.  2017-04-04 19:24:35 +0000        4 byte  test/karlcow/horizontal-rule-3-stars.md</tspan>
+<tspan x="10" y="8922">454.  2017-04-04 19:24:35 +0000        6 byte  test/karlcow/horizontal-rule-3-underscores.html</tspan>
+<tspan x="10" y="8938">455.  2017-04-04 19:24:35 +0000        4 byte  test/karlcow/horizontal-rule-3-underscores.md</tspan>
+<tspan x="10" y="8954">456.  2017-04-04 19:24:35 +0000        6 byte  test/karlcow/horizontal-rule-7-dashes.html</tspan>
+<tspan x="10" y="8970">457.  2017-04-04 19:24:35 +0000        8 byte  test/karlcow/horizontal-rule-7-dashes.md</tspan>
+<tspan x="10" y="8986">458.  2017-04-04 19:24:35 +0000      110 byte  test/karlcow/img-idref-title.html</tspan>
+<tspan x="10" y="9002">459.  2017-04-04 19:24:35 +0000       92 byte  test/karlcow/img-idref-title.md</tspan>
+<tspan x="10" y="9018">460.  2017-04-04 19:24:35 +0000       83 byte  test/karlcow/img-idref.html</tspan>
+<tspan x="10" y="9034">461.  2017-04-04 19:24:35 +0000       71 byte  test/karlcow/img-idref.md</tspan>
+<tspan x="10" y="9050">462.  2017-04-04 19:24:35 +0000      115 byte  test/karlcow/img-title.html</tspan>
+<tspan x="10" y="9066">463.  2017-04-04 19:24:35 +0000       87 byte  test/karlcow/img-title.md</tspan>
+<tspan x="10" y="9082">464.  2017-04-04 19:24:35 +0000       83 byte  test/karlcow/img.html</tspan>
+<tspan x="10" y="9098">465.  2017-04-04 19:24:35 +0000       61 byte  test/karlcow/img.md</tspan>
+<tspan x="10" y="9114">466.  2017-04-04 19:24:35 +0000       65 byte  test/karlcow/inline-code-escaping-entities.html</tspan>
+<tspan x="10" y="9130">467.  2017-04-04 19:24:35 +0000       38 byte  test/karlcow/inline-code-escaping-entities.md</tspan>
+<tspan x="10" y="9146">468.  2017-04-04 19:24:35 +0000       49 byte  test/karlcow/inline-code-with-visible-backtick.ht\</tspan>
 <tspan x="10" y="9162">ml</tspan>
-<tspan x="10" y="9178">469.  2017-04-04 19:23:14 +0000       34 byte  test/karlcow/inline-code-with-visible-backtick.md</tspan>
-<tspan x="10" y="9194">470.  2017-04-04 19:23:14 +0000       49 byte  test/karlcow/inline-code.html</tspan>
-<tspan x="10" y="9210">471.  2017-04-04 19:23:14 +0000       34 byte  test/karlcow/inline-code.md</tspan>
-<tspan x="10" y="9226">472.  2017-04-04 19:23:14 +0000       48 byte  test/karlcow/line-break-2-spaces.html</tspan>
-<tspan x="10" y="9242">473.  2017-04-04 19:23:14 +0000       37 byte  test/karlcow/line-break-2-spaces.md</tspan>
-<tspan x="10" y="9258">474.  2017-04-04 19:23:14 +0000       48 byte  test/karlcow/line-break-5-spaces.html</tspan>
-<tspan x="10" y="9274">475.  2017-04-04 19:23:14 +0000       40 byte  test/karlcow/line-break-5-spaces.md</tspan>
-<tspan x="10" y="9290">476.  2017-04-04 19:23:14 +0000       84 byte  test/karlcow/link-automatic.html</tspan>
-<tspan x="10" y="9306">477.  2017-04-04 19:23:14 +0000       47 byte  test/karlcow/link-automatic.md</tspan>
-<tspan x="10" y="9322">478.  2017-04-04 19:23:14 +0000       64 byte  test/karlcow/link-bracket-paranthesis-title.html</tspan>
-<tspan x="10" y="9338">479.  2017-04-04 19:23:14 +0000       41 byte  test/karlcow/link-bracket-paranthesis-title.md</tspan>
-<tspan x="10" y="9354">480.  2017-04-04 19:23:14 +0000       43 byte  test/karlcow/link-bracket-paranthesis.html</tspan>
-<tspan x="10" y="9370">481.  2017-04-04 19:23:14 +0000       26 byte  test/karlcow/link-bracket-paranthesis.md</tspan>
-<tspan x="10" y="9386">482.  2017-04-04 19:23:14 +0000       65 byte  test/karlcow/link-idref-angle-bracket.html</tspan>
-<tspan x="10" y="9402">483.  2017-04-04 19:23:14 +0000       62 byte  test/karlcow/link-idref-angle-bracket.md</tspan>
-<tspan x="10" y="9418">484.  2017-04-04 19:23:14 +0000       65 byte  test/karlcow/link-idref-implicit-spaces.html</tspan>
-<tspan x="10" y="9434">485.  2017-04-04 19:23:14 +0000       79 byte  test/karlcow/link-idref-implicit-spaces.md</tspan>
-<tspan x="10" y="9450">486.  2017-04-04 19:23:14 +0000       43 byte  test/karlcow/link-idref-implicit.html</tspan>
-<tspan x="10" y="9466">487.  2017-04-04 19:23:14 +0000       35 byte  test/karlcow/link-idref-implicit.md</tspan>
-<tspan x="10" y="9482">488.  2017-04-04 19:23:14 +0000       65 byte  test/karlcow/link-idref-space.html</tspan>
-<tspan x="10" y="9498">489.  2017-04-04 19:23:14 +0000       61 byte  test/karlcow/link-idref-space.md</tspan>
-<tspan x="10" y="9514">490.  2017-04-04 19:23:14 +0000       86 byte  test/karlcow/link-idref-title-next-line.html</tspan>
-<tspan x="10" y="9530">491.  2017-04-04 19:23:14 +0000       78 byte  test/karlcow/link-idref-title-next-line.md</tspan>
-<tspan x="10" y="9546">492.  2017-04-04 19:23:14 +0000       86 byte  test/karlcow/link-idref-title-paranthesis.html</tspan>
-<tspan x="10" y="9562">493.  2017-04-04 19:23:14 +0000       75 byte  test/karlcow/link-idref-title-paranthesis.md</tspan>
-<tspan x="10" y="9578">494.  2017-04-04 19:23:14 +0000       86 byte  test/karlcow/link-idref-title-single-quote.html</tspan>
-<tspan x="10" y="9594">495.  2017-04-04 19:23:14 +0000       75 byte  test/karlcow/link-idref-title-single-quote.md</tspan>
-<tspan x="10" y="9610">496.  2017-04-04 19:23:14 +0000       86 byte  test/karlcow/link-idref-title.html</tspan>
-<tspan x="10" y="9626">497.  2017-04-04 19:23:14 +0000       75 byte  test/karlcow/link-idref-title.md</tspan>
-<tspan x="10" y="9642">498.  2017-04-04 19:23:14 +0000       65 byte  test/karlcow/link-idref.html</tspan>
-<tspan x="10" y="9658">499.  2017-04-04 19:23:14 +0000       60 byte  test/karlcow/link-idref.md</tspan>
-<tspan x="10" y="9674">500.  2017-04-04 19:23:14 +0000      124 byte  test/karlcow/list-blockquote.html</tspan>
-<tspan x="10" y="9690">501.  2017-04-04 19:23:14 +0000       74 byte  test/karlcow/list-blockquote.md</tspan>
-<tspan x="10" y="9706">502.  2017-04-04 19:23:14 +0000      132 byte  test/karlcow/list-code.html</tspan>
-<tspan x="10" y="9722">503.  2017-04-04 19:23:14 +0000       84 byte  test/karlcow/list-code.md</tspan>
-<tspan x="10" y="9738">504.  2017-04-04 19:23:14 +0000      372 byte  test/karlcow/list-multiparagraphs-tab.html</tspan>
-<tspan x="10" y="9754">505.  2017-04-04 19:23:14 +0000      338 byte  test/karlcow/list-multiparagraphs-tab.md</tspan>
-<tspan x="10" y="9770">506.  2017-04-04 19:23:14 +0000      372 byte  test/karlcow/list-multiparagraphs.html</tspan>
-<tspan x="10" y="9786">507.  2017-04-04 19:23:14 +0000      353 byte  test/karlcow/list-multiparagraphs.md</tspan>
-<tspan x="10" y="9802">508.  2017-04-04 19:23:14 +0000       29 byte  test/karlcow/ordered-list-escaped.html</tspan>
-<tspan x="10" y="9818">509.  2017-04-04 19:23:14 +0000       24 byte  test/karlcow/ordered-list-escaped.md</tspan>
-<tspan x="10" y="9834">510.  2017-04-04 19:23:14 +0000       95 byte  test/karlcow/ordered-list-inner-par-list.html</tspan>
-<tspan x="10" y="9850">511.  2017-04-04 19:23:14 +0000       33 byte  test/karlcow/ordered-list-inner-par-list.md</tspan>
-<tspan x="10" y="9866">512.  2017-04-04 19:23:14 +0000       85 byte  test/karlcow/ordered-list-items-random-number.htm\</tspan>
+<tspan x="10" y="9178">469.  2017-04-04 19:24:35 +0000       34 byte  test/karlcow/inline-code-with-visible-backtick.md</tspan>
+<tspan x="10" y="9194">470.  2017-04-04 19:24:35 +0000       49 byte  test/karlcow/inline-code.html</tspan>
+<tspan x="10" y="9210">471.  2017-04-04 19:24:35 +0000       34 byte  test/karlcow/inline-code.md</tspan>
+<tspan x="10" y="9226">472.  2017-04-04 19:24:35 +0000       48 byte  test/karlcow/line-break-2-spaces.html</tspan>
+<tspan x="10" y="9242">473.  2017-04-04 19:24:35 +0000       37 byte  test/karlcow/line-break-2-spaces.md</tspan>
+<tspan x="10" y="9258">474.  2017-04-04 19:24:35 +0000       48 byte  test/karlcow/line-break-5-spaces.html</tspan>
+<tspan x="10" y="9274">475.  2017-04-04 19:24:35 +0000       40 byte  test/karlcow/line-break-5-spaces.md</tspan>
+<tspan x="10" y="9290">476.  2017-04-04 19:24:35 +0000       84 byte  test/karlcow/link-automatic.html</tspan>
+<tspan x="10" y="9306">477.  2017-04-04 19:24:35 +0000       47 byte  test/karlcow/link-automatic.md</tspan>
+<tspan x="10" y="9322">478.  2017-04-04 19:24:35 +0000       64 byte  test/karlcow/link-bracket-paranthesis-title.html</tspan>
+<tspan x="10" y="9338">479.  2017-04-04 19:24:35 +0000       41 byte  test/karlcow/link-bracket-paranthesis-title.md</tspan>
+<tspan x="10" y="9354">480.  2017-04-04 19:24:35 +0000       43 byte  test/karlcow/link-bracket-paranthesis.html</tspan>
+<tspan x="10" y="9370">481.  2017-04-04 19:24:35 +0000       26 byte  test/karlcow/link-bracket-paranthesis.md</tspan>
+<tspan x="10" y="9386">482.  2017-04-04 19:24:35 +0000       65 byte  test/karlcow/link-idref-angle-bracket.html</tspan>
+<tspan x="10" y="9402">483.  2017-04-04 19:24:35 +0000       62 byte  test/karlcow/link-idref-angle-bracket.md</tspan>
+<tspan x="10" y="9418">484.  2017-04-04 19:24:35 +0000       65 byte  test/karlcow/link-idref-implicit-spaces.html</tspan>
+<tspan x="10" y="9434">485.  2017-04-04 19:24:35 +0000       79 byte  test/karlcow/link-idref-implicit-spaces.md</tspan>
+<tspan x="10" y="9450">486.  2017-04-04 19:24:35 +0000       43 byte  test/karlcow/link-idref-implicit.html</tspan>
+<tspan x="10" y="9466">487.  2017-04-04 19:24:35 +0000       35 byte  test/karlcow/link-idref-implicit.md</tspan>
+<tspan x="10" y="9482">488.  2017-04-04 19:24:35 +0000       65 byte  test/karlcow/link-idref-space.html</tspan>
+<tspan x="10" y="9498">489.  2017-04-04 19:24:35 +0000       61 byte  test/karlcow/link-idref-space.md</tspan>
+<tspan x="10" y="9514">490.  2017-04-04 19:24:35 +0000       86 byte  test/karlcow/link-idref-title-next-line.html</tspan>
+<tspan x="10" y="9530">491.  2017-04-04 19:24:35 +0000       78 byte  test/karlcow/link-idref-title-next-line.md</tspan>
+<tspan x="10" y="9546">492.  2017-04-04 19:24:35 +0000       86 byte  test/karlcow/link-idref-title-paranthesis.html</tspan>
+<tspan x="10" y="9562">493.  2017-04-04 19:24:35 +0000       75 byte  test/karlcow/link-idref-title-paranthesis.md</tspan>
+<tspan x="10" y="9578">494.  2017-04-04 19:24:35 +0000       86 byte  test/karlcow/link-idref-title-single-quote.html</tspan>
+<tspan x="10" y="9594">495.  2017-04-04 19:24:35 +0000       75 byte  test/karlcow/link-idref-title-single-quote.md</tspan>
+<tspan x="10" y="9610">496.  2017-04-04 19:24:35 +0000       86 byte  test/karlcow/link-idref-title.html</tspan>
+<tspan x="10" y="9626">497.  2017-04-04 19:24:35 +0000       75 byte  test/karlcow/link-idref-title.md</tspan>
+<tspan x="10" y="9642">498.  2017-04-04 19:24:35 +0000       65 byte  test/karlcow/link-idref.html</tspan>
+<tspan x="10" y="9658">499.  2017-04-04 19:24:35 +0000       60 byte  test/karlcow/link-idref.md</tspan>
+<tspan x="10" y="9674">500.  2017-04-04 19:24:35 +0000      124 byte  test/karlcow/list-blockquote.html</tspan>
+<tspan x="10" y="9690">501.  2017-04-04 19:24:35 +0000       74 byte  test/karlcow/list-blockquote.md</tspan>
+<tspan x="10" y="9706">502.  2017-04-04 19:24:35 +0000      132 byte  test/karlcow/list-code.html</tspan>
+<tspan x="10" y="9722">503.  2017-04-04 19:24:35 +0000       84 byte  test/karlcow/list-code.md</tspan>
+<tspan x="10" y="9738">504.  2017-04-04 19:24:35 +0000      372 byte  test/karlcow/list-multiparagraphs-tab.html</tspan>
+<tspan x="10" y="9754">505.  2017-04-04 19:24:35 +0000      338 byte  test/karlcow/list-multiparagraphs-tab.md</tspan>
+<tspan x="10" y="9770">506.  2017-04-04 19:24:35 +0000      372 byte  test/karlcow/list-multiparagraphs.html</tspan>
+<tspan x="10" y="9786">507.  2017-04-04 19:24:35 +0000      353 byte  test/karlcow/list-multiparagraphs.md</tspan>
+<tspan x="10" y="9802">508.  2017-04-04 19:24:35 +0000       29 byte  test/karlcow/ordered-list-escaped.html</tspan>
+<tspan x="10" y="9818">509.  2017-04-04 19:24:35 +0000       24 byte  test/karlcow/ordered-list-escaped.md</tspan>
+<tspan x="10" y="9834">510.  2017-04-04 19:24:35 +0000       95 byte  test/karlcow/ordered-list-inner-par-list.html</tspan>
+<tspan x="10" y="9850">511.  2017-04-04 19:24:35 +0000       33 byte  test/karlcow/ordered-list-inner-par-list.md</tspan>
+<tspan x="10" y="9866">512.  2017-04-04 19:24:35 +0000       85 byte  test/karlcow/ordered-list-items-random-number.htm\</tspan>
 <tspan x="10" y="9882">l</tspan>
-<tspan x="10" y="9898">513.  2017-04-04 19:23:14 +0000       45 byte  test/karlcow/ordered-list-items-random-number.md</tspan>
-<tspan x="10" y="9914">514.  2017-04-04 19:23:14 +0000       85 byte  test/karlcow/ordered-list-items.html</tspan>
-<tspan x="10" y="9930">515.  2017-04-04 19:23:14 +0000       45 byte  test/karlcow/ordered-list-items.md</tspan>
-<tspan x="10" y="9946">516.  2017-04-04 19:23:14 +0000       62 byte  test/karlcow/paragraph-hard-return.html</tspan>
-<tspan x="10" y="9962">517.  2017-04-04 19:23:14 +0000       56 byte  test/karlcow/paragraph-hard-return.md</tspan>
-<tspan x="10" y="9978">518.  2017-04-04 19:23:14 +0000      199 byte  test/karlcow/paragraph-line.html</tspan>
-<tspan x="10" y="9994">519.  2017-04-04 19:23:14 +0000      193 byte  test/karlcow/paragraph-line.md</tspan>
-<tspan x="10" y="10010">520.  2017-04-04 19:23:14 +0000       62 byte  test/karlcow/paragraph-trailing-leading-spaces.ht\</tspan>
+<tspan x="10" y="9898">513.  2017-04-04 19:24:35 +0000       45 byte  test/karlcow/ordered-list-items-random-number.md</tspan>
+<tspan x="10" y="9914">514.  2017-04-04 19:24:35 +0000       85 byte  test/karlcow/ordered-list-items.html</tspan>
+<tspan x="10" y="9930">515.  2017-04-04 19:24:35 +0000       45 byte  test/karlcow/ordered-list-items.md</tspan>
+<tspan x="10" y="9946">516.  2017-04-04 19:24:35 +0000       62 byte  test/karlcow/paragraph-hard-return.html</tspan>
+<tspan x="10" y="9962">517.  2017-04-04 19:24:35 +0000       56 byte  test/karlcow/paragraph-hard-return.md</tspan>
+<tspan x="10" y="9978">518.  2017-04-04 19:24:35 +0000      199 byte  test/karlcow/paragraph-line.html</tspan>
+<tspan x="10" y="9994">519.  2017-04-04 19:24:35 +0000      193 byte  test/karlcow/paragraph-line.md</tspan>
+<tspan x="10" y="10010">520.  2017-04-04 19:24:35 +0000       62 byte  test/karlcow/paragraph-trailing-leading-spaces.ht\</tspan>
 <tspan x="10" y="10026">ml</tspan>
-<tspan x="10" y="10042">521.  2017-04-04 19:23:14 +0000       57 byte  test/karlcow/paragraph-trailing-leading-spaces.md</tspan>
-<tspan x="10" y="10058">522.  2017-04-04 19:23:14 +0000       51 byte  test/karlcow/paragraph-trailing-tab.html</tspan>
-<tspan x="10" y="10074">523.  2017-04-04 19:23:14 +0000       42 byte  test/karlcow/paragraph-trailing-tab.md</tspan>
-<tspan x="10" y="10090">524.  2017-04-04 19:23:14 +0000       49 byte  test/karlcow/paragraphs-2-leading-spaces.html</tspan>
-<tspan x="10" y="10106">525.  2017-04-04 19:23:14 +0000       45 byte  test/karlcow/paragraphs-2-leading-spaces.md</tspan>
-<tspan x="10" y="10122">526.  2017-04-04 19:23:14 +0000       49 byte  test/karlcow/paragraphs-3-leading-spaces.html</tspan>
-<tspan x="10" y="10138">527.  2017-04-04 19:23:14 +0000       46 byte  test/karlcow/paragraphs-3-leading-spaces.md</tspan>
-<tspan x="10" y="10154">528.  2017-04-04 19:23:14 +0000       48 byte  test/karlcow/paragraphs-leading-space.html</tspan>
-<tspan x="10" y="10170">529.  2017-04-04 19:23:14 +0000       43 byte  test/karlcow/paragraphs-leading-space.md</tspan>
-<tspan x="10" y="10186">530.  2017-04-04 19:23:14 +0000       50 byte  test/karlcow/paragraphs-trailing-spaces.html</tspan>
-<tspan x="10" y="10202">531.  2017-04-04 19:23:14 +0000       43 byte  test/karlcow/paragraphs-trailing-spaces.md</tspan>
-<tspan x="10" y="10218">532.  2017-04-04 19:23:14 +0000       33 byte  test/karlcow/strong-middle-word.html</tspan>
-<tspan x="10" y="10234">533.  2017-04-04 19:23:14 +0000       14 byte  test/karlcow/strong-middle-word.md</tspan>
-<tspan x="10" y="10250">534.  2017-04-04 19:23:14 +0000       40 byte  test/karlcow/strong-star.html</tspan>
-<tspan x="10" y="10266">535.  2017-04-04 19:23:14 +0000       21 byte  test/karlcow/strong-star.md</tspan>
-<tspan x="10" y="10282">536.  2017-04-04 19:23:14 +0000       42 byte  test/karlcow/strong-underscore.html</tspan>
-<tspan x="10" y="10298">537.  2017-04-04 19:23:14 +0000       23 byte  test/karlcow/strong-underscore.md</tspan>
-<tspan x="10" y="10314">538.  2017-04-04 19:23:14 +0000       86 byte  test/karlcow/unordered-list-items-asterisk.html</tspan>
-<tspan x="10" y="10330">539.  2017-04-04 19:23:14 +0000       42 byte  test/karlcow/unordered-list-items-asterisk.md</tspan>
-<tspan x="10" y="10346">540.  2017-04-04 19:23:14 +0000       85 byte  test/karlcow/unordered-list-items-dashsign.html</tspan>
-<tspan x="10" y="10362">541.  2017-04-04 19:23:14 +0000       42 byte  test/karlcow/unordered-list-items-dashsign.md</tspan>
-<tspan x="10" y="10378">542.  2017-04-04 19:23:14 +0000       86 byte  test/karlcow/unordered-list-items-leading-1space.\</tspan>
+<tspan x="10" y="10042">521.  2017-04-04 19:24:35 +0000       57 byte  test/karlcow/paragraph-trailing-leading-spaces.md</tspan>
+<tspan x="10" y="10058">522.  2017-04-04 19:24:35 +0000       51 byte  test/karlcow/paragraph-trailing-tab.html</tspan>
+<tspan x="10" y="10074">523.  2017-04-04 19:24:35 +0000       42 byte  test/karlcow/paragraph-trailing-tab.md</tspan>
+<tspan x="10" y="10090">524.  2017-04-04 19:24:35 +0000       49 byte  test/karlcow/paragraphs-2-leading-spaces.html</tspan>
+<tspan x="10" y="10106">525.  2017-04-04 19:24:35 +0000       45 byte  test/karlcow/paragraphs-2-leading-spaces.md</tspan>
+<tspan x="10" y="10122">526.  2017-04-04 19:24:35 +0000       49 byte  test/karlcow/paragraphs-3-leading-spaces.html</tspan>
+<tspan x="10" y="10138">527.  2017-04-04 19:24:35 +0000       46 byte  test/karlcow/paragraphs-3-leading-spaces.md</tspan>
+<tspan x="10" y="10154">528.  2017-04-04 19:24:35 +0000       48 byte  test/karlcow/paragraphs-leading-space.html</tspan>
+<tspan x="10" y="10170">529.  2017-04-04 19:24:35 +0000       43 byte  test/karlcow/paragraphs-leading-space.md</tspan>
+<tspan x="10" y="10186">530.  2017-04-04 19:24:35 +0000       50 byte  test/karlcow/paragraphs-trailing-spaces.html</tspan>
+<tspan x="10" y="10202">531.  2017-04-04 19:24:35 +0000       43 byte  test/karlcow/paragraphs-trailing-spaces.md</tspan>
+<tspan x="10" y="10218">532.  2017-04-04 19:24:35 +0000       33 byte  test/karlcow/strong-middle-word.html</tspan>
+<tspan x="10" y="10234">533.  2017-04-04 19:24:35 +0000       14 byte  test/karlcow/strong-middle-word.md</tspan>
+<tspan x="10" y="10250">534.  2017-04-04 19:24:35 +0000       40 byte  test/karlcow/strong-star.html</tspan>
+<tspan x="10" y="10266">535.  2017-04-04 19:24:35 +0000       21 byte  test/karlcow/strong-star.md</tspan>
+<tspan x="10" y="10282">536.  2017-04-04 19:24:35 +0000       42 byte  test/karlcow/strong-underscore.html</tspan>
+<tspan x="10" y="10298">537.  2017-04-04 19:24:35 +0000       23 byte  test/karlcow/strong-underscore.md</tspan>
+<tspan x="10" y="10314">538.  2017-04-04 19:24:35 +0000       86 byte  test/karlcow/unordered-list-items-asterisk.html</tspan>
+<tspan x="10" y="10330">539.  2017-04-04 19:24:35 +0000       42 byte  test/karlcow/unordered-list-items-asterisk.md</tspan>
+<tspan x="10" y="10346">540.  2017-04-04 19:24:35 +0000       85 byte  test/karlcow/unordered-list-items-dashsign.html</tspan>
+<tspan x="10" y="10362">541.  2017-04-04 19:24:35 +0000       42 byte  test/karlcow/unordered-list-items-dashsign.md</tspan>
+<tspan x="10" y="10378">542.  2017-04-04 19:24:35 +0000       86 byte  test/karlcow/unordered-list-items-leading-1space.\</tspan>
 <tspan x="10" y="10394">html</tspan>
-<tspan x="10" y="10410">543.  2017-04-04 19:23:14 +0000       45 byte  test/karlcow/unordered-list-items-leading-1space.\</tspan>
+<tspan x="10" y="10410">543.  2017-04-04 19:24:35 +0000       45 byte  test/karlcow/unordered-list-items-leading-1space.\</tspan>
 <tspan x="10" y="10426">md</tspan>
-<tspan x="10" y="10442">544.  2017-04-04 19:23:14 +0000       85 byte  test/karlcow/unordered-list-items-leading-2spaces\</tspan>
+<tspan x="10" y="10442">544.  2017-04-04 19:24:35 +0000       85 byte  test/karlcow/unordered-list-items-leading-2spaces\</tspan>
 <tspan x="10" y="10458">.html</tspan>
-<tspan x="10" y="10474">545.  2017-04-04 19:23:14 +0000       48 byte  test/karlcow/unordered-list-items-leading-2spaces\</tspan>
+<tspan x="10" y="10474">545.  2017-04-04 19:24:35 +0000       48 byte  test/karlcow/unordered-list-items-leading-2spaces\</tspan>
 <tspan x="10" y="10490">.md</tspan>
-<tspan x="10" y="10506">546.  2017-04-04 19:23:14 +0000       85 byte  test/karlcow/unordered-list-items-leading-3spaces\</tspan>
+<tspan x="10" y="10506">546.  2017-04-04 19:24:35 +0000       85 byte  test/karlcow/unordered-list-items-leading-3spaces\</tspan>
 <tspan x="10" y="10522">.html</tspan>
-<tspan x="10" y="10538">547.  2017-04-04 19:23:14 +0000       51 byte  test/karlcow/unordered-list-items-leading-3spaces\</tspan>
+<tspan x="10" y="10538">547.  2017-04-04 19:24:35 +0000       51 byte  test/karlcow/unordered-list-items-leading-3spaces\</tspan>
 <tspan x="10" y="10554">.md</tspan>
-<tspan x="10" y="10570">548.  2017-04-04 19:23:14 +0000       85 byte  test/karlcow/unordered-list-items-plussign.html</tspan>
-<tspan x="10" y="10586">549.  2017-04-04 19:23:14 +0000       42 byte  test/karlcow/unordered-list-items-plussign.md</tspan>
-<tspan x="10" y="10602">550.  2017-04-04 19:23:14 +0000       96 byte  test/karlcow/unordered-list-paragraphs.html</tspan>
-<tspan x="10" y="10618">551.  2017-04-04 19:23:14 +0000       59 byte  test/karlcow/unordered-list-paragraphs.md</tspan>
-<tspan x="10" y="10634">552.  2017-04-04 19:23:14 +0000      353 byte  test/karlcow/unordered-list-unindented-content.ht\</tspan>
+<tspan x="10" y="10570">548.  2017-04-04 19:24:35 +0000       85 byte  test/karlcow/unordered-list-items-plussign.html</tspan>
+<tspan x="10" y="10586">549.  2017-04-04 19:24:35 +0000       42 byte  test/karlcow/unordered-list-items-plussign.md</tspan>
+<tspan x="10" y="10602">550.  2017-04-04 19:24:35 +0000       96 byte  test/karlcow/unordered-list-paragraphs.html</tspan>
+<tspan x="10" y="10618">551.  2017-04-04 19:24:35 +0000       59 byte  test/karlcow/unordered-list-paragraphs.md</tspan>
+<tspan x="10" y="10634">552.  2017-04-04 19:24:35 +0000      353 byte  test/karlcow/unordered-list-unindented-content.ht\</tspan>
 <tspan x="10" y="10650">ml</tspan>
-<tspan x="10" y="10666">553.  2017-04-04 19:23:14 +0000      333 byte  test/karlcow/unordered-list-unindented-content.md</tspan>
-<tspan x="10" y="10682">554.  2017-04-04 19:23:14 +0000      144 byte  test/karlcow/unordered-list-with-indented-content\</tspan>
+<tspan x="10" y="10666">553.  2017-04-04 19:24:35 +0000      333 byte  test/karlcow/unordered-list-unindented-content.md</tspan>
+<tspan x="10" y="10682">554.  2017-04-04 19:24:35 +0000      144 byte  test/karlcow/unordered-list-with-indented-content\</tspan>
 <tspan x="10" y="10698">.html</tspan>
-<tspan x="10" y="10714">555.  2017-04-04 19:23:14 +0000      136 byte  test/karlcow/unordered-list-with-indented-content\</tspan>
+<tspan x="10" y="10714">555.  2017-04-04 19:24:35 +0000      136 byte  test/karlcow/unordered-list-with-indented-content\</tspan>
 <tspan x="10" y="10730">.md</tspan>
-<tspan x="10" y="10746">556.  2017-04-04 19:23:14 +0000      463 byte  test/node/cli.js</tspan>
-<tspan x="10" y="10762">557.  2017-04-04 19:23:14 +0000      659 byte  test/node/legacyExtensionSupport.js</tspan>
-<tspan x="10" y="10778">558.  2017-04-04 19:23:14 +0000     4940 byte  test/node/performance.js</tspan>
-<tspan x="10" y="10794">559.  2017-04-04 19:23:14 +0000     4174 byte  test/node/showdown.Converter.js</tspan>
-<tspan x="10" y="10810">560.  2017-04-04 19:23:14 +0000     1893 byte  test/node/showdown.Converter.makeHtml.js</tspan>
-<tspan x="10" y="10826">561.  2017-04-04 19:23:14 +0000     6566 byte  test/node/showdown.helpers.js</tspan>
-<tspan x="10" y="10842">562.  2017-04-04 19:23:14 +0000     3714 byte  test/node/showdown.js</tspan>
-<tspan x="10" y="10858">563.  2017-04-04 19:23:14 +0000     5731 byte  test/node/testsuite.features.js</tspan>
-<tspan x="10" y="10874">564.  2017-04-04 19:23:14 +0000      755 byte  test/node/testsuite.ghost.js</tspan>
-<tspan x="10" y="10890">565.  2017-04-04 19:23:14 +0000      442 byte  test/node/testsuite.issues.js</tspan>
-<tspan x="10" y="10906">566.  2017-04-04 19:23:14 +0000      475 byte  test/node/testsuite.karlcow.js</tspan>
-<tspan x="10" y="10922">567.  2017-04-04 19:23:14 +0000      398 byte  test/node/testsuite.standard.js</tspan>
-<tspan x="10" y="10938">568.  2017-04-04 19:23:14 +0000      213 byte  test/optionswp.js</tspan>
-<tspan x="10" y="10954">569.  2017-04-04 19:23:14 +0000    30463 byte  test/performance.testfile.md</tspan>
-<tspan x="10" y="10970">570.  2017-04-04 19:23:14 +0000     6060 byte  test/performance/performance.js</tspan>
+<tspan x="10" y="10746">556.  2017-04-04 19:24:35 +0000      463 byte  test/node/cli.js</tspan>
+<tspan x="10" y="10762">557.  2017-04-04 19:24:35 +0000      659 byte  test/node/legacyExtensionSupport.js</tspan>
+<tspan x="10" y="10778">558.  2017-04-04 19:24:35 +0000     4940 byte  test/node/performance.js</tspan>
+<tspan x="10" y="10794">559.  2017-04-04 19:24:35 +0000     4174 byte  test/node/showdown.Converter.js</tspan>
+<tspan x="10" y="10810">560.  2017-04-04 19:24:35 +0000     1893 byte  test/node/showdown.Converter.makeHtml.js</tspan>
+<tspan x="10" y="10826">561.  2017-04-04 19:24:35 +0000     6566 byte  test/node/showdown.helpers.js</tspan>
+<tspan x="10" y="10842">562.  2017-04-04 19:24:35 +0000     3714 byte  test/node/showdown.js</tspan>
+<tspan x="10" y="10858">563.  2017-04-04 19:24:35 +0000     5731 byte  test/node/testsuite.features.js</tspan>
+<tspan x="10" y="10874">564.  2017-04-04 19:24:35 +0000      755 byte  test/node/testsuite.ghost.js</tspan>
+<tspan x="10" y="10890">565.  2017-04-04 19:24:35 +0000      442 byte  test/node/testsuite.issues.js</tspan>
+<tspan x="10" y="10906">566.  2017-04-04 19:24:35 +0000      475 byte  test/node/testsuite.karlcow.js</tspan>
+<tspan x="10" y="10922">567.  2017-04-04 19:24:35 +0000      398 byte  test/node/testsuite.standard.js</tspan>
+<tspan x="10" y="10938">568.  2017-04-04 19:24:35 +0000      213 byte  test/optionswp.js</tspan>
+<tspan x="10" y="10954">569.  2017-04-04 19:24:35 +0000    30463 byte  test/performance.testfile.md</tspan>
+<tspan x="10" y="10970">570.  2017-04-04 19:24:35 +0000     6060 byte  test/performance/performance.js</tspan>
 </text>
 </svg>
