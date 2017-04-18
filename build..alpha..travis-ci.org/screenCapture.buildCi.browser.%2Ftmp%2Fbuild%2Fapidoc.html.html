@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="http://showdownjs.github.io/showdown/"
-
-    >showdown (v1.6.4)</a>
+    <a href="http://showdownjs.github.io/showdown/">showdown (v1.6.4)</a>
 </h1>
 <h4>A Markdown to HTML converter written in Javascript</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.showdown">module showdown</a><ol>
 
@@ -792,7 +785,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">Converter = function (converterOptions) {
-  &#x27;use strict&#x27;;
+  'use strict';
 
   var
 <span class="apidocCodeCommentSpan">      /**
@@ -844,15 +837,15 @@
     }
 
     // Merge options
-    if (typeof converterOptions === &#x27;object&#x27;) {
+    if (typeof converterOptions === 'object') {
       for (var opt in converterOptions) {
         if (converterOptions.hasOwnProperty(opt)) {
           options[opt] = converterOptions[opt];
         }
       }
     } else {
-      throw Error(&#x27;Converter expects the passed parameter to be an object, but &#x27; + typeof converterOptions +
-      &#x27; was passed instead.&#x27;);
+      throw Error('Converter expects the passed parameter to be an object, but ' + typeof converterOptions +
+      ' was passed instead.');
     }
 
     if (options.extensions) {
@@ -863,21 +856,21 @@
   /**
    * Parse extension
    * @param {*} ext
-   * @param {string} [name=&#x27;&#x27;]
+   * @param {string} [name='']
    * @private
    */
   function _parseExtension (ext, name) {
 
     name = name || null;
-    // If it&#x27;s a string, the extension was previously loaded
+    // If it's a string, the extension was previously loaded
     if (showdown.helper.isString(ext)) {
       ext = showdown.helper.stdExtName(ext);
       name = ext;
 
       // LEGACY_SUPPORT CODE
       if (showdown.extensions[ext]) {
-        console.warn(&#x27;DEPRECATION WARNING: &#x27; + ext + &#x27; is an old extension that uses a deprecated loading method.&#x27; +
-          &#x27;Please inform the developer that the extension should be updated!&#x27;);
+        console.warn('DEPRECATION WARNING: ' + ext + ' is an old extension that uses a deprecated loading method.' +
+          'Please inform the developer that the extension should be updated!');
         legacyExtensionLoading(showdown.extensions[ext], ext);
         return;
       // END LEGACY SUPPORT CODE
@@ -886,11 +879,11 @@
         ext = extensions[ext];
 
       } else {
-        throw Error(&#x27;Extension &#x22;&#x27; + ext + &#x27;&#x22; could not be loaded. It was either not found or is not a valid extension.&#x27;);
+        throw Error('Extension "' + ext + '" could not be loaded. It was either not found or is not a valid extension.');
       }
     }
 
-    if (typeof ext === &#x27;function&#x27;) {
+    if (typeof ext === 'function') {
       ext = ext();
     }
 
@@ -903,18 +896,18 @@
       throw Error(validExt.error);
     }
 
-    for (var i = 0; i &#x3c; ext.length; ++i) {
+    for (var i = 0; i &lt; ext.length; ++i) {
       switch (ext[i].type) {
 
-        case &#x27;lang&#x27;:
+        case 'lang':
           langExtensions.push(ext[i]);
           break;
 
-        case &#x27;output&#x27;:
+        case 'output':
           outputModifiers.push(ext[i]);
           break;
       }
-      if (ext[i].hasOwnProperty(&#x27;listeners&#x27;)) {
+      if (ext[i].hasOwnProperty('listeners')) {
         for (var ln in ext[i].listeners) {
           if (ext[i].listeners.hasOwnProperty(ln)) {
             listen(ln, ext[i].listeners[ln]);
@@ -931,7 +924,7 @@
    * @param {string} name
    */
   function legacyExtensionLoading (ext, name) {
-    if (typeof ext === &#x27;function&#x27;) {
+    if (typeof ext === 'function') {
       ext = ext(new showdown.Converter());
     }
     if (!showdown.helper.isArray(ext)) {
@@ -943,16 +936,16 @@
       throw Error(valid.error);
     }
 
-    for (var i = 0; i &#x3c; ext.length; ++i) {
+    for (var i = 0; i &lt; ext.length; ++i) {
       switch (ext[i].type) {
-        case &#x27;lang&#x27;:
+        case 'lang':
           langExtensions.push(ext[i]);
           break;
-        case &#x27;output&#x27;:
+        case 'output':
           outputModifiers.push(ext[i]);
           break;
         default:// should never reach here
-          throw Error(&#x27;Extension loader error: Type unrecognized!!!&#x27;);
+          throw Error('Extension loader error: Type unrecognized!!!');
       }
     }
   }
@@ -964,7 +957,7 @@
    */
   function listen (name, callback) {
     if (!showdown.helper.isString(name)) {
-      throw Error(&#x27;Invalid argument in converter.listen ...</pre></li>
+      throw Error('Invalid argument in converter.listen ...</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 
 ## Quick Example
@@ -972,9 +965,9 @@
 ### Node
 
 ```js
-var showdown  = require(&#x27;showdown&#x27;),
+var showdown  = require('showdown'),
     converter = new showdown.<span class="apidocCodeKeywordSpan">Converter</span>(),
-    text      = &#x27;#hello, markdown!&#x27;,
+    text      = '#hello, markdown!',
     html      = converter.makeHtml(text);
 ```
 
@@ -995,50 +988,50 @@ var showdown  = require(&#x27;showdown&#x27;),
     <ul>
     <li>description and source-code<pre class="apidocCodePre">Gruntfile = function (grunt) {
 
-  if (grunt.option(&#x27;q&#x27;) || grunt.option(&#x27;quiet&#x27;)) {
-    require(&#x27;quiet-grunt&#x27;);
+  if (grunt.option('q') || grunt.option('quiet')) {
+    require('quiet-grunt');
   }
 
   // Project configuration.
   var config = {
-    pkg: grunt.file.readJSON(&#x27;package.json&#x27;),
+    pkg: grunt.file.readJSON('package.json'),
 
     concat: {
       options: {
         sourceMap: true,
-        banner: &#x27;;/*! &#x3c;%= pkg.name %&#x3e; &#x3c;%= grunt.template.today(&#x22;dd-mm-yyyy&#x22;) %&#x3e; */\n(function(){\n&#x27;,
-        footer: &#x27;}).call(this);\n&#x27;
+        banner: ';/*! &lt;%= pkg.name %&gt; &lt;%= grunt.template.today("dd-mm-yyyy") %&gt; */\n(function(){\n',
+        footer: '}).call(this);\n'
       },
       dist: {
         src: [
-          &#x27;src/options.js&#x27;,
-          &#x27;src/showdown.js&#x27;,
-          &#x27;src/helpers.js&#x27;,
-          &#x27;src/converter.js&#x27;,
-          &#x27;src/subParsers/*.js&#x27;,
-          &#x27;src/loader.js&#x27;
+          'src/options.js',
+          'src/showdown.js',
+          'src/helpers.js',
+          'src/converter.js',
+          'src/subParsers/*.js',
+          'src/loader.js'
         ],
-        dest: &#x27;dist/&#x3c;%= pkg.name %&#x3e;.js&#x27;
+        dest: 'dist/&lt;%= pkg.name %&gt;.js'
       },
       test: {
-        src: &#x27;&#x3c;%= concat.dist.src %&#x3e;&#x27;,
-        dest: &#x27;.build/&#x3c;%= pkg.name %&#x3e;.js&#x27;,
+        src: '&lt;%= concat.dist.src %&gt;',
+        dest: '.build/&lt;%= pkg.name %&gt;.js',
         options: {
           sourceMap: false
         }
       }
     },
 
-    clean: [&#x27;.build/&#x27;],
+    clean: ['.build/'],
 
     uglify: {
       options: {
         sourceMap: true,
-        banner: &#x27;/*! &#x3c;%= pkg.name %&#x3e; &#x3c;%= grunt.template.today(&#x22;dd-mm-yyyy&#x22;) %&#x3e; */\n&#x27;
+        banner: '/*! &lt;%= pkg.name %&gt; &lt;%= grunt.template.today("dd-mm-yyyy") %&gt; */\n'
       },
       dist: {
         files: {
-          &#x27;dist/&#x3c;%= pkg.name %&#x3e;.min.js&#x27;: [&#x27;&#x3c;%= concat.dist.dest %&#x3e;&#x27;]
+          'dist/&lt;%= pkg.name %&gt;.min.js': ['&lt;%= concat.dist.dest %&gt;']
         }
       }
     },
@@ -1046,43 +1039,43 @@ var showdown  = require(&#x27;showdown&#x27;),
     endline: {
       dist: {
         files: {
-          &#x27;dist/&#x3c;%= pkg.name %&#x3e;.js&#x27;: &#x27;dist/&#x3c;%= pkg.name %&#x3e;.js&#x27;,
-          &#x27;dist/&#x3c;%= pkg.name %&#x3e;.min.js&#x27;: &#x27;dist/&#x3c;%= pkg.name %&#x3e;.min.js&#x27;
+          'dist/&lt;%= pkg.name %&gt;.js': 'dist/&lt;%= pkg.name %&gt;.js',
+          'dist/&lt;%= pkg.name %&gt;.min.js': 'dist/&lt;%= pkg.name %&gt;.min.js'
         }
       }
     },
 
     jshint: {
       options: {
-        jshintrc: &#x27;.jshintrc&#x27;,
-        reporterOutput: &#x27;&#x27;
+        jshintrc: '.jshintrc',
+        reporterOutput: ''
       },
       files: [
-        &#x27;Gruntfile.js&#x27;,
-        &#x27;src/**/*.js&#x27;,
-        &#x27;test/**/*.js&#x27;
+        'Gruntfile.js',
+        'src/**/*.js',
+        'test/**/*.js'
       ]
     },
 
     eslint: {
       options: {
-        config: &#x27;.eslintrc.json&#x27;
+        config: '.eslintrc.json'
       },
       target: [
-        &#x27;Gruntfile.js&#x27;,
-        &#x27;src/**/*.js&#x27;,
-        &#x27;test/**/*.js&#x27;
+        'Gruntfile.js',
+        'src/**/*.js',
+        'test/**/*.js'
       ]
     },
 
     conventionalChangelog: {
       options: {
         changelogOpts: {
-          preset: &#x27;angular&#x27;
+          preset: 'angular'
         }
       },
       release: {
-        src: &#x27;CHANGELOG.md&#x27;
+        src: 'CHANGELOG.md'
       }
     },
 
@@ -1090,11 +1083,11 @@ var showdown  = require(&#x27;showdown&#x27;),
       release: {
         options: {
           auth: {
-            type: &#x27;oauth&#x27;,
+            type: 'oauth',
             token: process.env.GH_TOEKN
           },
           changelogOpts: {
-            preset: &#x27;angular&#x27;
+            preset: 'angular'
           }
         }
       }
@@ -1102,57 +1095,57 @@ var showdown  = require(&#x27;showdown&#x27;),
 
     simplemocha: {
       node: {
-        src: &#x27;test/node/**/*.js&#x27;,
+        src: 'test/node/**/*.js',
         options: {
-          globals: [&#x27;should&#x27;],
+          globals: ['should'],
           timeout: 3000,
           ignoreLeaks: true,
-          reporter: &#x27;spec&#x27;
+          reporter: 'spec'
         }
       },
       karlcow: {
-        src: &#x27;test/node/testsuite.karlcow.js&#x27;,
+        src: 'test/node/testsuite.karlcow.js',
         options: {
-          globals: [&#x27;should&#x27;],
+          globals: ['should'],
           timeout: 3000,
           ignoreLeaks: false,
-          reporter: &#x27;spec&#x27;
+          reporter: 'spec'
         }
       },
       issues: {
-        src: &#x27;test/node/testsuite.issues.js&#x27;,
+        src: 'test/node/testsuite.issues.js',
         options: {
-          globals: [&#x27;should&#x27;],
+          globals: ['should'],
           timeout: 3000,
           ignoreLeaks: false,
-          reporter: &#x27;spec&#x27;
+          reporter: 'spec'
         }
       },
       standard: {
-        src: &#x27;test/node/testsuite.standard.js&#x27;,
+        src: 'test/node/testsuite.standard.js',
         options: {
-          globals: [&#x27;should&#x27;],
+          globals: ['should'],
           timeout: 3000,
           ignoreLeaks: false,
-          reporter: &#x27;spec&#x27;
+          reporter: 'spec'
         }
       },
       features: {
-        src: &#x27;test/node/testsuite.features.js&#x27;,
+        src: 'test/node/testsuite.features.js',
         options: {
-          globals: [&#x27;should&#x27;],
+          globals: ['should'],
           timeout: 3000,
           ignoreLeaks: false,
-          reporter: &#x27;spec&#x27;
+          reporter: 'spec'
         }
       },
       single: {
-        src: &#x27;test/node/**/*.js&#x27;,
+        src: 'test/node/**/*.js',
         options: {
-          globals: [&#x27;should&#x27;],
+          globals: ['should'],
           timeout: 3000,
           ignoreLeaks: false,
-          reporter: &#x27;spec&#x27;
+          reporter: 'spec'
         }
       }
     }
@@ -1160,17 +1153,17 @@ var showdown  = require(&#x27;showdown&#x27;),
 
   grunt.initConfig(config);
 
-  grunt.loadNpmTasks(&#x27;grunt-contrib-clean&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-contrib-concat&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-contrib-uglify&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-conventional-changelog&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-conventional-github-releaser&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-endline&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-simple-mocha&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-contrib-jshint&#x27;);
+  grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-conventional-changelog');
+  grunt.loadNpmTasks('grunt-conventional-github-releaser');
+  grunt.loadNpmTasks('grunt-endline');
+  grunt.loadNpmTasks('grunt-simple-mocha');
+  grunt.loadNpmTasks('grunt-contrib-jshint');
 
-  grunt.registerTask(&#x27;single-test&#x27;, function (grep) {
-    &#x27;use strict&#x27;;
+  grunt.registerTask('single-test', function (grep) {
+    'use strict';
     grunt.config.merge({
       simplemocha: {
         single: {
@@ -1181,7 +1174,7 @@ var showdown  = require(&#x27;showdown&#x27;),
       }
     });
 
-    grunt.task.run([&#x27;li ...</pre></li>
+    grunt.task.run(['li ...</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
@@ -1195,10 +1188,10 @@ var showdown  = require(&#x27;showdown&#x27;),
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">extension = function (name, ext) {
-  &#x27;use strict&#x27;;
+  'use strict';
 
   if (!showdown.helper.isString(name)) {
-    throw Error(&#x27;Extension \&#x27;name\&#x27; must be a string&#x27;);
+    throw Error('Extension \'name\' must be a string');
   }
 
   name = showdown.helper.stdExtName(name);
@@ -1206,14 +1199,14 @@ var showdown  = require(&#x27;showdown&#x27;),
   // Getter
   if (showdown.helper.isUndefined(ext)) {
     if (!extensions.hasOwnProperty(name)) {
-      throw Error(&#x27;Extension named &#x27; + name + &#x27; is not registered!&#x27;);
+      throw Error('Extension named ' + name + ' is not registered!');
     }
     return extensions[name];
 
     // Setter
   } else {
-    // Expand extension if it&#x27;s wrapped in a function
-    if (typeof ext === &#x27;function&#x27;) {
+    // Expand extension if it's wrapped in a function
+    if (typeof ext === 'function') {
       ext = ext();
     }
 
@@ -1244,7 +1237,7 @@ var showdown  = require(&#x27;showdown&#x27;),
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getAllExtensions = function () {
-  &#x27;use strict&#x27;;
+  'use strict';
   return extensions;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -1260,7 +1253,7 @@ var showdown  = require(&#x27;showdown&#x27;),
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getDefaultOptions = function (simple) {
-  &#x27;use strict&#x27;;
+  'use strict';
   return getDefaultOpts(simple);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
@@ -1269,7 +1262,7 @@ var thisConverterSpecificOptions = converter.getOptions();
 
 ### Retrieve the default options
 
-You can get showdown&#x27;s default options with:
+You can get showdown's default options with:
 ```js
 var defaultOptions = showdown.<span class="apidocCodeKeywordSpan">getDefaultOptions</span>();
 ```
@@ -1292,7 +1285,7 @@ var defaultOptions = showdown.<span class="apidocCodeKeywordSpan">getDefaultOpti
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getFlavor = function () {
-  &#x27;use strict&#x27;;
+  'use strict';
   return setFlavor;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -1308,7 +1301,7 @@ var defaultOptions = showdown.<span class="apidocCodeKeywordSpan">getDefaultOpti
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getFlavorOptions = function (name) {
-  &#x27;use strict&#x27;;
+  'use strict';
   if (flavor.hasOwnProperty(name)) {
     return flavor[name];
   }
@@ -1326,7 +1319,7 @@ var defaultOptions = showdown.<span class="apidocCodeKeywordSpan">getDefaultOpti
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getOption = function (key) {
-  &#x27;use strict&#x27;;
+  'use strict';
   return globalOptions[key];
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
@@ -1337,10 +1330,10 @@ Showdown provides 2 methods (both local and global) to retrieve previous set opt
 
 ```js
 // Global
-var myOption = showdown.<span class="apidocCodeKeywordSpan">getOption</span>(&#x27;optionKey&#x27;);
+var myOption = showdown.<span class="apidocCodeKeywordSpan">getOption</span>('optionKey');
 
 //Local
-var myOption = converter.getOption(&#x27;optionKey&#x27;);
+var myOption = converter.getOption('optionKey');
 ```
 
 #### getOptions()
@@ -1357,11 +1350,11 @@ var myOption = converter.getOption(&#x27;optionKey&#x27;);
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getOptions = function () {
-  &#x27;use strict&#x27;;
+  'use strict';
   return globalOptions;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-var myOption = converter.getOption(&#x27;optionKey&#x27;);
+var myOption = converter.getOption('optionKey');
 ```
 
 #### getOptions()
@@ -1388,13 +1381,13 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">helper.encodeEmailAddress = function (mail) {
-  &#x27;use strict&#x27;;
+  'use strict';
   var encode = [
     function (ch) {
-      return &#x27;&#x26;#&#x27; + ch.charCodeAt(0) + &#x27;;&#x27;;
+      return '&amp;#' + ch.charCodeAt(0) + ';';
     },
     function (ch) {
-      return &#x27;&#x26;#x&#x27; + ch.charCodeAt(0).toString(16) + &#x27;;&#x27;;
+      return '&amp;#x' + ch.charCodeAt(0).toString(16) + ';';
     },
     function (ch) {
       return ch;
@@ -1402,14 +1395,14 @@ var thisConverterSpecificOptions = converter.getOptions();
   ];
 
   mail = mail.replace(/./g, function (ch) {
-    if (ch === &#x27;@&#x27;) {
+    if (ch === '@') {
       // this *must* be encoded. I insist.
       ch = encode[Math.floor(Math.random() * 2)](ch);
     } else {
       var r = Math.random();
       // roughly 10% raw, 45% hex, 45% dec
       ch = (
-        r &#x3e; 0.9 ? encode[2](ch) : r &#x3e; 0.45 ? encode[1](ch) : encode[0](ch)
+        r &gt; 0.9 ? encode[2](ch) : r &gt; 0.45 ? encode[1](ch) : encode[0](ch)
       );
     }
     return ch;
@@ -1430,16 +1423,16 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">helper.escapeCharacters = function (text, charsToEscape, afterBackslash) {
-  &#x27;use strict&#x27;;
+  'use strict';
   // First we have to escape the escape characters so that
   // we can build a character class out of them
-  var regexString = &#x27;([&#x27; + charsToEscape.replace(/([\[\]\\])/g, &#x27;\\$1&#x27;) + &#x27;])&#x27;;
+  var regexString = '([' + charsToEscape.replace(/([\[\]\\])/g, '\\$1') + '])';
 
   if (afterBackslash) {
-    regexString = &#x27;\\\\&#x27; + regexString;
+    regexString = '\\\\' + regexString;
   }
 
-  var regex = new RegExp(regexString, &#x27;g&#x27;);
+  var regex = new RegExp(regexString, 'g');
   text = text.replace(regex, escapeCharactersCallback);
 
   return text;
@@ -1457,9 +1450,9 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function escapeCharactersCallback(wholeMatch, m1) {
-  &#x27;use strict&#x27;;
+  'use strict';
   var charCodeToEscape = m1.charCodeAt(0);
-  return &#x27;¨E&#x27; + charCodeToEscape + &#x27;E&#x27;;
+  return 'Â¨E' + charCodeToEscape + 'E';
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -1474,34 +1467,34 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">helper.forEach = function (obj, callback) {
-  &#x27;use strict&#x27;;
+  'use strict';
   // check if obj is defined
   if (showdown.helper.isUndefined(obj)) {
-    throw new Error(&#x27;obj param is required&#x27;);
+    throw new Error('obj param is required');
   }
 
   if (showdown.helper.isUndefined(callback)) {
-    throw new Error(&#x27;callback param is required&#x27;);
+    throw new Error('callback param is required');
   }
 
   if (!showdown.helper.isFunction(callback)) {
-    throw new Error(&#x27;callback param must be a function/closure&#x27;);
+    throw new Error('callback param must be a function/closure');
   }
 
-  if (typeof obj.forEach === &#x27;function&#x27;) {
+  if (typeof obj.forEach === 'function') {
     obj.forEach(callback);
   } else if (showdown.helper.isArray(obj)) {
-    for (var i = 0; i &#x3c; obj.length; i++) {
+    for (var i = 0; i &lt; obj.length; i++) {
       callback(obj[i], i, obj);
     }
-  } else if (typeof (obj) === &#x27;object&#x27;) {
+  } else if (typeof (obj) === 'object') {
     for (var prop in obj) {
       if (obj.hasOwnProperty(prop)) {
         callback(obj[prop], prop, obj);
       }
     }
   } else {
-    throw new Error(&#x27;obj does not seem to be an array or an iterable object&#x27;);
+    throw new Error('obj does not seem to be an array or an iterable object');
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -1517,7 +1510,7 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">helper.isArray = function (a) {
-  &#x27;use strict&#x27;;
+  'use strict';
   return a.constructor === Array;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -1533,9 +1526,9 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">helper.isFunction = function (a) {
-  &#x27;use strict&#x27;;
+  'use strict';
   var getType = {};
-  return a &#x26;&#x26; getType.toString.call(a) === &#x27;[object Function]&#x27;;
+  return a &amp;&amp; getType.toString.call(a) === '[object Function]';
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -1550,8 +1543,8 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">helper.isString = function (a) {
-  &#x27;use strict&#x27;;
-  return (typeof a === &#x27;string&#x27; || a instanceof String);
+  'use strict';
+  return (typeof a === 'string' || a instanceof String);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -1566,8 +1559,8 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">helper.isUndefined = function (value) {
-  &#x27;use strict&#x27;;
-  return typeof value === &#x27;undefined&#x27;;
+  'use strict';
+  return typeof value === 'undefined';
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -1582,12 +1575,12 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">helper.matchRecursiveRegExp = function (str, left, right, flags) {
-  &#x27;use strict&#x27;;
+  'use strict';
 
   var matchPos = rgxFindMatchPos (str, left, right, flags),
       results = [];
 
-  for (var i = 0; i &#x3c; matchPos.length; ++i) {
+  for (var i = 0; i &lt; matchPos.length; ++i) {
     results.push([
       str.slice(matchPos[i].wholeMatch.start, matchPos[i].wholeMatch.end),
       str.slice(matchPos[i].match.start, matchPos[i].match.end),
@@ -1610,7 +1603,7 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">helper.replaceRecursiveRegExp = function (str, replacement, left, right, flags) {
-  &#x27;use strict&#x27;;
+  'use strict';
 
   if (!showdown.helper.isFunction(replacement)) {
     var repStr = replacement;
@@ -1623,12 +1616,12 @@ var thisConverterSpecificOptions = converter.getOptions();
       finalStr = str,
       lng = matchPos.length;
 
-  if (lng &#x3e; 0) {
+  if (lng &gt; 0) {
     var bits = [];
     if (matchPos[0].wholeMatch.start !== 0) {
       bits.push(str.slice(0, matchPos[0].wholeMatch.start));
     }
-    for (var i = 0; i &#x3c; lng; ++i) {
+    for (var i = 0; i &lt; lng; ++i) {
       bits.push(
         replacement(
           str.slice(matchPos[i].wholeMatch.start, matchPos[i].wholeMatch.end),
@@ -1637,14 +1630,14 @@ var thisConverterSpecificOptions = converter.getOptions();
           str.slice(matchPos[i].right.start, matchPos[i].right.end)
         )
       );
-      if (i &#x3c; lng - 1) {
+      if (i &lt; lng - 1) {
         bits.push(str.slice(matchPos[i].wholeMatch.end, matchPos[i + 1].wholeMatch.start));
       }
     }
-    if (matchPos[lng - 1].wholeMatch.end &#x3c; str.length) {
+    if (matchPos[lng - 1].wholeMatch.end &lt; str.length) {
       bits.push(str.slice(matchPos[lng - 1].wholeMatch.end));
     }
-    finalStr = bits.join(&#x27;&#x27;);
+    finalStr = bits.join('');
   }
   return finalStr;
 }</pre></li>
@@ -1661,8 +1654,8 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">helper.stdExtName = function (s) {
-  &#x27;use strict&#x27;;
-  return s.replace(/[_?*+\/\\.^-]/g, &#x27;&#x27;).replace(/\s/g, &#x27;&#x27;).toLowerCase();
+  'use strict';
+  return s.replace(/[_?*+\/\\.^-]/g, '').replace(/\s/g, '').toLowerCase();
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -1677,7 +1670,7 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">removeExtension = function (name) {
-  &#x27;use strict&#x27;;
+  'use strict';
   delete extensions[name];
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -1693,7 +1686,7 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">resetExtensions = function () {
-  &#x27;use strict&#x27;;
+  'use strict';
   extensions = {};
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -1709,7 +1702,7 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">resetOptions = function () {
-  &#x27;use strict&#x27;;
+  'use strict';
   globalOptions = getDefaultOpts(true);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -1725,9 +1718,9 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">setFlavor = function (name) {
-  &#x27;use strict&#x27;;
+  'use strict';
   if (!flavor.hasOwnProperty(name)) {
-    throw Error(name + &#x27; flavor was not found&#x27;);
+    throw Error(name + ' flavor was not found');
   }
   var preset = flavor[name];
   setFlavor = name;
@@ -1738,19 +1731,19 @@ var thisConverterSpecificOptions = converter.getOptions();
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
- * original - original markdown flavor as in [John Gruber&#x27;s spec](https://daringfireball.net/projects/markdown/)
+ * original - original markdown flavor as in [John Gruber's spec](https://daringfireball.net/projects/markdown/)
  * vanilla  - showdown base flavor (as from v1.3.1)
  * github   - GFM (GitHub Flavored Markdown)
 
 
 ### Global
 ```javascript
-showdown.<span class="apidocCodeKeywordSpan">setFlavor</span>(&#x27;github&#x27;);
+showdown.<span class="apidocCodeKeywordSpan">setFlavor</span>('github');
 ```
 
 ### Instance
 ```javascript
-converter.setFlavor(&#x27;github&#x27;);
+converter.setFlavor('github');
 ```
 ...</pre></li>
     </ul>
@@ -1765,7 +1758,7 @@ converter.setFlavor(&#x27;github&#x27;);
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">setOption = function (key, value) {
-  &#x27;use strict&#x27;;
+  'use strict';
   globalOptions[key] = value;
   return this;
 }</pre></li>
@@ -1774,14 +1767,14 @@ Options can be set:
 
 #### Globally
 
-Setting a &#x22;global&#x22; option affects all instances of showdown
+Setting a "global" option affects all instances of showdown
 
 ```js
-showdown.<span class="apidocCodeKeywordSpan">setOption</span>(&#x27;optionKey&#x27;, &#x27;value&#x27;);
+showdown.<span class="apidocCodeKeywordSpan">setOption</span>('optionKey', 'value');
 ```
 
 #### Locally
-Setting a &#x22;local&#x22; option only affects the specified Converter object.
+Setting a "local" option only affects the specified Converter object.
 Local options can be set:
 
 * **through the constructor**
@@ -1798,15 +1791,15 @@ Local options can be set:
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">subParser = function (name, func) {
-  &#x27;use strict&#x27;;
+  'use strict';
   if (showdown.helper.isString(name)) {
-    if (typeof func !== &#x27;undefined&#x27;) {
+    if (typeof func !== 'undefined') {
       parsers[name] = func;
     } else {
       if (parsers.hasOwnProperty(name)) {
         return parsers[name];
       } else {
-        throw Error(&#x27;SubParser named &#x27; + name + &#x27; not registered!&#x27;);
+        throw Error('SubParser named ' + name + ' not registered!');
       }
     }
   }
@@ -1824,7 +1817,7 @@ Local options can be set:
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">validateExtension = function (ext) {
-  &#x27;use strict&#x27;;
+  'use strict';
 
   var validateExtension = validate(ext, null);
   if (!validateExtension.valid) {
@@ -1855,7 +1848,7 @@ Local options can be set:
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">Converter = function (converterOptions) {
-  &#x27;use strict&#x27;;
+  'use strict';
 
   var
 <span class="apidocCodeCommentSpan">      /**
@@ -1907,15 +1900,15 @@ Local options can be set:
     }
 
     // Merge options
-    if (typeof converterOptions === &#x27;object&#x27;) {
+    if (typeof converterOptions === 'object') {
       for (var opt in converterOptions) {
         if (converterOptions.hasOwnProperty(opt)) {
           options[opt] = converterOptions[opt];
         }
       }
     } else {
-      throw Error(&#x27;Converter expects the passed parameter to be an object, but &#x27; + typeof converterOptions +
-      &#x27; was passed instead.&#x27;);
+      throw Error('Converter expects the passed parameter to be an object, but ' + typeof converterOptions +
+      ' was passed instead.');
     }
 
     if (options.extensions) {
@@ -1926,21 +1919,21 @@ Local options can be set:
   /**
    * Parse extension
    * @param {*} ext
-   * @param {string} [name=&#x27;&#x27;]
+   * @param {string} [name='']
    * @private
    */
   function _parseExtension (ext, name) {
 
     name = name || null;
-    // If it&#x27;s a string, the extension was previously loaded
+    // If it's a string, the extension was previously loaded
     if (showdown.helper.isString(ext)) {
       ext = showdown.helper.stdExtName(ext);
       name = ext;
 
       // LEGACY_SUPPORT CODE
       if (showdown.extensions[ext]) {
-        console.warn(&#x27;DEPRECATION WARNING: &#x27; + ext + &#x27; is an old extension that uses a deprecated loading method.&#x27; +
-          &#x27;Please inform the developer that the extension should be updated!&#x27;);
+        console.warn('DEPRECATION WARNING: ' + ext + ' is an old extension that uses a deprecated loading method.' +
+          'Please inform the developer that the extension should be updated!');
         legacyExtensionLoading(showdown.extensions[ext], ext);
         return;
       // END LEGACY SUPPORT CODE
@@ -1949,11 +1942,11 @@ Local options can be set:
         ext = extensions[ext];
 
       } else {
-        throw Error(&#x27;Extension &#x22;&#x27; + ext + &#x27;&#x22; could not be loaded. It was either not found or is not a valid extension.&#x27;);
+        throw Error('Extension "' + ext + '" could not be loaded. It was either not found or is not a valid extension.');
       }
     }
 
-    if (typeof ext === &#x27;function&#x27;) {
+    if (typeof ext === 'function') {
       ext = ext();
     }
 
@@ -1966,18 +1959,18 @@ Local options can be set:
       throw Error(validExt.error);
     }
 
-    for (var i = 0; i &#x3c; ext.length; ++i) {
+    for (var i = 0; i &lt; ext.length; ++i) {
       switch (ext[i].type) {
 
-        case &#x27;lang&#x27;:
+        case 'lang':
           langExtensions.push(ext[i]);
           break;
 
-        case &#x27;output&#x27;:
+        case 'output':
           outputModifiers.push(ext[i]);
           break;
       }
-      if (ext[i].hasOwnProperty(&#x27;listeners&#x27;)) {
+      if (ext[i].hasOwnProperty('listeners')) {
         for (var ln in ext[i].listeners) {
           if (ext[i].listeners.hasOwnProperty(ln)) {
             listen(ln, ext[i].listeners[ln]);
@@ -1994,7 +1987,7 @@ Local options can be set:
    * @param {string} name
    */
   function legacyExtensionLoading (ext, name) {
-    if (typeof ext === &#x27;function&#x27;) {
+    if (typeof ext === 'function') {
       ext = ext(new showdown.Converter());
     }
     if (!showdown.helper.isArray(ext)) {
@@ -2006,16 +1999,16 @@ Local options can be set:
       throw Error(valid.error);
     }
 
-    for (var i = 0; i &#x3c; ext.length; ++i) {
+    for (var i = 0; i &lt; ext.length; ++i) {
       switch (ext[i].type) {
-        case &#x27;lang&#x27;:
+        case 'lang':
           langExtensions.push(ext[i]);
           break;
-        case &#x27;output&#x27;:
+        case 'output':
           outputModifiers.push(ext[i]);
           break;
         default:// should never reach here
-          throw Error(&#x27;Extension loader error: Type unrecognized!!!&#x27;);
+          throw Error('Extension loader error: Type unrecognized!!!');
       }
     }
   }
@@ -2027,7 +2020,7 @@ Local options can be set:
    */
   function listen (name, callback) {
     if (!showdown.helper.isString(name)) {
-      throw Error(&#x27;Invalid argument in converter.listen ...</pre></li>
+      throw Error('Invalid argument in converter.listen ...</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 
 ## Quick Example
@@ -2035,9 +2028,9 @@ Local options can be set:
 ### Node
 
 ```js
-var showdown  = require(&#x27;showdown&#x27;),
+var showdown  = require('showdown'),
     converter = new showdown.<span class="apidocCodeKeywordSpan">Converter</span>(),
-    text      = &#x27;#hello, markdown!&#x27;,
+    text      = '#hello, markdown!',
     html      = converter.makeHtml(text);
 ```
 
@@ -2063,50 +2056,50 @@ var showdown  = require(&#x27;showdown&#x27;),
     <ul>
     <li>description and source-code<pre class="apidocCodePre">Gruntfile = function (grunt) {
 
-  if (grunt.option(&#x27;q&#x27;) || grunt.option(&#x27;quiet&#x27;)) {
-    require(&#x27;quiet-grunt&#x27;);
+  if (grunt.option('q') || grunt.option('quiet')) {
+    require('quiet-grunt');
   }
 
   // Project configuration.
   var config = {
-    pkg: grunt.file.readJSON(&#x27;package.json&#x27;),
+    pkg: grunt.file.readJSON('package.json'),
 
     concat: {
       options: {
         sourceMap: true,
-        banner: &#x27;;/*! &#x3c;%= pkg.name %&#x3e; &#x3c;%= grunt.template.today(&#x22;dd-mm-yyyy&#x22;) %&#x3e; */\n(function(){\n&#x27;,
-        footer: &#x27;}).call(this);\n&#x27;
+        banner: ';/*! &lt;%= pkg.name %&gt; &lt;%= grunt.template.today("dd-mm-yyyy") %&gt; */\n(function(){\n',
+        footer: '}).call(this);\n'
       },
       dist: {
         src: [
-          &#x27;src/options.js&#x27;,
-          &#x27;src/showdown.js&#x27;,
-          &#x27;src/helpers.js&#x27;,
-          &#x27;src/converter.js&#x27;,
-          &#x27;src/subParsers/*.js&#x27;,
-          &#x27;src/loader.js&#x27;
+          'src/options.js',
+          'src/showdown.js',
+          'src/helpers.js',
+          'src/converter.js',
+          'src/subParsers/*.js',
+          'src/loader.js'
         ],
-        dest: &#x27;dist/&#x3c;%= pkg.name %&#x3e;.js&#x27;
+        dest: 'dist/&lt;%= pkg.name %&gt;.js'
       },
       test: {
-        src: &#x27;&#x3c;%= concat.dist.src %&#x3e;&#x27;,
-        dest: &#x27;.build/&#x3c;%= pkg.name %&#x3e;.js&#x27;,
+        src: '&lt;%= concat.dist.src %&gt;',
+        dest: '.build/&lt;%= pkg.name %&gt;.js',
         options: {
           sourceMap: false
         }
       }
     },
 
-    clean: [&#x27;.build/&#x27;],
+    clean: ['.build/'],
 
     uglify: {
       options: {
         sourceMap: true,
-        banner: &#x27;/*! &#x3c;%= pkg.name %&#x3e; &#x3c;%= grunt.template.today(&#x22;dd-mm-yyyy&#x22;) %&#x3e; */\n&#x27;
+        banner: '/*! &lt;%= pkg.name %&gt; &lt;%= grunt.template.today("dd-mm-yyyy") %&gt; */\n'
       },
       dist: {
         files: {
-          &#x27;dist/&#x3c;%= pkg.name %&#x3e;.min.js&#x27;: [&#x27;&#x3c;%= concat.dist.dest %&#x3e;&#x27;]
+          'dist/&lt;%= pkg.name %&gt;.min.js': ['&lt;%= concat.dist.dest %&gt;']
         }
       }
     },
@@ -2114,43 +2107,43 @@ var showdown  = require(&#x27;showdown&#x27;),
     endline: {
       dist: {
         files: {
-          &#x27;dist/&#x3c;%= pkg.name %&#x3e;.js&#x27;: &#x27;dist/&#x3c;%= pkg.name %&#x3e;.js&#x27;,
-          &#x27;dist/&#x3c;%= pkg.name %&#x3e;.min.js&#x27;: &#x27;dist/&#x3c;%= pkg.name %&#x3e;.min.js&#x27;
+          'dist/&lt;%= pkg.name %&gt;.js': 'dist/&lt;%= pkg.name %&gt;.js',
+          'dist/&lt;%= pkg.name %&gt;.min.js': 'dist/&lt;%= pkg.name %&gt;.min.js'
         }
       }
     },
 
     jshint: {
       options: {
-        jshintrc: &#x27;.jshintrc&#x27;,
-        reporterOutput: &#x27;&#x27;
+        jshintrc: '.jshintrc',
+        reporterOutput: ''
       },
       files: [
-        &#x27;Gruntfile.js&#x27;,
-        &#x27;src/**/*.js&#x27;,
-        &#x27;test/**/*.js&#x27;
+        'Gruntfile.js',
+        'src/**/*.js',
+        'test/**/*.js'
       ]
     },
 
     eslint: {
       options: {
-        config: &#x27;.eslintrc.json&#x27;
+        config: '.eslintrc.json'
       },
       target: [
-        &#x27;Gruntfile.js&#x27;,
-        &#x27;src/**/*.js&#x27;,
-        &#x27;test/**/*.js&#x27;
+        'Gruntfile.js',
+        'src/**/*.js',
+        'test/**/*.js'
       ]
     },
 
     conventionalChangelog: {
       options: {
         changelogOpts: {
-          preset: &#x27;angular&#x27;
+          preset: 'angular'
         }
       },
       release: {
-        src: &#x27;CHANGELOG.md&#x27;
+        src: 'CHANGELOG.md'
       }
     },
 
@@ -2158,11 +2151,11 @@ var showdown  = require(&#x27;showdown&#x27;),
       release: {
         options: {
           auth: {
-            type: &#x27;oauth&#x27;,
+            type: 'oauth',
             token: process.env.GH_TOEKN
           },
           changelogOpts: {
-            preset: &#x27;angular&#x27;
+            preset: 'angular'
           }
         }
       }
@@ -2170,57 +2163,57 @@ var showdown  = require(&#x27;showdown&#x27;),
 
     simplemocha: {
       node: {
-        src: &#x27;test/node/**/*.js&#x27;,
+        src: 'test/node/**/*.js',
         options: {
-          globals: [&#x27;should&#x27;],
+          globals: ['should'],
           timeout: 3000,
           ignoreLeaks: true,
-          reporter: &#x27;spec&#x27;
+          reporter: 'spec'
         }
       },
       karlcow: {
-        src: &#x27;test/node/testsuite.karlcow.js&#x27;,
+        src: 'test/node/testsuite.karlcow.js',
         options: {
-          globals: [&#x27;should&#x27;],
+          globals: ['should'],
           timeout: 3000,
           ignoreLeaks: false,
-          reporter: &#x27;spec&#x27;
+          reporter: 'spec'
         }
       },
       issues: {
-        src: &#x27;test/node/testsuite.issues.js&#x27;,
+        src: 'test/node/testsuite.issues.js',
         options: {
-          globals: [&#x27;should&#x27;],
+          globals: ['should'],
           timeout: 3000,
           ignoreLeaks: false,
-          reporter: &#x27;spec&#x27;
+          reporter: 'spec'
         }
       },
       standard: {
-        src: &#x27;test/node/testsuite.standard.js&#x27;,
+        src: 'test/node/testsuite.standard.js',
         options: {
-          globals: [&#x27;should&#x27;],
+          globals: ['should'],
           timeout: 3000,
           ignoreLeaks: false,
-          reporter: &#x27;spec&#x27;
+          reporter: 'spec'
         }
       },
       features: {
-        src: &#x27;test/node/testsuite.features.js&#x27;,
+        src: 'test/node/testsuite.features.js',
         options: {
-          globals: [&#x27;should&#x27;],
+          globals: ['should'],
           timeout: 3000,
           ignoreLeaks: false,
-          reporter: &#x27;spec&#x27;
+          reporter: 'spec'
         }
       },
       single: {
-        src: &#x27;test/node/**/*.js&#x27;,
+        src: 'test/node/**/*.js',
         options: {
-          globals: [&#x27;should&#x27;],
+          globals: ['should'],
           timeout: 3000,
           ignoreLeaks: false,
-          reporter: &#x27;spec&#x27;
+          reporter: 'spec'
         }
       }
     }
@@ -2228,17 +2221,17 @@ var showdown  = require(&#x27;showdown&#x27;),
 
   grunt.initConfig(config);
 
-  grunt.loadNpmTasks(&#x27;grunt-contrib-clean&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-contrib-concat&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-contrib-uglify&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-conventional-changelog&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-conventional-github-releaser&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-endline&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-simple-mocha&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-contrib-jshint&#x27;);
+  grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-conventional-changelog');
+  grunt.loadNpmTasks('grunt-conventional-github-releaser');
+  grunt.loadNpmTasks('grunt-endline');
+  grunt.loadNpmTasks('grunt-simple-mocha');
+  grunt.loadNpmTasks('grunt-contrib-jshint');
 
-  grunt.registerTask(&#x27;single-test&#x27;, function (grep) {
-    &#x27;use strict&#x27;;
+  grunt.registerTask('single-test', function (grep) {
+    'use strict';
     grunt.config.merge({
       simplemocha: {
         single: {
@@ -2249,7 +2242,7 @@ var showdown  = require(&#x27;showdown&#x27;),
       }
     });
 
-    grunt.task.run([&#x27;li ...</pre></li>
+    grunt.task.run(['li ...</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
@@ -2268,10 +2261,10 @@ var showdown  = require(&#x27;showdown&#x27;),
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">extension = function (name, ext) {
-  &#x27;use strict&#x27;;
+  'use strict';
 
   if (!showdown.helper.isString(name)) {
-    throw Error(&#x27;Extension \&#x27;name\&#x27; must be a string&#x27;);
+    throw Error('Extension \'name\' must be a string');
   }
 
   name = showdown.helper.stdExtName(name);
@@ -2279,14 +2272,14 @@ var showdown  = require(&#x27;showdown&#x27;),
   // Getter
   if (showdown.helper.isUndefined(ext)) {
     if (!extensions.hasOwnProperty(name)) {
-      throw Error(&#x27;Extension named &#x27; + name + &#x27; is not registered!&#x27;);
+      throw Error('Extension named ' + name + ' is not registered!');
     }
     return extensions[name];
 
     // Setter
   } else {
-    // Expand extension if it&#x27;s wrapped in a function
-    if (typeof ext === &#x27;function&#x27;) {
+    // Expand extension if it's wrapped in a function
+    if (typeof ext === 'function') {
       ext = ext();
     }
 
@@ -2322,7 +2315,7 @@ var showdown  = require(&#x27;showdown&#x27;),
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getAllExtensions = function () {
-  &#x27;use strict&#x27;;
+  'use strict';
   return extensions;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -2343,7 +2336,7 @@ var showdown  = require(&#x27;showdown&#x27;),
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getDefaultOptions = function (simple) {
-  &#x27;use strict&#x27;;
+  'use strict';
   return getDefaultOpts(simple);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
@@ -2352,7 +2345,7 @@ var thisConverterSpecificOptions = converter.getOptions();
 
 ### Retrieve the default options
 
-You can get showdown&#x27;s default options with:
+You can get showdown's default options with:
 ```js
 var defaultOptions = showdown.<span class="apidocCodeKeywordSpan">getDefaultOptions</span>();
 ```
@@ -2380,7 +2373,7 @@ var defaultOptions = showdown.<span class="apidocCodeKeywordSpan">getDefaultOpti
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getFlavor = function () {
-  &#x27;use strict&#x27;;
+  'use strict';
   return setFlavor;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -2401,7 +2394,7 @@ var defaultOptions = showdown.<span class="apidocCodeKeywordSpan">getDefaultOpti
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getFlavorOptions = function (name) {
-  &#x27;use strict&#x27;;
+  'use strict';
   if (flavor.hasOwnProperty(name)) {
     return flavor[name];
   }
@@ -2424,7 +2417,7 @@ var defaultOptions = showdown.<span class="apidocCodeKeywordSpan">getDefaultOpti
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getOption = function (key) {
-  &#x27;use strict&#x27;;
+  'use strict';
   return globalOptions[key];
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
@@ -2435,10 +2428,10 @@ Showdown provides 2 methods (both local and global) to retrieve previous set opt
 
 ```js
 // Global
-var myOption = showdown.<span class="apidocCodeKeywordSpan">getOption</span>(&#x27;optionKey&#x27;);
+var myOption = showdown.<span class="apidocCodeKeywordSpan">getOption</span>('optionKey');
 
 //Local
-var myOption = converter.getOption(&#x27;optionKey&#x27;);
+var myOption = converter.getOption('optionKey');
 ```
 
 #### getOptions()
@@ -2460,11 +2453,11 @@ var myOption = converter.getOption(&#x27;optionKey&#x27;);
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getOptions = function () {
-  &#x27;use strict&#x27;;
+  'use strict';
   return globalOptions;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-var myOption = converter.getOption(&#x27;optionKey&#x27;);
+var myOption = converter.getOption('optionKey');
 ```
 
 #### getOptions()
@@ -2496,13 +2489,13 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">encodeEmailAddress = function (mail) {
-  &#x27;use strict&#x27;;
+  'use strict';
   var encode = [
     function (ch) {
-      return &#x27;&#x26;#&#x27; + ch.charCodeAt(0) + &#x27;;&#x27;;
+      return '&amp;#' + ch.charCodeAt(0) + ';';
     },
     function (ch) {
-      return &#x27;&#x26;#x&#x27; + ch.charCodeAt(0).toString(16) + &#x27;;&#x27;;
+      return '&amp;#x' + ch.charCodeAt(0).toString(16) + ';';
     },
     function (ch) {
       return ch;
@@ -2510,14 +2503,14 @@ var thisConverterSpecificOptions = converter.getOptions();
   ];
 
   mail = mail.replace(/./g, function (ch) {
-    if (ch === &#x27;@&#x27;) {
+    if (ch === '@') {
       // this *must* be encoded. I insist.
       ch = encode[Math.floor(Math.random() * 2)](ch);
     } else {
       var r = Math.random();
       // roughly 10% raw, 45% hex, 45% dec
       ch = (
-        r &#x3e; 0.9 ? encode[2](ch) : r &#x3e; 0.45 ? encode[1](ch) : encode[0](ch)
+        r &gt; 0.9 ? encode[2](ch) : r &gt; 0.45 ? encode[1](ch) : encode[0](ch)
       );
     }
     return ch;
@@ -2538,16 +2531,16 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">escapeCharacters = function (text, charsToEscape, afterBackslash) {
-  &#x27;use strict&#x27;;
+  'use strict';
   // First we have to escape the escape characters so that
   // we can build a character class out of them
-  var regexString = &#x27;([&#x27; + charsToEscape.replace(/([\[\]\\])/g, &#x27;\\$1&#x27;) + &#x27;])&#x27;;
+  var regexString = '([' + charsToEscape.replace(/([\[\]\\])/g, '\\$1') + '])';
 
   if (afterBackslash) {
-    regexString = &#x27;\\\\&#x27; + regexString;
+    regexString = '\\\\' + regexString;
   }
 
-  var regex = new RegExp(regexString, &#x27;g&#x27;);
+  var regex = new RegExp(regexString, 'g');
   text = text.replace(regex, escapeCharactersCallback);
 
   return text;
@@ -2565,9 +2558,9 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function escapeCharactersCallback(wholeMatch, m1) {
-  &#x27;use strict&#x27;;
+  'use strict';
   var charCodeToEscape = m1.charCodeAt(0);
-  return &#x27;¨E&#x27; + charCodeToEscape + &#x27;E&#x27;;
+  return 'Â¨E' + charCodeToEscape + 'E';
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2582,34 +2575,34 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">forEach = function (obj, callback) {
-  &#x27;use strict&#x27;;
+  'use strict';
   // check if obj is defined
   if (showdown.helper.isUndefined(obj)) {
-    throw new Error(&#x27;obj param is required&#x27;);
+    throw new Error('obj param is required');
   }
 
   if (showdown.helper.isUndefined(callback)) {
-    throw new Error(&#x27;callback param is required&#x27;);
+    throw new Error('callback param is required');
   }
 
   if (!showdown.helper.isFunction(callback)) {
-    throw new Error(&#x27;callback param must be a function/closure&#x27;);
+    throw new Error('callback param must be a function/closure');
   }
 
-  if (typeof obj.forEach === &#x27;function&#x27;) {
+  if (typeof obj.forEach === 'function') {
     obj.forEach(callback);
   } else if (showdown.helper.isArray(obj)) {
-    for (var i = 0; i &#x3c; obj.length; i++) {
+    for (var i = 0; i &lt; obj.length; i++) {
       callback(obj[i], i, obj);
     }
-  } else if (typeof (obj) === &#x27;object&#x27;) {
+  } else if (typeof (obj) === 'object') {
     for (var prop in obj) {
       if (obj.hasOwnProperty(prop)) {
         callback(obj[prop], prop, obj);
       }
     }
   } else {
-    throw new Error(&#x27;obj does not seem to be an array or an iterable object&#x27;);
+    throw new Error('obj does not seem to be an array or an iterable object');
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -2625,7 +2618,7 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isArray = function (a) {
-  &#x27;use strict&#x27;;
+  'use strict';
   return a.constructor === Array;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -2641,9 +2634,9 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isFunction = function (a) {
-  &#x27;use strict&#x27;;
+  'use strict';
   var getType = {};
-  return a &#x26;&#x26; getType.toString.call(a) === &#x27;[object Function]&#x27;;
+  return a &amp;&amp; getType.toString.call(a) === '[object Function]';
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2658,8 +2651,8 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isString = function (a) {
-  &#x27;use strict&#x27;;
-  return (typeof a === &#x27;string&#x27; || a instanceof String);
+  'use strict';
+  return (typeof a === 'string' || a instanceof String);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2674,8 +2667,8 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isUndefined = function (value) {
-  &#x27;use strict&#x27;;
-  return typeof value === &#x27;undefined&#x27;;
+  'use strict';
+  return typeof value === 'undefined';
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2690,12 +2683,12 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">matchRecursiveRegExp = function (str, left, right, flags) {
-  &#x27;use strict&#x27;;
+  'use strict';
 
   var matchPos = rgxFindMatchPos (str, left, right, flags),
       results = [];
 
-  for (var i = 0; i &#x3c; matchPos.length; ++i) {
+  for (var i = 0; i &lt; matchPos.length; ++i) {
     results.push([
       str.slice(matchPos[i].wholeMatch.start, matchPos[i].wholeMatch.end),
       str.slice(matchPos[i].match.start, matchPos[i].match.end),
@@ -2718,7 +2711,7 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">replaceRecursiveRegExp = function (str, replacement, left, right, flags) {
-  &#x27;use strict&#x27;;
+  'use strict';
 
   if (!showdown.helper.isFunction(replacement)) {
     var repStr = replacement;
@@ -2731,12 +2724,12 @@ var thisConverterSpecificOptions = converter.getOptions();
       finalStr = str,
       lng = matchPos.length;
 
-  if (lng &#x3e; 0) {
+  if (lng &gt; 0) {
     var bits = [];
     if (matchPos[0].wholeMatch.start !== 0) {
       bits.push(str.slice(0, matchPos[0].wholeMatch.start));
     }
-    for (var i = 0; i &#x3c; lng; ++i) {
+    for (var i = 0; i &lt; lng; ++i) {
       bits.push(
         replacement(
           str.slice(matchPos[i].wholeMatch.start, matchPos[i].wholeMatch.end),
@@ -2745,14 +2738,14 @@ var thisConverterSpecificOptions = converter.getOptions();
           str.slice(matchPos[i].right.start, matchPos[i].right.end)
         )
       );
-      if (i &#x3c; lng - 1) {
+      if (i &lt; lng - 1) {
         bits.push(str.slice(matchPos[i].wholeMatch.end, matchPos[i + 1].wholeMatch.start));
       }
     }
-    if (matchPos[lng - 1].wholeMatch.end &#x3c; str.length) {
+    if (matchPos[lng - 1].wholeMatch.end &lt; str.length) {
       bits.push(str.slice(matchPos[lng - 1].wholeMatch.end));
     }
-    finalStr = bits.join(&#x27;&#x27;);
+    finalStr = bits.join('');
   }
   return finalStr;
 }</pre></li>
@@ -2769,8 +2762,8 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">stdExtName = function (s) {
-  &#x27;use strict&#x27;;
-  return s.replace(/[_?*+\/\\.^-]/g, &#x27;&#x27;).replace(/\s/g, &#x27;&#x27;).toLowerCase();
+  'use strict';
+  return s.replace(/[_?*+\/\\.^-]/g, '').replace(/\s/g, '').toLowerCase();
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2792,13 +2785,13 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">encodeEmailAddress = function (mail) {
-  &#x27;use strict&#x27;;
+  'use strict';
   var encode = [
     function (ch) {
-      return &#x27;&#x26;#&#x27; + ch.charCodeAt(0) + &#x27;;&#x27;;
+      return '&amp;#' + ch.charCodeAt(0) + ';';
     },
     function (ch) {
-      return &#x27;&#x26;#x&#x27; + ch.charCodeAt(0).toString(16) + &#x27;;&#x27;;
+      return '&amp;#x' + ch.charCodeAt(0).toString(16) + ';';
     },
     function (ch) {
       return ch;
@@ -2806,14 +2799,14 @@ var thisConverterSpecificOptions = converter.getOptions();
   ];
 
   mail = mail.replace(/./g, function (ch) {
-    if (ch === &#x27;@&#x27;) {
+    if (ch === '@') {
       // this *must* be encoded. I insist.
       ch = encode[Math.floor(Math.random() * 2)](ch);
     } else {
       var r = Math.random();
       // roughly 10% raw, 45% hex, 45% dec
       ch = (
-        r &#x3e; 0.9 ? encode[2](ch) : r &#x3e; 0.45 ? encode[1](ch) : encode[0](ch)
+        r &gt; 0.9 ? encode[2](ch) : r &gt; 0.45 ? encode[1](ch) : encode[0](ch)
       );
     }
     return ch;
@@ -2839,16 +2832,16 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">escapeCharacters = function (text, charsToEscape, afterBackslash) {
-  &#x27;use strict&#x27;;
+  'use strict';
   // First we have to escape the escape characters so that
   // we can build a character class out of them
-  var regexString = &#x27;([&#x27; + charsToEscape.replace(/([\[\]\\])/g, &#x27;\\$1&#x27;) + &#x27;])&#x27;;
+  var regexString = '([' + charsToEscape.replace(/([\[\]\\])/g, '\\$1') + '])';
 
   if (afterBackslash) {
-    regexString = &#x27;\\\\&#x27; + regexString;
+    regexString = '\\\\' + regexString;
   }
 
-  var regex = new RegExp(regexString, &#x27;g&#x27;);
+  var regex = new RegExp(regexString, 'g');
   text = text.replace(regex, escapeCharactersCallback);
 
   return text;
@@ -2871,9 +2864,9 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function escapeCharactersCallback(wholeMatch, m1) {
-  &#x27;use strict&#x27;;
+  'use strict';
   var charCodeToEscape = m1.charCodeAt(0);
-  return &#x27;¨E&#x27; + charCodeToEscape + &#x27;E&#x27;;
+  return 'Â¨E' + charCodeToEscape + 'E';
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2893,34 +2886,34 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">forEach = function (obj, callback) {
-  &#x27;use strict&#x27;;
+  'use strict';
   // check if obj is defined
   if (showdown.helper.isUndefined(obj)) {
-    throw new Error(&#x27;obj param is required&#x27;);
+    throw new Error('obj param is required');
   }
 
   if (showdown.helper.isUndefined(callback)) {
-    throw new Error(&#x27;callback param is required&#x27;);
+    throw new Error('callback param is required');
   }
 
   if (!showdown.helper.isFunction(callback)) {
-    throw new Error(&#x27;callback param must be a function/closure&#x27;);
+    throw new Error('callback param must be a function/closure');
   }
 
-  if (typeof obj.forEach === &#x27;function&#x27;) {
+  if (typeof obj.forEach === 'function') {
     obj.forEach(callback);
   } else if (showdown.helper.isArray(obj)) {
-    for (var i = 0; i &#x3c; obj.length; i++) {
+    for (var i = 0; i &lt; obj.length; i++) {
       callback(obj[i], i, obj);
     }
-  } else if (typeof (obj) === &#x27;object&#x27;) {
+  } else if (typeof (obj) === 'object') {
     for (var prop in obj) {
       if (obj.hasOwnProperty(prop)) {
         callback(obj[prop], prop, obj);
       }
     }
   } else {
-    throw new Error(&#x27;obj does not seem to be an array or an iterable object&#x27;);
+    throw new Error('obj does not seem to be an array or an iterable object');
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -2941,7 +2934,7 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isArray = function (a) {
-  &#x27;use strict&#x27;;
+  'use strict';
   return a.constructor === Array;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -2962,9 +2955,9 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isFunction = function (a) {
-  &#x27;use strict&#x27;;
+  'use strict';
   var getType = {};
-  return a &#x26;&#x26; getType.toString.call(a) === &#x27;[object Function]&#x27;;
+  return a &amp;&amp; getType.toString.call(a) === '[object Function]';
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2984,8 +2977,8 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isString = function (a) {
-  &#x27;use strict&#x27;;
-  return (typeof a === &#x27;string&#x27; || a instanceof String);
+  'use strict';
+  return (typeof a === 'string' || a instanceof String);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3005,8 +2998,8 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isUndefined = function (value) {
-  &#x27;use strict&#x27;;
-  return typeof value === &#x27;undefined&#x27;;
+  'use strict';
+  return typeof value === 'undefined';
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3026,12 +3019,12 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">matchRecursiveRegExp = function (str, left, right, flags) {
-  &#x27;use strict&#x27;;
+  'use strict';
 
   var matchPos = rgxFindMatchPos (str, left, right, flags),
       results = [];
 
-  for (var i = 0; i &#x3c; matchPos.length; ++i) {
+  for (var i = 0; i &lt; matchPos.length; ++i) {
     results.push([
       str.slice(matchPos[i].wholeMatch.start, matchPos[i].wholeMatch.end),
       str.slice(matchPos[i].match.start, matchPos[i].match.end),
@@ -3059,7 +3052,7 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">replaceRecursiveRegExp = function (str, replacement, left, right, flags) {
-  &#x27;use strict&#x27;;
+  'use strict';
 
   if (!showdown.helper.isFunction(replacement)) {
     var repStr = replacement;
@@ -3072,12 +3065,12 @@ var thisConverterSpecificOptions = converter.getOptions();
       finalStr = str,
       lng = matchPos.length;
 
-  if (lng &#x3e; 0) {
+  if (lng &gt; 0) {
     var bits = [];
     if (matchPos[0].wholeMatch.start !== 0) {
       bits.push(str.slice(0, matchPos[0].wholeMatch.start));
     }
-    for (var i = 0; i &#x3c; lng; ++i) {
+    for (var i = 0; i &lt; lng; ++i) {
       bits.push(
         replacement(
           str.slice(matchPos[i].wholeMatch.start, matchPos[i].wholeMatch.end),
@@ -3086,14 +3079,14 @@ var thisConverterSpecificOptions = converter.getOptions();
           str.slice(matchPos[i].right.start, matchPos[i].right.end)
         )
       );
-      if (i &#x3c; lng - 1) {
+      if (i &lt; lng - 1) {
         bits.push(str.slice(matchPos[i].wholeMatch.end, matchPos[i + 1].wholeMatch.start));
       }
     }
-    if (matchPos[lng - 1].wholeMatch.end &#x3c; str.length) {
+    if (matchPos[lng - 1].wholeMatch.end &lt; str.length) {
       bits.push(str.slice(matchPos[lng - 1].wholeMatch.end));
     }
-    finalStr = bits.join(&#x27;&#x27;);
+    finalStr = bits.join('');
   }
   return finalStr;
 }</pre></li>
@@ -3115,8 +3108,8 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">stdExtName = function (s) {
-  &#x27;use strict&#x27;;
-  return s.replace(/[_?*+\/\\.^-]/g, &#x27;&#x27;).replace(/\s/g, &#x27;&#x27;).toLowerCase();
+  'use strict';
+  return s.replace(/[_?*+\/\\.^-]/g, '').replace(/\s/g, '').toLowerCase();
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3136,7 +3129,7 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">removeExtension = function (name) {
-  &#x27;use strict&#x27;;
+  'use strict';
   delete extensions[name];
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -3157,7 +3150,7 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">resetExtensions = function () {
-  &#x27;use strict&#x27;;
+  'use strict';
   extensions = {};
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -3178,7 +3171,7 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">resetOptions = function () {
-  &#x27;use strict&#x27;;
+  'use strict';
   globalOptions = getDefaultOpts(true);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -3199,9 +3192,9 @@ var thisConverterSpecificOptions = converter.getOptions();
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">setFlavor = function (name) {
-  &#x27;use strict&#x27;;
+  'use strict';
   if (!flavor.hasOwnProperty(name)) {
-    throw Error(name + &#x27; flavor was not found&#x27;);
+    throw Error(name + ' flavor was not found');
   }
   var preset = flavor[name];
   setFlavor = name;
@@ -3212,19 +3205,19 @@ var thisConverterSpecificOptions = converter.getOptions();
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
- * original - original markdown flavor as in [John Gruber&#x27;s spec](https://daringfireball.net/projects/markdown/)
+ * original - original markdown flavor as in [John Gruber's spec](https://daringfireball.net/projects/markdown/)
  * vanilla  - showdown base flavor (as from v1.3.1)
  * github   - GFM (GitHub Flavored Markdown)
 
 
 ### Global
 ```javascript
-showdown.<span class="apidocCodeKeywordSpan">setFlavor</span>(&#x27;github&#x27;);
+showdown.<span class="apidocCodeKeywordSpan">setFlavor</span>('github');
 ```
 
 ### Instance
 ```javascript
-converter.setFlavor(&#x27;github&#x27;);
+converter.setFlavor('github');
 ```
 ...</pre></li>
     </ul>
@@ -3244,7 +3237,7 @@ converter.setFlavor(&#x27;github&#x27;);
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">setOption = function (key, value) {
-  &#x27;use strict&#x27;;
+  'use strict';
   globalOptions[key] = value;
   return this;
 }</pre></li>
@@ -3253,14 +3246,14 @@ Options can be set:
 
 #### Globally
 
-Setting a &#x22;global&#x22; option affects all instances of showdown
+Setting a "global" option affects all instances of showdown
 
 ```js
-showdown.<span class="apidocCodeKeywordSpan">setOption</span>(&#x27;optionKey&#x27;, &#x27;value&#x27;);
+showdown.<span class="apidocCodeKeywordSpan">setOption</span>('optionKey', 'value');
 ```
 
 #### Locally
-Setting a &#x22;local&#x22; option only affects the specified Converter object.
+Setting a "local" option only affects the specified Converter object.
 Local options can be set:
 
 * **through the constructor**
@@ -3282,15 +3275,15 @@ Local options can be set:
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">subParser = function (name, func) {
-  &#x27;use strict&#x27;;
+  'use strict';
   if (showdown.helper.isString(name)) {
-    if (typeof func !== &#x27;undefined&#x27;) {
+    if (typeof func !== 'undefined') {
       parsers[name] = func;
     } else {
       if (parsers.hasOwnProperty(name)) {
         return parsers[name];
       } else {
-        throw Error(&#x27;SubParser named &#x27; + name + &#x27; not registered!&#x27;);
+        throw Error('SubParser named ' + name + ' not registered!');
       }
     }
   }
@@ -3313,7 +3306,7 @@ Local options can be set:
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">validateExtension = function (ext) {
-  &#x27;use strict&#x27;;
+  'use strict';
 
   var validateExtension = validate(ext, null);
   if (!validateExtension.valid) {
@@ -3334,3 +3327,4 @@ Local options can be set:
     ]
 </div>
 </div>
+</body></html>
