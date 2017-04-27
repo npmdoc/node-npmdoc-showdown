@@ -571,7 +571,26 @@ var showdown  = require(&#x27;showdown&#x27;),
     }
   }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+* **image dimensions:** add support for setting image dimensions within markdown syntax ([af82c2b6](http://github.com/showdownjs
+/showdown/commit/af82c2b6), closes [#143](http://github.com/showdownjs/showdown/issues/143))
+* **noHeaderId:** add option to suppress automatic generation of ids in headers ([7ac893e9](http://github.com/showdownjs/showdown
+/commit/7ac893e9))
+* **showdown.getDefaultOptions:** add method to retrieve default global options keypairs ([2de53a7d](http://github.com/showdownjs
+/showdown/commit/2de53a7d))
+
+
+### Breaking Changes
+
+* Deprecates `showdown.extensions` property. To migrate, extensions should use the new method `showdown.<span class="apidocCodeKeywordSpan
+">extension</span>(&#x3c;ext name&#x3e;, &#x3c;extension&#x3e;)` to register.
+  For more information on the new extension loading mechanism, please check the wiki pages.
+  ([4ebd0caa](http://github.com/showdownjs/showdown/commit/4ebd0caa))
+
+
+&#x3c;a name&#x22;1.0.2&#x22;&#x3e;&#x3c;/a&#x3e;
+## [1.0.2](https://github.com/showdownjs/showdown/compare/1.0.1...1.0.2) (2015-05-28)
+...</pre></li>
     </ul>
 
 
@@ -653,7 +672,23 @@ var defaultOptions = showdown.<span class="apidocCodeKeywordSpan">getDefaultOpti
     return flavor[name];
   }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  // write the output
+  messenger.printMsg(&#x27;Writing data to &#x27; + writeMode + &#x27;...&#x27;);
+  write(html, append);
+  messenger.okExit();
+
+  function parseOptions (flavor) {
+var options = {},
+    flavorOpts = showdown.<span class="apidocCodeKeywordSpan">getFlavorOptions</span>(flavor) || {};
+
+// if flavor is not undefined, let&#x27;s tell the user we&#x27;re loading that preset
+if (flavor) {
+  messenger.printMsg(&#x27;Loading &#x27; + flavor + &#x27; flavor.&#x27;);
+}
+
+for (var opt in argv) {
+...</pre></li>
     </ul>
 
 
@@ -821,21 +856,19 @@ converter.setFlavor(&#x27;github&#x27;);
   return this;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-Options can be set:
+        &#x3c;ul&#x3e;&#x3c;li&#x3e;three&#x3c;/li&#x3e;&#x3c;/ul&#x3e;
+      &#x3c;/li&#x3e;
+    &#x3c;/ul&#x3e;
+    ```
 
-#### Globally
+    To migrate either fix source md files or activate the option `disableForced4SpacesIndentedSublists`:
+    ```md
+    showdown.<span class="apidocCodeKeywordSpan">setOption</span>(&#x27;disableForced4SpacesIndentedSublists&#x27;, true);
+    ```
 
-Setting a &#x22;global&#x22; option affects all instances of showdown
 
-```js
-showdown.<span class="apidocCodeKeywordSpan">setOption</span>(&#x27;optionKey&#x27;, &#x27;value&#x27;);
-```
-
-#### Locally
-Setting a &#x22;local&#x22; option only affects the specified Converter object.
-Local options can be set:
-
-* **through the constructor**
+&#x3c;a name=&#x22;1.4.4&#x22;&#x3e;&#x3c;/a&#x3e;
+## [1.4.4](https://github.com/showdownjs/showdown/compare/1.4.3...1.4.4) (2016-11-02)
 ...</pre></li>
     </ul>
 
@@ -862,7 +895,23 @@ Local options can be set:
     }
   }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  text = rTrimInputText(text);
+}
+
+// Make sure text begins and ends with a couple of newlines:
+text = &#x27;\n\n&#x27; + text + &#x27;\n\n&#x27;;
+
+// detab
+text = showdown.<span class="apidocCodeKeywordSpan">subParser</span>(&#x27;detab&#x27;)(text, options, globals);
+
+/**
+ * Strip any lines consisting only of spaces and tabs.
+ * This makes subsequent regexs easier to write, because we can
+ * match consecutive blank lines with /\n+/ instead of something
+ * contorted like /[ \t]*\n+/
+ */
+...</pre></li>
     </ul>
 
 
@@ -935,7 +984,22 @@ Local options can be set:
 
   return mail;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+}
+
+function replaceMail (wholeMatch, b, mail) {
+  var href = &#x27;mailto:&#x27;;
+  b = b || &#x27;&#x27;;
+  mail = showdown.subParser(&#x27;unescapeSpecialChars&#x27;)(mail, options, globals);
+  if (options.encodeEmails) {
+    href = showdown.helper.<span class="apidocCodeKeywordSpan">encodeEmailAddress</span>(href + mail);
+    mail = showdown.helper.encodeEmailAddress(mail);
+  } else {
+    href = href + mail;
+  }
+  return b + &#x27;&#x3c;a href=&#x22;&#x27; + href + &#x27;&#x22;&#x3e;&#x27; + mail + &#x27;&#x3c;/a&#x3e;&#x27;;
+}
+...</pre></li>
     </ul>
 
 
@@ -962,7 +1026,24 @@ Local options can be set:
 
   return text;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+      url = &#x27;&#x27;;
+    } else {
+      return wholeMatch;
+    }
+  }
+}
+
+//url = showdown.helper.<span class="apidocCodeKeywordSpan">escapeCharacters</span>(url, &#x27;*_&#x27;, false); // replaced line
+ to improve performance
+url = url.replace(showdown.helper.regexes.asteriskAndDash, showdown.helper.escapeCharactersCallback);
+
+var result = &#x27;&#x3c;a href=&#x22;&#x27; + url + &#x27;&#x22;&#x27;;
+
+if (title !== &#x27;&#x27; &#x26;&#x26; title !== null) {
+  title = title.replace(/&#x22;/g, &#x27;&#x26;quot;&#x27;);
+  //title = showdown.helper.escapeCharacters(title, &#x27;*_&#x27;, false); // replaced line to improve performance
+...</pre></li>
     </ul>
 
 
@@ -1022,7 +1103,23 @@ Local options can be set:
     throw new Error(&#x27;obj does not seem to be an array or an iterable object&#x27;);
   }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+}
+
+if (!showdown.helper.isFunction(callback)) {
+  throw new Error(&#x27;callback param must be a function/closure&#x27;);
+}
+
+if (typeof obj.forEach === &#x27;function&#x27;) {
+  obj.<span class="apidocCodeKeywordSpan">forEach</span>(callback);
+} else if (showdown.helper.isArray(obj)) {
+  for (var i = 0; i &#x3c; obj.length; i++) {
+    callback(obj[i], i, obj);
+  }
+} else if (typeof (obj) === &#x27;object&#x27;) {
+  for (var prop in obj) {
+    if (obj.hasOwnProperty(prop)) {
+...</pre></li>
     </ul>
 
 
@@ -1038,7 +1135,23 @@ Local options can be set:
   &#x27;use strict&#x27;;
   return a.constructor === Array;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  } else {
+// Expand extension if it&#x27;s wrapped in a function
+if (typeof ext === &#x27;function&#x27;) {
+  ext = ext();
+}
+
+// Ensure extension is an array
+if (!showdown.helper.<span class="apidocCodeKeywordSpan">isArray</span>(ext)) {
+  ext = [ext];
+}
+
+var validExtension = validate(ext, name);
+
+if (validExtension.valid) {
+  extensions[name] = ext;
+...</pre></li>
     </ul>
 
 
@@ -1055,7 +1168,23 @@ Local options can be set:
   var getType = {};
   return a &#x26;&#x26; getType.toString.call(a) === &#x27;[object Function]&#x27;;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  throw new Error(&#x27;obj param is required&#x27;);
+}
+
+if (showdown.helper.isUndefined(callback)) {
+  throw new Error(&#x27;callback param is required&#x27;);
+}
+
+if (!showdown.helper.<span class="apidocCodeKeywordSpan">isFunction</span>(callback)) {
+  throw new Error(&#x27;callback param must be a function/closure&#x27;);
+}
+
+if (typeof obj.forEach === &#x27;function&#x27;) {
+  obj.forEach(callback);
+} else if (showdown.helper.isArray(obj)) {
+  for (var i = 0; i &#x3c; obj.length; i++) {
+...</pre></li>
     </ul>
 
 
@@ -1071,7 +1200,23 @@ Local options can be set:
   &#x27;use strict&#x27;;
   return (typeof a === &#x27;string&#x27; || a instanceof String);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * @static
+ * @param {string} name
+ * @param {function} [func]
+ * @returns {*}
+ */
+showdown.subParser = function (name, func) {
+&#x27;use strict&#x27;;
+if (showdown.helper.<span class="apidocCodeKeywordSpan">isString</span>(name)) {
+  if (typeof func !== &#x27;undefined&#x27;) {
+    parsers[name] = func;
+  } else {
+    if (parsers.hasOwnProperty(name)) {
+      return parsers[name];
+    } else {
+      throw Error(&#x27;SubParser named &#x27; + name + &#x27; not registered!&#x27;);
+...</pre></li>
     </ul>
 
 
@@ -1087,7 +1232,23 @@ Local options can be set:
   &#x27;use strict&#x27;;
   return typeof value === &#x27;undefined&#x27;;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+if (!showdown.helper.isString(name)) {
+  throw Error(&#x27;Extension \&#x27;name\&#x27; must be a string&#x27;);
+}
+
+name = showdown.helper.stdExtName(name);
+
+// Getter
+if (showdown.helper.<span class="apidocCodeKeywordSpan">isUndefined</span>(ext)) {
+  if (!extensions.hasOwnProperty(name)) {
+    throw Error(&#x27;Extension named &#x27; + name + &#x27; is not registered!&#x27;);
+  }
+  return extensions[name];
+
+  // Setter
+} else {
+...</pre></li>
     </ul>
 
 
@@ -1115,7 +1276,24 @@ Local options can be set:
   }
   return results;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ });
+
+ // Hash self closing tags without /&#x3e;
+ text = text.replace(/&#x3c;[^&#x3e;]+?&#x3e;/gi, function (wm) {
+   return hashHTMLSpan(wm);
+ });
+
+ /*showdown.helper.<span class="apidocCodeKeywordSpan">matchRecursiveRegExp</span>(text, &#x27;&#x3c;code\\b[^&#x3e;]*&#x3e;&#x27
+;, &#x27;&#x3c;/code&#x3e;&#x27;, &#x27;gi&#x27;);*/
+
+ text = globals.converter._dispatch(&#x27;hashHTMLSpans.after&#x27;, text, options, globals);
+ return text;
+});
+
+/**
+* Unhash HTML spans
+...</pre></li>
     </ul>
 
 
@@ -1166,7 +1344,24 @@ Local options can be set:
   }
   return finalStr;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+var repFunc = function (wholeMatch, match, left, right) {
+  var codeblock = left + showdown.subParser(&#x27;encodeCode&#x27;)(match, options, globals) + right;
+  return &#x27;¨C&#x27; + (globals.gHtmlSpans.push(codeblock) - 1) + &#x27;C&#x27;;
+};
+
+// Hash naked &#x3c;code&#x3e;
+text = showdown.helper.<span class="apidocCodeKeywordSpan">replaceRecursiveRegExp</span>(text, repFunc, &#x27;&#x3c;code\\b[^&#x3e
+;]*&#x3e;&#x27;, &#x27;&#x3c;/code&#x3e;&#x27;, &#x27;gim&#x27;);
+
+text = globals.converter._dispatch(&#x27;hashCodeTags.after&#x27;, text, options, globals);
+return text;
+});
+
+showdown.subParser(&#x27;hashElement&#x27;, function (text, options, globals) {
+&#x27;use strict&#x27;;
+...</pre></li>
     </ul>
 
 
@@ -1182,7 +1377,23 @@ Local options can be set:
   &#x27;use strict&#x27;;
   return s.replace(/[_?*+\/\\.^-]/g, &#x27;&#x27;).replace(/\s/g, &#x27;&#x27;).toLowerCase();
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+showdown.extension = function (name, ext) {
+&#x27;use strict&#x27;;
+
+if (!showdown.helper.isString(name)) {
+  throw Error(&#x27;Extension \&#x27;name\&#x27; must be a string&#x27;);
+}
+
+name = showdown.helper.<span class="apidocCodeKeywordSpan">stdExtName</span>(name);
+
+// Getter
+if (showdown.helper.isUndefined(ext)) {
+  if (!extensions.hasOwnProperty(name)) {
+    throw Error(&#x27;Extension named &#x27; + name + &#x27; is not registered!&#x27;);
+  }
+  return extensions[name];
+...</pre></li>
     </ul>
 
 
