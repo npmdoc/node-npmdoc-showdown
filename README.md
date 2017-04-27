@@ -1,6 +1,6 @@
 # npmdoc-showdown
 
-#### api documentation for  [showdown (v1.6.4)](http://showdownjs.github.io/showdown/)  [![npm package](https://img.shields.io/npm/v/npmdoc-showdown.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-showdown) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-showdown.svg)](https://travis-ci.org/npmdoc/node-npmdoc-showdown)
+#### basic api documentation for  [showdown (v1.6.4)](http://showdownjs.github.io/showdown/)  [![npm package](https://img.shields.io/npm/v/npmdoc-showdown.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-showdown) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-showdown.svg)](https://travis-ci.org/npmdoc/node-npmdoc-showdown)
 
 #### A Markdown to HTML converter written in Javascript
 
